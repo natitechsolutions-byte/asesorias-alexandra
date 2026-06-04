@@ -47,14 +47,14 @@ const Hero = () => {
                                 Consultoría y Gestión A&A Ltda.
                             </p>
 
-                            <h1 className="text-4xl md:text-5xl xl:text-6xl font-bold leading-[1.08] text-[#071B3A] max-w-[760px]">
+                            <h2 className="text-3xl md:text-5xl xl:text-6xl font-bold leading-[1.08] text-[#071B3A] max-w-[760px]">
                                 Asesoría contable
                                 tributarias y laborales con un enfoque claro,
                                 cercano y profesional.
 
-                            </h1>
+                            </h2>
 
-                            <p className="mt-6 text-lg text-gray-600 max-w-xl leading-relaxed">
+                            <p className="mt-6 text-base md:text-lg text-gray-600 max-w-2xl leading-relaxed">
                                 Acompañamos a emprendedores, trabajadores independientes
                                 y empresas en sus procesos contables, tributarios,
                                 laborales y administrativos, entregando orientación clara

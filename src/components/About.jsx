@@ -4,7 +4,7 @@ import { ArrowRight, Quote } from "lucide-react";
 
 const About = () => {
   return (
-    <section id="about" className="relative py-20 overflow-hidden">
+    <section id="about" className="relative py-16 md:py-20 overflow-hidden">
       <div className="relative max-w-[1600px] mx-auto px-6 xl:px-16">
         <div className="grid lg:grid-cols-[0.95fr_1.05fr] gap-16 xl:gap-24 items-center">
           

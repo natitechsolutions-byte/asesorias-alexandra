@@ -12,7 +12,7 @@ const Faq = () => {
   return (
     <section
       id="faq"
-      className="relative py-24 overflow-hidden"
+      className="relative py-16 md:py-20 overflow-hidden"
     >
       <div className="max-w-[1600px] mx-auto px-6">
 
