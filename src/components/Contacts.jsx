@@ -59,7 +59,7 @@ const Contact = () => {
               </a>
 
               <a
-                href="https://forms.gle/TU_FORMULARIO"
+                href="https://forms.gle/duVP5mGsAhy8xy9x8"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-3 border border-white/25 text-white px-7 py-3 rounded-full font-semibold hover:bg-white/10 transition"
