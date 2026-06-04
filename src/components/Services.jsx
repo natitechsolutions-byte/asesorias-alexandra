@@ -1,80 +1,54 @@
-import { Calculator, FileText, Users, Building2 } from "lucide-react";
-
-const services = [
-  {
-    icon: Calculator,
-    title: "Contabilidad",
-    items: [
-      "Contabilidad mensual",
-      "Registro de compras y ventas",
-      "Balances y estados financieros",
-      "Informes de gestión",
-    ],
-  },
-  {
-    icon: FileText,
-    title: "Tributación",
-    items: [
-      "Declaraciones F29",
-      "Declaración de renta",
-      "Inicio de actividades",
-      "Trámites ante SII",
-    ],
-  },
-  {
-    icon: Users,
-    title: "Laboral y remuneraciones",
-    items: [
-      "Contratos de trabajo",
-      "Liquidaciones de sueldo",
-      "Finiquitos",
-      "Previred",
-    ],
-  },
-  {
-    icon: Building2,
-    title: "Formalización de empresas",
-    items: [
-      "Constitución de empresas",
-      "Obtención de RUT",
-      "Facturación electrónica",
-      "Acompañamiento completo",
-    ],
-  },
-];
+import { Link } from "react-router-dom";
+import { ArrowRight } from "lucide-react";
+import { servicesData } from "../data/servicesData";
 
 const Services = () => {
   return (
-    <section id="services" className="py-20">
-      <div className="max-w-7xl mx-auto px-6">
-        <div className="text-center mb-14">
-          <p className="text-[#C8A24A] font-semibold">Servicios</p>
-          <h2 className="text-3xl md:text-4xl font-bold mt-3">
-            Soluciones para cada etapa de tu negocio
+    <section id="services" className="relative py-24">
+      <div className="max-w-[1600px] mx-auto px-6 xl:px-16">
+        <div className="text-center max-w-3xl mx-auto mb-14">
+          <span className="text-[#C8A24A] font-semibold">Servicios</span>
+
+          <h2 className="text-4xl md:text-5xl font-bold text-[#071B3A] mt-3">
+            Planes y Servicios
           </h2>
+
+          <p className="mt-4 text-gray-600">
+            Elige el servicio que más se adapta a tu etapa actual y conoce el
+            detalle de lo que incluye.
+          </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {services.map((service) => {
+        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-7">
+          {servicesData.map((service) => {
             const Icon = service.icon;
 
             return (
-              <div
-                key={service.title}
-                className="bg-[#f8f8f8] p-6 rounded-3xl shadow-sm border border-gray-100 hover:shadow-lg transition"
+              <Link
+                key={service.slug}
+                to={`/servicios/${service.slug}`}
+                className="group bg-white/90 rounded-[2rem] p-7 border border-white/70 shadow-[0_18px_45px_rgba(7,27,58,0.08)] hover:shadow-[0_25px_65px_rgba(7,27,58,0.14)] hover:-translate-y-1 transition"
               >
-                <div className="w-14 h-14 rounded-2xl bg-[#071B3A] text-white flex items-center justify-center mb-5">
-                  <Icon size={28} />
+                <div className="w-14 h-14 rounded-2xl bg-[#071B3A] text-white flex items-center justify-center mb-6">
+                  <Icon size={26} />
                 </div>
 
-                <h3 className="text-xl font-bold mb-4">{service.title}</h3>
+                <h3 className="text-2xl font-bold text-[#071B3A]">
+                  {service.title}
+                </h3>
 
-                <ul className="space-y-2 text-gray-600 text-sm">
-                  {service.items.map((item) => (
-                    <li key={item}>• {item}</li>
-                  ))}
-                </ul>
-              </div>
+                <p className="mt-3 text-gray-600 leading-relaxed">
+                  {service.short}
+                </p>
+
+                <div className="mt-6 inline-flex items-center gap-2 text-[#C8A24A] font-semibold">
+                  Ver detalle
+                  <ArrowRight
+                    size={18}
+                    className="group-hover:translate-x-1 transition"
+                  />
+                </div>
+              </Link>
             );
           })}
         </div>

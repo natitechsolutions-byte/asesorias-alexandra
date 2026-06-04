@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import History from "./pages/History";
+import ServiceDetail from "./pages/ServiceDetail";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about/historia" element={<History />} />
+       <Route path="/servicios/:slug" element={<ServiceDetail />} />
     </Routes>
     </main>
   );
