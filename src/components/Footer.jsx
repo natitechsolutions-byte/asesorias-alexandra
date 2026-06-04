@@ -12,14 +12,6 @@ const Footer = () => {
           </p>
 
           <div className="flex items-center gap-3">
-            <a
-              href="https://wa.me/56931087761"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#071B3A] hover:text-[#C8A24A] transition"
-            >
-              <FaWhatsapp size={18} />
-            </a>
 
             <a
               href="#"

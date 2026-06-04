@@ -47,7 +47,7 @@ const Services = () => {
             Planes y Servicios
           </h2>
 
-          <p className="mt-3 md:mt-4 text-base md:text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
+          <p className="mt-3 md:mt-4 text-[15px] md:text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
             Elige el servicio que más se adapta a tu etapa actual y conoce el
             detalle de lo que incluye.
           </p>
@@ -59,7 +59,7 @@ const Services = () => {
             disabled={startIndex === 0}
             className="
             absolute
-            -left-8
+            -left-6
             md:-left-3
             lg:-left-16
             top-1/2
@@ -144,7 +144,7 @@ const Services = () => {
             disabled={startIndex === maxStartIndex}
             className="
             absolute
-            -right-8
+            -right-6
             md:-right-3
             lg:-right-16
             top-1/2
