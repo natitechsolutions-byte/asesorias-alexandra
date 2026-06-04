@@ -1,36 +1,90 @@
-const faqs = [
-  {
-    q: "¿Debo presentar F29 todos los meses?",
-    a: "Sí. Una vez iniciado el giro, generalmente debe presentarse mensualmente, incluso si no hay movimientos.",
-  },
-  {
-    q: "¿Necesito iniciar actividades para emitir boletas o facturas?",
-    a: "Sí. Primero se debe realizar el inicio de actividades ante el SII y habilitar los documentos correspondientes.",
-  },
-  {
-    q: "¿Cómo formalizo mi emprendimiento?",
-    a: "El proceso puede incluir constitución de empresa, obtención de RUT, inicio de actividades y facturación electrónica.",
-  },
-];
+import { useState } from "react";
+import { Plus, Minus } from "lucide-react";
+import { faqData } from "../data/faqData";
 
 const Faq = () => {
+  const [activeIndex, setActiveIndex] = useState(null);
+
+  const toggleFaq = (index) => {
+    setActiveIndex(activeIndex === index ? null : index);
+  };
+
   return (
-    <section id="faq" className="py-20">
-      <div className="max-w-4xl mx-auto px-6">
-        <div className="text-center mb-12">
-          <p className="text-[#C8A24A] font-semibold">Preguntas frecuentes</p>
-          <h2 className="text-3xl md:text-4xl font-bold mt-3">
-            Dudas comunes
+    <section
+      id="faq"
+      className="relative py-24 overflow-hidden"
+    >
+      <div className="max-w-[1600px] mx-auto px-6">
+
+        <div className="text-center mb-14">
+          <span className="text-[#C8A24A] font-semibold">
+            Preguntas frecuentes
+          </span>
+
+          <h2 className="text-4xl md:text-5xl font-bold text-[#071B3A] mt-4">
+            ¿Qué necesitamos para ayudarte?
           </h2>
+
+          <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
+            Encuentra respuestas a las consultas más frecuentes sobre nuestros
+            servicios, planes y procesos de trabajo.
+          </p>
         </div>
 
-        <div className="space-y-5">
-          {faqs.map((faq) => (
-            <div key={faq.q} className="bg-[#f8f8f8] p-6 rounded-2xl">
-              <h3 className="font-bold text-lg">{faq.q}</h3>
-              <p className="mt-2 text-gray-600">{faq.a}</p>
+        <div className="space-y-4">
+
+          {faqData.map((faq, index) => (
+            <div
+              key={index}
+              className="
+                bg-white/90
+                backdrop-blur-sm
+                rounded-3xl
+                border
+                border-[#C8A24A]/10
+                shadow-[0_10px_35px_rgba(7,27,58,0.06)]
+                overflow-hidden
+              "
+            >
+              <button
+                onClick={() => toggleFaq(index)}
+                className="
+                  w-full
+                  px-6
+                  py-5
+                  flex
+                  items-center
+                  justify-between
+                  text-left
+                "
+              >
+                <span className="font-semibold text-[#071B3A] text-lg">
+                  {faq.question}
+                </span>
+
+                {activeIndex === index ? (
+                  <Minus
+                    size={22}
+                    className="text-[#C8A24A]"
+                  />
+                ) : (
+                  <Plus
+                    size={22}
+                    className="text-[#C8A24A]"
+                  />
+                )}
+              </button>
+
+              {activeIndex === index && (
+                <div className="px-6 pb-6">
+                  <p className="text-gray-600 whitespace-pre-line leading-relaxed">
+                    {faq.answer}
+                  </p>
+                </div>
+              )}
             </div>
           ))}
+
         </div>
       </div>
     </section>

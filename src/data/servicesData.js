@@ -7,10 +7,19 @@ import {
     Landmark,
 } from "lucide-react";
 
+import {
+    FaBuilding,
+    FaFileInvoiceDollar,
+    FaCalculator,
+    FaUsers,
+    FaUniversity,
+    FaClipboardList,
+} from "react-icons/fa";
+
 export const servicesData = [
     {
         slug: "orientacion-emprendedores",
-        icon: Building2,
+        icon: FaBuilding,
         title: "Orientación para Emprendedores y Nuevas Empresas",
         short:
             "Asesoría dirigida a personas que desean iniciar un negocio o que tienen dudas respecto a su formalización y obligaciones tributarias.",
@@ -31,7 +40,7 @@ export const servicesData = [
     },
     {
         slug: "plan-tributario",
-        icon: FileText,
+        icon: FaFileInvoiceDollar,
         title: "Plan Tributario",
         short:
             "Ideal para empresas y emprendedores que necesitan cumplir correctamente sus obligaciones tributarias mensuales.",
@@ -48,7 +57,7 @@ export const servicesData = [
     },
     {
         slug: "plan-tributario-contable",
-        icon: Calculator,
+        icon: FaCalculator,
         title: "Plan Tributario y Contable",
         short:
             "Ideal para empresas y emprendedores que buscan cumplir sus obligaciones tributarias y mantener un control ordenado de la información financiera de su negocio.",
@@ -72,7 +81,7 @@ export const servicesData = [
     },
     {
         slug: "plan-integral-empresa",
-        icon: Users,
+        icon: FaUsers,
         title: "Plan Integral Empresa",
         short:
             "Ideal para empresas con trabajadores que requieren apoyo tributario, contable y laboral.",
@@ -107,33 +116,14 @@ export const servicesData = [
 
         ],
     },
-    {
-        slug: "declaracion-renta",
-        icon: Landmark,
-        title: "Declaración de Renta",
-        short:
-            "Asesoría para empresas y personas naturales en Operación Renta.",
-        description:
-            "Preparación y revisión de declaraciones de renta, analizando cada caso de forma individual.",
-        items: [
-            "Declaración de Renta para empresas Pro Pyme General.",
-            "Declaración de Renta para Régimen Transparente.",
-            "Declaración de Renta para personas naturales.",
-            "Declaración para trabajadores dependientes.",
-            "Declaración para contribuyentes con boletas de honorarios.",
-            "Revisión de observaciones de Operación Renta.",
-            "Rectificaciones.",
-            "Revisión de devoluciones retenidas.",
-        ],
-    },
-    {
-        slug: "servicios-complementarios",
+{
+    slug: "servicios-complementarios",
         icon: ClipboardList,
-        title: "Servicios Complementarios",
-        short:
-            "Además de nuestros planes de asesoría permanente, ofrecemos apoyo en situaciones específicas y requerimientos particulares de empresas y contribuyentes.",
+            title: "Servicios Complementarios",
+                short:
+    "Además de nuestros planes de asesoría permanente, ofrecemos apoyo en situaciones específicas y requerimientos particulares de empresas y contribuyentes.",
         description:
-            "Además de nuestros planes de asesoría permanente, ofrecemos apoyo en situaciones específicas y requerimientos particulares de empresas y contribuyentes.",
+    "Además de nuestros planes de asesoría permanente, ofrecemos apoyo en situaciones específicas y requerimientos particulares de empresas y contribuyentes.",
         items: [
             "Regularización de situaciones tributarias ante el Servicio de Impuestos Internos (SII).",
             "Revisión y análisis de observaciones tributarias.",
@@ -158,36 +148,26 @@ export const servicesData = [
 
         ],
     },
-     {
-        slug: "declaracion-renta",
-        icon: ClipboardList,
-        title: "Servicios Complementarios",
-        short:
-            "Además de nuestros planes de asesoría permanente, ofrecemos apoyo en situaciones específicas y requerimientos particulares de empresas y contribuyentes.",
+{
+    slug: "declaracion-renta",
+        icon: FaUniversity,
+            title: "Declaración de Renta",
+                short:
+    "Ofrecemos asesoría y preparación de declaraciones de renta para empresas y personas naturales, analizando cada caso de forma individual para determinar las obligaciones tributarias y beneficios aplicables.",
         description:
-            "Además de nuestros planes de asesoría permanente, ofrecemos apoyo en situaciones específicas y requerimientos particulares de empresas y contribuyentes.",
+    "Ofrecemos asesoría y preparación de declaraciones de renta para empresas y personas naturales, analizando cada caso de forma individual para determinar las obligaciones tributarias y beneficios aplicables.",
         items: [
-            "Regularización de situaciones tributarias ante el Servicio de Impuestos Internos (SII).",
-            "Revisión y análisis de observaciones tributarias.",
-            "⁠Convenios de pago y revisión de deudas tributarias.",
-            "⁠Análisis y revisión de casos tributarios específicos.",
-            "⁠Modificaciones y actualizaciones de información tributaria.",
-            "⁠Inicio de actividades.",
-            "⁠Ampliación o modificación de giro.",
-            "⁠Término de giro.",
-            "⁠Regularización de documentación pendiente.",
-            "⁠Apoyo en procesos de formalización de empresas.",
-            "⁠Revisión de cumplimiento tributario y administrativo.",
-            "⁠Orientación para emprendedores y empresas que inician actividades.",
-            "⁠Observaciones de Operación Renta.",
+            "⁠Declaración de Renta para empresas acogidas a Régimen Pro Pyme General (14 D N°3)",
+            " ⁠Declaración de Renta para empresas acogidas a Régimen Transparente (14 D N°8).",
+            "⁠Declaración de Renta para personas naturales.",
+            "⁠Declaración de Renta para trabajadores dependientes.",
+            "⁠Declaración de Renta para contribuyentes que emiten boletas de honorarios.",
+            "⁠Revisión de observaciones de Operación Renta.",
+            "⁠Rectificaciones de declaraciones de renta.",
+            "⁠Análisis de propuestas elaboradas por el Servicio de Impuestos Internos.",
             "⁠Revisión de devoluciones retenidas.",
-            "⁠Análisis de inconsistencias tributarias.",
-            "⁠Actualización de actividades económicas.",
-            "⁠Presentación de peticiones administrativas ante el SII.",
-            "⁠Revisión de multas e intereses tributarios.",
-            "⁠Orientación en materias contables, tributarias, laborales y administrativas"
-
-
+            "⁠Determinación y cálculo de impuestos asociados a la enajenación de bienes raíces.",
+            "⁠Orientación tributaria relacionada con procesos de Operación Renta."
         ],
     },
 ];

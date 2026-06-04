@@ -5,8 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 const navItems = [
     { name: "Quiénes somos", section: "about" },
-    { name: "Servicios", section: "services" },
-    { name: "Planes", section: "plans" },
+    { name: "Servicios y planes", section: "services" },
     { name: "Preguntas", section: "faq" },
     { name: "Contacto", section: "contact" },
 ];
