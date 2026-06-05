@@ -52,7 +52,7 @@ const Navbar = () => {
                             <div className="h-px w-4 bg-[#C8A24A]/50"></div>
 
                             <p className="text-xs md:text-sm text-[#C8A24A] font-medium">
-                                Asesoría contable y tributaria
+                                Asesorías contables y tributarias
                             </p>
 
                             <div className="h-px w-4 bg-[#C8A24A]/50"></div>

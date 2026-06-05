@@ -49,7 +49,7 @@ const Hero = () => {
                             </p>
 
                             <h2 className="text-[1.9rem] sm:text-[2.4rem] md:text-5xl xl:text-6xl font-bold leading-[1.12] md:leading-[1.08] text-[#071B3A] max-w-[760px] mx-auto lg:mx-0">
-                                Asesoría contable tributarias y laborales con un enfoque claro,
+                                Asesorías contables tributarias y laborales con un enfoque claro,
                                 cercano y profesional.
                             </h2>
 

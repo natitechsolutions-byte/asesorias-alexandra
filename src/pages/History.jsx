@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import alexandra from "../assets/ale.png";
+import alexandra from "../assets/ale.jpeg";
 import {
     FaArrowLeft,
     FaWhatsapp,
@@ -131,7 +131,7 @@ const History = () => {
 
                     <div className="relative flex justify-center lg:justify-end">
                         <div className="relative bg-white/90 backdrop-blur-md rounded-[1.5rem] md:rounded-[2rem] p-4 md:p-5 shadow-[0_20px_55px_rgba(7,27,58,0.11)] md:shadow-[0_28px_70px_rgba(7,27,58,0.13)] border border-white/70 w-full max-w-[390px] md:max-w-[560px]">
-                            <div className="overflow-hidden rounded-[1.2rem] md:rounded-[1.5rem] bg-[#f8f8f8] h-[210px] sm:h-[240px] md:h-[310px]">
+                            <div className="overflow-hidden rounded-[1.2rem] md:rounded-[1.5rem] bg-[#f8f8f8] h-[300px] sm:h-[300px] md:h-[500px]">
                                 <img
                                     src={alexandra}
                                     alt="Alexandra Pedreros Palma"

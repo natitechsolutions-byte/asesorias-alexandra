@@ -14,18 +14,25 @@ const Footer = () => {
           <div className="flex items-center gap-3">
 
             <a
-              href="#"
+              href="https://www.linkedin.com/in/alexandra-pedreros-a14729208?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-[#071B3A] hover:text-[#C8A24A] transition"
+              aria-label="LinkedIn"
             >
               <FaLinkedinIn size={18} />
             </a>
 
             <a
-              href="#"
+              href="https://www.instagram.com/asesorias_alexandra._/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-[#071B3A] hover:text-[#C8A24A] transition"
+              aria-label="Instagram"
             >
               <FaInstagram size={18} />
             </a>
+
           </div>
 
         </div>
