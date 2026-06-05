@@ -23,7 +23,7 @@ const contactItems = [
 const Contact = () => {
   return (
     <section
-      id="contact"
+      id="contacto"
       className="relative py-10 md:py-12 bg-[#071B3A] text-white overflow-hidden"
     >
       <div className="absolute top-0 right-0 w-[320px] md:w-[420px] h-[320px] md:h-[420px] bg-[#C8A24A]/10 rounded-full blur-3xl" />
