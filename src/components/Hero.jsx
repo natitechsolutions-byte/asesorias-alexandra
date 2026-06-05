@@ -41,7 +41,7 @@ const Hero = () => {
                 className="relative pt-24 md:pt-36 pb-12 md:pb-20 overflow-hidden"
             >
                 <div className="max-w-[1600px] mx-auto px-5 md:px-6">
-                    <div className="relative max-w-[1600px] mx-auto px-0 md:px-8 grid lg:grid-cols-[0.9fr_1.1fr] gap-10 md:gap-16 lg:gap-20 items-center">
+                    <div className="relative  mx-auto px-0 md:px-8 grid lg:grid-cols-[0.9fr_1.1fr] gap-10 md:gap-16 lg:gap-20 items-center">
 
                         <div className="text-center lg:text-left">
                             <p className="text-sm md:text-base text-[#C8A24A] font-semibold mb-3 md:mb-4">
