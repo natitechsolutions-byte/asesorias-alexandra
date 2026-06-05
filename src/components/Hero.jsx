@@ -54,10 +54,11 @@ const Hero = () => {
                             </h2>
 
                             <p className="mt-5 md:mt-6 text-[15px] md:text-lg text-gray-600 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-                                Acompañamos a emprendedores, trabajadores independientes
-                                y empresas en sus procesos contables, tributarios,
-                                laborales y administrativos, entregando orientación clara
-                                para tomar mejores decisiones.
+                                A través de Asesorías Alexandra, Acompañamos y asesoramos a empresas, pymes y emprendedores en sus procesos contables,
+                                tributarios, laborales y administrativos, entregando orientación clara y apoyo profesional para fortalecer la toma de decisiones
+                                y el crecimiento de sus negocios.
+ 
+
                             </p>
 
                             <div className="mt-8 md:mt-10 flex flex-col sm:flex-row gap-3 md:gap-4 justify-center lg:justify-start">

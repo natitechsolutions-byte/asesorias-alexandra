@@ -17,23 +17,19 @@ const About = () => {
         </span>
 
         <h2 className="text-[2rem] sm:text-4xl md:text-5xl font-bold text-[#071B3A] mt-3 md:mt-4 leading-tight tracking-[-0.03em]">
-          Más que una oficina contable, un apoyo profesional para la
-          gestión de tu negocio.
+          Acompañamiento profesional para ordenar y fortalecer tu negocio.
         </h2>
 
         <p className="mt-5 md:mt-6 text-[15px] md:text-base text-gray-600 leading-relaxed max-w-2xl mx-auto md:mx-0">
-          Asesorías Alexandra nace con el propósito de apoyar a
-          emprendedores, pymes y empresas en el cumplimiento de sus
-          obligaciones contables, tributarias y laborales de forma clara,
-          ordenada y oportuna.
+          Consultoría y Gestión A&A Ltda. nace como una iniciativa profesional de asesoría, consultoría y gestión empresarial,
+          orientada a acompañar a emprendedores, trabajadores independientes y empresas en la organización de sus procesos contables,
+          tributarios, laborales y administrativos.
         </p>
 
         <p className="mt-3 md:mt-4 text-[15px] md:text-base text-gray-600 leading-relaxed max-w-2xl mx-auto md:mx-0">
-          Nuestro enfoque no se limita a realizar trámites. Buscamos
-          entregar una orientación cercana y comprensible, ayudando a cada
-          cliente a entender su situación, conocer sus obligaciones,
-          mantener su negocio en regla y tomar mejores decisiones para su
-          desarrollo.
+          A través de Asesorías Alexandra, entregamos un servicio cercano, claro y responsable, enfocado no solo en cumplir trámites,
+          sino también en ayudar a cada cliente a comprender su situación, ordenar su información y tomar mejores decisiones para
+          el desarrollo de su negocio.
         </p>
 
         <div className="flex justify-center md:justify-start">

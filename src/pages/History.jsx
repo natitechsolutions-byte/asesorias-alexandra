@@ -15,8 +15,8 @@ import {
 const timeline = [
     {
         icon: FaBookOpen,
-        title: "Inicio del proyecto",
-        text: "Nace mientras su fundadora Alexandra cursaba la carrera de Contador Público y Auditor, comenzando con apoyo contable y tributario a pequeños contribuyentes.",
+        title: "El comienzo",
+        text: "Esta iniciativa parte mientras Alexandra cursaba la carrera de Contador Público y Auditor, comenzando con apoyo contable y tributario a pequeños contribuyentes.",
     },
     {
         icon: FaBriefcase,
@@ -30,7 +30,7 @@ const timeline = [
     },
     {
         icon: FaHandshake,
-        title: "Asesorías Alexandra hoy",
+        title: "Actualmente",
         text: "Acompaña a empresas en sus procesos contables, tributarios, laborales y administrativos, contribuyendo a una gestión más ordenada, informada y eficiente.",
     },
 ];
@@ -152,8 +152,7 @@ const History = () => {
                                 </p>
 
                                 <p className="mt-3 text-gray-600 text-xs md:text-sm leading-relaxed">
-                                    Fundadora de Asesorías Alexandra y socia de Consultoría y
-                                    Gestión A&A Ltda.
+                                    Socia de Consultoría y Gestión A&A Ltda. e impulsora de Asesorías Alexandra.
                                 </p>
                             </div>
                         </div>
@@ -167,7 +166,7 @@ const History = () => {
                         </span>
 
                         <h2 className="text-3xl md:text-4xl font-bold text-[#071B3A] mt-2 md:mt-3">
-                            El camino de Asesorías Alexandra
+                            Nuestra trayectoria profesional
                         </h2>
                     </div>
 
@@ -265,11 +264,14 @@ const History = () => {
                         de tu negocio.
                     </h2>
 
-                    <p className="mt-4 md:mt-5 text-sm md:text-base text-white/80 leading-relaxed max-w-4xl">
-                        El principal diferenciador de Asesorías Alexandra es explicar cada
-                        proceso de forma clara, para que cada cliente comprenda qué se está
-                        haciendo, por qué se realiza y cuáles son las implicancias para su
-                        negocio.
+                    <p className="mt-4 md:mt-5 text-sm md:text-base text-white/80 leading-relaxed max-w-6xl">
+                        Nuestro trabajo no se limita al cumplimiento de obligaciones legales y tributarias.
+                        Buscamos que cada cliente conozca sus responsabilidades y utilice la información disponible para
+                        tomar decisiones más informadas.
+                    </p>
+                    <p className="mt-4 md:mt-5 text-sm md:text-base text-white/80 leading-relaxed max-w-6xl">
+                        Entendiendo la contabilidad como una herramienta de gestión que permite ordenar las finanzas,
+                        controlar costos, evaluar resultados y planificar el crecimiento del negocio.
                     </p>
                 </div>
             </div>

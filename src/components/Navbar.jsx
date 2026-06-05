@@ -4,30 +4,30 @@ import logoAA from "../assets/logoNavbar.png";
 import { useNavigate } from "react-router-dom";
 
 const navItems = [
-  { name: "Quiénes somos", section: "about", path: "/quiensomos" },
-  { name: "Servicios y planes", section: "services", path: "/services" },
-  { name: "Preguntas", section: "preguntas", path: "/preguntas" },
-  { name: "Contacto", section: "contacto", path: "/contacto" },
+    { name: "Quiénes somos", section: "about", path: "/quiensomos" },
+    { name: "Servicios y planes", section: "services", path: "/services" },
+    { name: "Preguntas", section: "preguntas", path: "/preguntas" },
+    { name: "Contacto", section: "contacto", path: "/contacto" },
 ];
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const navigate = useNavigate();
 
-   const goToSection = (section, path = "/") => {
-  navigate(path);
+    const goToSection = (section, path = "/") => {
+        navigate(path);
 
-  setTimeout(() => {
-    const element = document.getElementById(section);
+        setTimeout(() => {
+            const element = document.getElementById(section);
 
-    if (element) {
-      element.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-      });
-    }
-  }, 300);
-};
+            if (element) {
+                element.scrollIntoView({
+                    behavior: "smooth",
+                    block: "start",
+                });
+            }
+        }, 300);
+    };
 
     return (
         <header className="fixed top-0 left-0 w-full z-50 bg-white/90 backdrop-blur-xl border-b border-[#C8A24A]/20 shadow-[0_8px_30px_rgba(7,27,58,0.06)]">
@@ -35,7 +35,7 @@ const Navbar = () => {
 
                 <button
                     onClick={() => goToSection("home", "/")}
-                    className="flex items-center"
+                    className="flex items-center gap-4"
                 >
                     <img
                         src={logoAA}
@@ -43,20 +43,17 @@ const Navbar = () => {
                         className="h-12 md:h-14 w-auto object-contain"
                     />
 
+                    {/* Línea vertical */}
+                    <div className="hidden sm:block w-[2px] h-12 bg-[#C8A24A] rounded-full"></div>
+
                     <div className="flex flex-col">
                         <h3 className="font-semibold text-[#071B3A] text-sm md:text-base leading-tight">
                             Consultoría y Gestión A&A Ltda.
                         </h3>
 
-                        <div className="hidden sm:flex items-center gap-2 mt-1">
-                            <div className="h-px w-4 bg-[#C8A24A]/50"></div>
-
-                            <p className="text-xs md:text-sm text-[#C8A24A] font-medium">
-                                Asesorías contables y tributarias
-                            </p>
-
-                            <div className="h-px w-4 bg-[#C8A24A]/50"></div>
-                        </div>
+                        <p className="hidden sm:block text-xs md:text-sm text-[#C8A24A] font-medium mt-1">
+                            Asesoría, consultoría y gestión empresarial
+                        </p>
                     </div>
                 </button>
 

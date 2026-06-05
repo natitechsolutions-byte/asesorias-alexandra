@@ -26,11 +26,14 @@ export const servicesData = [
         description:
             "Asesoría dirigida a personas que desean iniciar un negocio o que tienen dudas respecto a su formalización y obligaciones tributarias.",
         items: [
+            "Evaluación para formalizar tu idea de negocio.",
             "Cuándo conviene formalizar un negocio.",
+            "Orientación sobre tipos.",
             "Persona natural o empresa: ventajas y diferencias.",
             "Tipos de empresas y estructuras jurídicas.",
             "Régimen tributario más adecuado según cada caso.",
             "Inicio de actividades ante el SII.",
+            "Orientación sobre obligaciones tributarias.",
             "Facturación electrónica.",
             "Obligaciones tributarias iniciales.",
             "Contratación de trabajadores.",
