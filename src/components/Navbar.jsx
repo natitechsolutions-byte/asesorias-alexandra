@@ -4,7 +4,8 @@ import logoAA from "../assets/logoNavbar.png";
 import { useNavigate } from "react-router-dom";
 
 const navItems = [
-    { name: "Quiénes somos", section: "about", path: "/quiensomos" },
+    { name: "Inicio", section: "home", path: "/home" },
+    { name: "Quiénes somos", section: "quiensomos", path: "/quiensomos" },
     { name: "Servicios y planes", section: "services", path: "/services" },
     { name: "Preguntas", section: "preguntas", path: "/preguntas" },
     { name: "Contacto", section: "contacto", path: "/contacto" },

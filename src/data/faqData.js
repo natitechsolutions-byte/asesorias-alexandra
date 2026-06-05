@@ -44,13 +44,14 @@ el plazo se extiende hasta el día 13. El Formulario 29 vence, por regla general
  como contribuyentes que declaran y pagan por internet y cumplen los requisitos correspondientes, el plazo puede extenderse hasta el día 20.
     `,
   },
-  {
-    question: "¿Una vez creada mi empresa, ¿puedo emitir facturas de inmediato?",
-    answer: `
-No necesariamente. Después de crear la empresa e iniciar actividades, el SII puede requerirla verificación de actividad antes de autorizar
-la emisión de documentos tributarios que den derecho a crédito fiscal, como facturas electrónicas. Para ello, se deben presentar antecedentes
-que permitan acreditar que la actividad declarada efectivamente se realizará. La autorización dependerá de la revisión del SII y de los plazos
- propios del proceso.
-    `,
-  },
+ {
+  question: "¿Una vez creada mi empresa, puedo emitir facturas de inmediato?",
+  answer: `
+No necesariamente. Después de crear la empresa e iniciar actividades, el SII puede requerir la verificación de actividad antes de autorizar la emisión de documentos tributarios que den derecho a crédito fiscal, como facturas electrónicas.
+
+Para ello, se deben presentar antecedentes que permitan acreditar que la actividad declarada efectivamente se realizará.
+
+La autorización dependerá de la revisión del SII y de los plazos propios del proceso.
+  `,
+},
 ];

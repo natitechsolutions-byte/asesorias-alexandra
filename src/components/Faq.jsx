@@ -76,7 +76,7 @@ const Faq = () => {
 
               {activeIndex === index && (
                 <div className="px-4 md:px-6 pb-5 md:pb-6">
-                  <p className="text-gray-600 text-sm md:text-base whitespace-pre-line leading-relaxed">
+                  <p className="max-w-4xl text-gray-600 text-sm md:text-base whitespace-pre-line leading-relaxed">
                     {faq.answer}
                   </p>
                 </div>
