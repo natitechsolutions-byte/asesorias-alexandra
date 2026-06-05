@@ -4,18 +4,18 @@ import logoAA from "../assets/logoNavbar.png";
 import { useNavigate } from "react-router-dom";
 
 const navItems = [
-    { name: "Quiénes somos", section: "about" },
-    { name: "Servicios y planes", section: "services" },
-    { name: "Preguntas", section: "faq" },
-    { name: "Contacto", section: "contact" },
+  { name: "Quiénes somos", section: "about", path: "/quiensomos" },
+  { name: "Servicios y planes", section: "services", path: "/services" },
+  { name: "Preguntas", section: "faq", path: "/faq" },
+  { name: "Contacto", section: "contact", path: "/contact" },
 ];
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const navigate = useNavigate();
 
-    const goToSection = (section) => {
-  navigate(`/#${section}`);
+   const goToSection = (section, path = "/") => {
+  navigate(path);
 
   setTimeout(() => {
     const element = document.getElementById(section);
@@ -34,7 +34,7 @@ const Navbar = () => {
             <nav className="max-w-[1600px]  mx-auto px-5 md:px-6 py-2 flex justify-between items-center">
 
                 <button
-                    onClick={() => goToSection("home")}
+                    onClick={() => goToSection("home", "/")}
                     className="flex items-center"
                 >
                     <img
@@ -64,7 +64,7 @@ const Navbar = () => {
                     {navItems.map((item) => (
                         <button
                             key={item.section}
-                            onClick={() => goToSection(item.section)}
+                            onClick={() => goToSection(item.section, item.path)}
                             className="
                             relative
                             hover:text-[#C8A24A]

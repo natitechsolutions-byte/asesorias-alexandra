@@ -96,7 +96,7 @@ const Services = () => {
               return (
                 <Link
                   key={service.slug}
-                  to={`/servicios/${service.slug}`}
+                    to={`/services/${service.slug}`}
                   className="
                   group
                   bg-white/90

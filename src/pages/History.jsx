@@ -43,7 +43,7 @@ const History = () => {
         navigate("/");
 
         setTimeout(() => {
-            const section = document.getElementById("about");
+            const section = document.getElementById("quiensomos");
 
             if (section) {
                 section.scrollIntoView({

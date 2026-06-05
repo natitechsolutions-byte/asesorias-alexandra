@@ -7,7 +7,7 @@ import {
 
 const About = () => {
   return (
-    <section id="about" className="relative py-12 md:py-20 overflow-hidden">
+    <section id="quiensomos" className="relative py-12 md:py-20 overflow-hidden">
       <div className="relative max-w-[1600px] mx-auto px-5 md:px-6 xl:px-16">
         <div className="grid lg:grid-cols-[0.95fr_1.05fr] gap-10 md:gap-16 xl:gap-24 items-center">
           
@@ -37,7 +37,7 @@ const About = () => {
             </p>
 
             <Link
-              to="/about/historia"
+              to="/quiensomos/historia"
               className="inline-flex items-center gap-2 mt-6 md:mt-8 bg-[#071B3A] text-white px-6 md:px-7 py-3 rounded-full text-sm md:text-base font-semibold hover:bg-[#0b2c5c] transition shadow-[0_12px_30px_rgba(7,27,58,0.16)]"
             >
               Conoce nuestra historia

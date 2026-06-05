@@ -9,7 +9,7 @@ const ServiceDetail = () => {
   const service = servicesData.find((item) => item.slug === slug);
 
   const goBackToServices = () => {
-    navigate("/");
+    navigate("/services");
 
     setTimeout(() => {
       const section = document.getElementById("services");
