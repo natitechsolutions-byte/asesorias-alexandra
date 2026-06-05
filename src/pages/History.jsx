@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import alexandra from "../assets/ale.png";
 import {
@@ -39,8 +39,12 @@ const History = () => {
     const navigate = useNavigate();
     const [currentStep, setCurrentStep] = useState(0);
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     const goBackToAbout = () => {
-        navigate("/");
+        navigate("/quiensomos");
 
         setTimeout(() => {
             const section = document.getElementById("quiensomos");
@@ -51,7 +55,7 @@ const History = () => {
                     block: "start",
                 });
             }
-        }, 200);
+        }, 300);
     };
 
     const nextStep = () => {
