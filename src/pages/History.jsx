@@ -137,7 +137,7 @@ const History = () => {
                                     alt="Alexandra Pedreros Palma"
                                     className="w-full h-full object-cover scale-110"
                                     style={{
-                                        objectPosition: "center 35%",
+                                        objectPosition: "center 75%",
                                     }}
                                 />
                             </div>
