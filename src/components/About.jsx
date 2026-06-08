@@ -17,7 +17,7 @@ const About = () => {
         </span>
 
         <h2 className="font-playfair
-                                font-[700]
+                                font-[600]
                 text-[34px]
                 sm:text-[44px]
                 md:text-[58px]

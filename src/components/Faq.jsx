@@ -22,7 +22,7 @@ const Faq = () => {
           </span>
 
           <h2 className="font-playfair
-                         font-[700]
+                         font-[600]
                          text-[2rem] 
                          sm:text-4xl 
                          md:text-5xl 

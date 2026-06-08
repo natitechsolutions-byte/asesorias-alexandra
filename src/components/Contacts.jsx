@@ -37,7 +37,7 @@ const Contact = () => {
             </span>
 
             <h2 className="font-playfair
-                                font-[700]
+                                font-[600]
                 text-[35px]
                 sm:text-[44px]
                 md:text-[58px]

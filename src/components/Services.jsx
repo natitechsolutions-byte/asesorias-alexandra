@@ -44,7 +44,7 @@ const Services = () => {
           </span>
 
           <h2 className="font-playfair
-                                font-[700] text-3xl md:text-5xl font-bold text-[#071B3A] mt-2 md:mt-3">
+                                font-[600] text-3xl md:text-5xl font-bold text-[#071B3A] mt-2 md:mt-3">
             Planes y Servicios
           </h2>
 
