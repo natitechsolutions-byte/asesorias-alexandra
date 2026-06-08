@@ -37,13 +37,14 @@ const Services = () => {
 
   return (
     <section id="services" className="relative overflow-hidden">
-      <div className="max-w-[1500px] mx-auto px-8 sm:px-10 lg:px-6 xl:px-16">
+      <div className="max-w-7xl mx-auto px-8 sm:px-10 lg:px-6 xl:px-16">
         <div className="text-center max-w-3xl mx-auto mb-10 md:mb-14">
           <span className="text-sm md:text-base text-[#C8A24A] font-semibold">
             Servicios
           </span>
 
-          <h2 className="text-3xl md:text-5xl font-bold text-[#071B3A] mt-2 md:mt-3">
+          <h2 className="font-playfair
+                                font-[700] text-3xl md:text-5xl font-bold text-[#071B3A] mt-2 md:mt-3">
             Planes y Servicios
           </h2>
 
@@ -96,7 +97,7 @@ const Services = () => {
               return (
                 <Link
                   key={service.slug}
-                    to={`/services/${service.slug}`}
+                  to={`/services/${service.slug}`}
                   className="
                   group
                   bg-white/90

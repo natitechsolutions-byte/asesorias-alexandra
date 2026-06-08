@@ -40,7 +40,7 @@ const Hero = () => {
                 id="home"
                 className="relative pt-24 md:pt-36 pb-12 md:pb-20 overflow-hidden"
             >
-                <div className="max-w-[1600px] mx-auto px-5 md:px-6">
+                <div className="max-w-7xl mx-auto px-5 md:px-6">
                     <div className="relative  mx-auto px-0 md:px-8 grid lg:grid-cols-[0.9fr_1.1fr] gap-10 md:gap-16 lg:gap-20 items-center">
 
                         <div className="text-center lg:text-left">
@@ -48,7 +48,18 @@ const Hero = () => {
                                 Consultoría y Gestión A&A Ltda.
                             </p>
 
-                            <h2 className="text-[1.9rem] sm:text-[2.4rem] md:text-5xl xl:text-6xl font-bold leading-[1.12] md:leading-[1.08] text-[#071B3A] max-w-[760px] mx-auto lg:mx-0">
+                            <h2 className=" 
+                                font-playfair
+                                font-[700]
+                                text-[34px]
+                                sm:text-[44px]
+                                md:text-[52px]
+                                lg:text-[58px]
+                                xl:text-[50px]
+                                leading-[1.12]
+                                sm:leading-[1.08]
+                                md:leading-[1.04]
+                                tracking-[-0.04em]">
                                 Asesorías contables tributarias y laborales con un enfoque claro,
                                 cercano y profesional.
                             </h2>
@@ -57,31 +68,59 @@ const Hero = () => {
                                 A través de Asesorías Alexandra, Acompañamos y asesoramos a empresas, pymes y emprendedores en sus procesos contables,
                                 tributarios, laborales y administrativos, entregando orientación clara y apoyo profesional para fortalecer la toma de decisiones
                                 y el crecimiento de sus negocios.
- 
+
 
                             </p>
 
-                            <div className="mt-8 md:mt-10 flex flex-col sm:flex-row gap-3 md:gap-4 justify-center lg:justify-start">
+                            <div className="mt-7 md:mt-8 flex flex-col sm:flex-row gap-3 md:gap-4">
                                 <a
                                     href="https://wa.me/56931087761"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="inline-flex items-center justify-center gap-3 bg-[#071B3A] text-white px-7 py-3 rounded-full font-semibold hover:bg-[#d8b85c] transition"
+                                    className="
+                                    inline-flex
+                                    items-center
+                                    justify-center
+                                    gap-2
+                                    bg-[#071B3A]
+                                    text-white
+                                    w-[250px]
+                                    h-[50px]
+                                    rounded-full
+                                    font-semibold
+                                    hover:bg-[#d8b85c]
+                                    transition
+                                    "
                                 >
-                                    <FaWhatsapp />
+                                    <FaWhatsapp size={20} />
                                     Escribir por WhatsApp
                                 </a>
+
                                 <button
                                     type="button"
                                     onClick={() => {
-                                        window.history.pushState(null, "", "services");
+                                        window.history.pushState(null, "", "/services");
 
                                         document.getElementById("services")?.scrollIntoView({
                                             behavior: "smooth",
                                             block: "start",
                                         });
                                     }}
-                                    className="border border-[#C8A24A] text-[#071B3A] rounded-full px-6 md:px-8 py-3 md:py-4 font-semibold flex items-center justify-center gap-2 hover:bg-[#C8A24A]/10 transition"
+                                    className="
+      w-[250px]
+      h-[50px]
+      border
+      border-[#C8A24A]
+      text-[#071B3A]
+      rounded-full
+      font-semibold
+      flex
+      items-center
+      justify-center
+      gap-2
+      hover:bg-[#C8A24A]/10
+      transition
+    "
                                 >
                                     Ver servicios
                                     <FaArrowRight size={16} />
@@ -89,26 +128,45 @@ const Hero = () => {
                             </div>
                         </div>
 
-                        <div className="flex justify-center lg:justify-end">
-                            <div className="relative w-full max-w-[340px] md:max-w-[520px] lg:max-w-[720px] mx-auto">
-                                <div className="bg-white rounded-[28px] md:rounded-[36px] p-2 border border-[#C8A24A]/10 shadow-[0_25px_60px_rgba(7,27,58,0.10)] md:shadow-[0_35px_90px_rgba(7,27,58,0.12)]">
-                                    <img
-                                        src={logo}
-                                        alt="Logo"
-                                        className="w-full scale-100 md:scale-105 lg:scale-110 rounded-[22px] md:rounded-[24px] object-cover"
-                                    />
-                                </div>
+                        <div className="relative z-10 order-2 w-full flex justify-center lg:justify-end">
+                            <div className="relative">
+
+                                <div className="
+                                        absolute
+                                        inset-0
+                                        bg-[#C8A24A]/10
+                                        blur-3xl
+                                        scale-95
+
+                                        rounded-[40px]
+                                        "></div>
+
+                                <img
+                                    src={logo}
+                                    alt="ale"
+                                    className="
+                                    relative
+                                    mt-6 lg:mt-0
+                                    w-full
+                                    max-w-[320px]
+                                    sm:max-w-[420px]
+                                    md:max-w-[520px]
+                                    lg:max-w-[680px]
+                                    object-contain
+                                    rounded-3xl
+                                    shadow-[0_30px_80px_rgba(7,27,58,0.18)]
+                                "
+                                />
                             </div>
                         </div>
-
                     </div>
                 </div>
             </section>
 
             <section>
-                <div className="max-w-[1500px] mx-auto border-t border-[#C8A24A]/15"></div>
+                <div className="max-w-6xl mx-auto border-t border-[#C8A24A]/15"></div>
 
-                <div className="max-w-7xl mx-auto px-6 py-6 md:py-8">
+                <div className="max-w-6xl mx-auto px-6 py-6 md:py-8">
                     <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-6 md:gap-8">
                         {features.map((feature, index) => {
                             const Icon = feature.icon;
@@ -140,7 +198,7 @@ const Hero = () => {
                     </div>
                 </div>
 
-                <div className="max-w-[1500px] mx-auto border-t border-[#C8A24A]/15"></div>
+                <div className="max-w-6xl mx-auto border-t border-[#C8A24A]/15"></div>
             </section>
         </>
     );

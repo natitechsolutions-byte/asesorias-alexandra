@@ -36,7 +36,16 @@ const Contact = () => {
               Contacto
             </span>
 
-            <h2 className="text-3xl md:text-4xl font-bold mt-3 leading-tight max-w-xl">
+            <h2 className="font-playfair
+                                font-[700]
+                text-[35px]
+                sm:text-[44px]
+                md:text-[58px]
+                lg:text-[58px]
+                xl:text-[48px]
+                leading-[1]
+                sm:leading-[0.98]
+                tracking-[-0.04em]">
               Agenda tu asesoría y conversemos sobre tu negocio
             </h2>
 

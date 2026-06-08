@@ -74,14 +74,15 @@ const History = () => {
         <section className="relative pt-28 md:pt-36 pb-16 md:pb-24 overflow-hidden">
             <div className="absolute top-20 right-0 w-[260px] h-[260px] md:w-[420px] md:h-[420px] bg-[#C8A24A]/10 rounded-full blur-3xl"></div>
 
-            <div className="relative max-w-[1600px] mx-auto px-5 md:px-6 xl:px-16">
+            <div className="relative max-w-7xl mx-auto px-5 md:px-6 xl:px-16">
                 <div className="grid lg:grid-cols-2 gap-10 md:gap-14 items-center">
                     <div>
                         <span className="text-sm md:text-base text-[#C8A24A] font-semibold">
                             Nuestra historia
                         </span>
 
-                        <h1 className="text-[2rem] sm:text-4xl md:text-5xl font-bold text-[#071B3A] mt-3 md:mt-4 leading-tight">
+                        <h1 className="font-playfair
+                                font-[700] text-[2rem] sm:text-4xl md:text-5xl font-bold text-[#071B3A] mt-3 md:mt-4 leading-tight">
                             Una trayectoria construida con responsabilidad, cercanía y
                             vocación profesional.
                         </h1>
@@ -165,7 +166,8 @@ const History = () => {
                             Trayectoria
                         </span>
 
-                        <h2 className="text-3xl md:text-4xl font-bold text-[#071B3A] mt-2 md:mt-3">
+                        <h2 className=" font-playfair
+                                font-[700] text-3xl md:text-4xl font-bold text-[#071B3A] mt-2 md:mt-3">
                             Nuestra trayectoria profesional
                         </h2>
                     </div>
@@ -199,59 +201,96 @@ const History = () => {
                     </div>
 
                     {/* Mobile carrusel */}
-                    <div className="lg:hidden relative max-w-[390px] mx-auto">
-                        <div className="bg-white/80 rounded-3xl p-6 shadow-lg border border-white/60 min-h-[260px]">
-                            {(() => {
-                                const item = timeline[currentStep];
-                                const Icon = item.icon;
+                   {/* Mobile carrusel */}
+<div className="lg:hidden relative max-w-[390px] mx-auto">
+  <div className="bg-white/90 rounded-3xl p-6 shadow-lg border border-white/60 min-h-[300px]">
+    {(() => {
+      const item = timeline[currentStep];
+      const Icon = item.icon;
 
-                                return (
-                                    <>
-                                        <div className="flex items-center gap-4 mb-5">
-                                            <div className="w-12 h-12 shrink-0 rounded-xl bg-[#C8A24A]/10 flex items-center justify-center">
-                                                <Icon className="text-[#C8A24A] text-xl" />
-                                            </div>
+      return (
+        <>
+          <div className="flex flex-col items-center text-center gap-3 mb-5">
+            <div className="w-14 h-14 rounded-xl bg-[#C8A24A]/10 flex items-center justify-center">
+              <Icon className="text-[#C8A24A] text-xl" />
+            </div>
 
-                                            <h3 className="text-xl font-bold text-[#071B3A] leading-tight">
-                                                {item.title}
-                                            </h3>
-                                        </div>
+            <h3 className="text-xl font-bold text-[#071B3A] leading-tight">
+              {item.title}
+            </h3>
+          </div>
 
-                                        <p className="mt-3 text-sm text-gray-600 leading-relaxed">
-                                            {item.text}
-                                        </p>
-                                    </>
-                                );
-                            })()}
-                        </div>
+          <p className="mt-3 text-sm text-gray-600 leading-relaxed text-center">
+            {item.text}
+          </p>
+        </>
+      );
+    })()}
+  </div>
 
-                        <button
-                            onClick={prevStep}
-                            className="absolute left-[-14px] top-1/2 -translate-y-1/2 w-8 h-8 bg-white rounded-full shadow-lg flex items-center justify-center text-[#071B3A]"
-                        >
-                            <FaChevronLeft size={12} />
-                        </button>
+  <div className="flex justify-center gap-4 mt-5">
+   <button
+  onClick={prevStep}
+  className="
+    absolute
+    left-[-10px]
+    top-1/2
+    -translate-y-1/2
+    w-10
+    h-10
+    bg-white
+    rounded-full
+    shadow-lg
+    flex
+    items-center
+    justify-center
+    text-[#071B3A]
+    border border-[#C8A24A]/20
+    z-10
+  "
+>
+  <FaChevronLeft size={12} />
+</button>
 
-                        <button
-                            onClick={nextStep}
-                            className="absolute right-[-14px] top-1/2 -translate-y-1/2 w-8 h-8 bg-white rounded-full shadow-lg flex items-center justify-center text-[#071B3A]"
-                        >
-                            <FaChevronRight size={12} />
-                        </button>
 
-                        <div className="flex justify-center gap-2 mt-6">
-                            {timeline.map((_, index) => (
-                                <button
-                                    key={index}
-                                    onClick={() => setCurrentStep(index)}
-                                    className={`h-2 rounded-full transition-all ${currentStep === index
-                                        ? "w-8 bg-[#C8A24A]"
-                                        : "w-2 bg-[#C8A24A]/30"
-                                        }`}
-                                />
-                            ))}
-                        </div>
-                    </div>
+    <button
+  onClick={nextStep}
+  className="
+    absolute
+    right-[-10px]
+    top-1/2
+    -translate-y-1/2
+    w-10
+    h-10
+    bg-white
+    rounded-full
+    shadow-lg
+    flex
+    items-center
+    justify-center
+    text-[#071B3A]
+    border border-[#C8A24A]/20
+    z-10
+  "
+>
+  <FaChevronRight size={12} />
+</button>
+  </div>
+
+  <div className="flex justify-center gap-2 mt-5">
+    {timeline.map((_, index) => (
+      <button
+        key={index}
+        onClick={() => setCurrentStep(index)}
+        className={`h-2 rounded-full transition-all ${
+          currentStep === index
+            ? "w-8 bg-[#C8A24A]"
+            : "w-2 bg-[#C8A24A]/30"
+        }`}
+      />
+    ))}
+  </div>
+</div>
                 </div>
 
                 <div className="mt-14 md:mt-20 bg-[#071B3A] text-white rounded-2xl md:rounded-3xl p-6 md:p-12 shadow-2xl">
@@ -259,7 +298,8 @@ const History = () => {
                         Propuesta de valor
                     </p>
 
-                    <h2 className="text-2xl md:text-3xl font-bold mt-2 md:mt-3">
+                    <h2 className="font-playfair
+                                font-[700] text-2xl md:text-3xl font-bold mt-2 md:mt-3">
                         Más que una oficina contable, un apoyo profesional para la gestión
                         de tu negocio.
                     </h2>

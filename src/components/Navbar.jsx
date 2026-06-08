@@ -32,7 +32,7 @@ const Navbar = () => {
 
     return (
         <header className="fixed top-0 left-0 w-full z-50 bg-white/90 backdrop-blur-xl border-b border-[#C8A24A]/20 shadow-[0_8px_30px_rgba(7,27,58,0.06)]">
-            <nav className="max-w-[1600px]  mx-auto px-5 md:px-6 py-2 flex justify-between items-center">
+            <nav className="max-w-7xl  mx-auto px-5 md:px-6 py-2 flex justify-between items-center">
 
                 <button
                     onClick={() => goToSection("home", "/")}

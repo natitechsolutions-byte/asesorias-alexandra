@@ -8,7 +8,7 @@ import {
 const About = () => {
   return (
     <section id="quiensomos" className="relative py-12 md:py-20 overflow-hidden">
-  <div className="relative max-w-[1600px] mx-auto px-5 md:px-6 xl:px-16">
+  <div className="relative max-w-7xl mx-auto px-5 md:px-6 xl:px-16">
     <div className="grid lg:grid-cols-[0.95fr_1.05fr] gap-10 md:gap-16 xl:gap-24 items-center">
 
       <div className="max-w-[780px] text-center md:text-left">
@@ -16,7 +16,16 @@ const About = () => {
           Quiénes somos
         </span>
 
-        <h2 className="text-[2rem] sm:text-4xl md:text-5xl font-bold text-[#071B3A] mt-3 md:mt-4 leading-tight tracking-[-0.03em]">
+        <h2 className="font-playfair
+                                font-[700]
+                text-[34px]
+                sm:text-[44px]
+                md:text-[58px]
+                lg:text-[58px]
+                xl:text-[52px]
+                leading-[1]
+                sm:leading-[0.98]
+                tracking-[-0.04em]">
           Acompañamiento profesional para ordenar y fortalecer tu negocio.
         </h2>
 
