@@ -81,8 +81,8 @@ const History = () => {
                             Nuestra historia
                         </span>
 
-                        <h1 className="font-playfair
-                                font-[600] text-[2rem] sm:text-4xl md:text-5xl font-bold text-[#071B3A] mt-3 md:mt-4 leading-tight">
+                        <h1 className="font-playfair text-[#071B3A]
+                                font-[600] text-[2rem] sm:text-4xl md:text-5xl font-bold  mt-3 md:mt-4 leading-tight">
                             Una trayectoria construida con responsabilidad, cercanía y
                             vocación profesional.
                         </h1>
