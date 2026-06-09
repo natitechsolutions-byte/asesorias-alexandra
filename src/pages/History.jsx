@@ -153,7 +153,7 @@ const History = () => {
                                 />
                             </div>
 
-                            <div className="mt-4 md:mt-6">
+                            <div className="text-center mt-4 md:mt-6">
                                 <h2 className="font-playfair text-xl sm:text-2xl md:text-2xl font-bold text-[#071B3A]">
                                     Alexandra Pedreros Palma
                                 </h2>

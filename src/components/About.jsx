@@ -69,12 +69,12 @@ const About = () => {
                 />
               </div>
 
-              <div className="pt-4 md:pt-6">
+              <div className="text-center pt-4 md:pt-6">
                 <span className="text-[10px] md:text-xs uppercase tracking-[0.2em] md:tracking-[0.24em] text-[#C8A24A] font-bold">
                   Fundadora
                 </span>
 
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#071B3A] mt-2 leading-tight">
+                <h2 className="font-playfair text-xl sm:text-2xl md:text-3xl font-bold text-[#071B3A] mt-2 leading-tight">
                   Alexandra Pedreros Palma
                 </h2>
 

@@ -61,23 +61,23 @@ const Contact = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="
-      inline-flex
-      items-center
-      justify-center
-      gap-2
-      bg-[#071B3A]
-      text-white
-      w-[298px]
-      md:w-[250px]
-      h-[42px]
-      md:h-[50px]
-      rounded-full
-      font-semibold
-      text-sm
-      border
-      border-white/20
-      hover:bg-[#0b2c5c]
-      transition
+                inline-flex
+                items-center
+                justify-center
+                gap-2
+                bg-[#071B3A]
+                text-white
+                w-[298px]
+                md:w-[250px]
+                h-[42px]
+                md:h-[50px]
+                rounded-full
+                font-semibold
+                text-sm
+                border
+                border-white/20
+                hover:bg-[#0b2c5c]
+                transition
     "
               >
                 <FaWhatsapp size={18} />
@@ -121,29 +121,38 @@ const Contact = () => {
                 <div
                   key={item.title}
                   className="
-                    bg-white/10
-                    backdrop-blur-md
-                    rounded-2xl
-                    p-3
-                    md:p-4
-                    border
-                    border-white/10
+                  bg-white/10
+                  backdrop-blur-md
+                  rounded-2xl
+                  p-4
+                  border
+                  border-white/10
+                  flex
+                  flex-col
+                  items-center
+                  text-center
+                "
+                >
+                  <div
+                    className="
+                    w-10 h-10
+                    rounded-xl
+                    bg-[#C8A24A]/15
                     flex
                     items-center
-                    gap-3
-                    md:block
+                    justify-center
+                    mb-4
                   "
-                >
-                  <div className="w-9 h-9 md:w-10 md:h-10 shrink-0 rounded-xl bg-[#C8A24A]/15 flex items-center justify-center md:mb-4">
+                  >
                     <Icon className="text-[#C8A24A]" />
                   </div>
 
-                  <div>
+                  <div className="flex flex-col items-center">
                     <h3 className="font-bold text-sm md:text-base">
                       {item.title}
                     </h3>
 
-                    <p className="mt-1 md:mt-2 text-white/70 text-xs md:text-sm leading-relaxed break-words">
+                    <p className="mt-2 text-white/70 text-xs md:text-sm leading-relaxed">
                       {item.text}
                     </p>
                   </div>
