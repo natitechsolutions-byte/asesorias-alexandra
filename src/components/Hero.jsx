@@ -97,6 +97,8 @@ const Hero = () => {
                                     text-sm
                                     hover:bg-[#d8b85c]
                                     transition
+                                    shadow-lg
+                                    hover:-translate-y-1
                                     "
                                 >
                                     <FaWhatsapp size={20} />
@@ -130,6 +132,8 @@ const Hero = () => {
                                             gap-2
                                             hover:bg-[#C8A24A]/10
                                             transition
+                                            shadow-lg
+                                    hover:-translate-y-1
                                                                                         "
                                 >
                                     Ver servicios
@@ -142,20 +146,20 @@ const Hero = () => {
                             <div className="relative">
                                 <div
                                     className="
-    absolute
-    top-1/2
-    left-1/2
-    -translate-x-1/2
-    -translate-y-1/2
-    w-[90%]
-    h-[90%]
-    rounded-full
-    bg-gradient-radial
-    from-[#E8D6A8]/30
-    via-[#C8A24A]/15
-    to-transparent
-    blur-[80px]
-  "
+                                    absolute
+                                    top-1/2
+                                    left-1/2
+                                    -translate-x-1/2
+                                    -translate-y-1/2
+                                    w-[90%]
+                                    h-[90%]
+                                    rounded-full
+                                    bg-gradient-radial
+                                    from-[#E8D6A8]/30
+                                    via-[#C8A24A]/15
+                                    to-transparent
+                                    blur-[80px]
+                                "
                                 ></div>
 
                                 <div
@@ -212,30 +216,29 @@ const Hero = () => {
                                 <div
                                     key={index}
                                     className={`
-                                            flex items-start gap-4 relative
-                                            xl:px-6
+                                            flex flex-col items-center text-center
+                                            px-4 py-4
+                                            relative
                                             ${index !== features.length - 1
-                                            ? "xl:after:absolute xl:after:right-0 xl:after:top-1/2 xl:after:-translate-y-1/2 xl:after:h-16 xl:after:w-px xl:after:bg-[#C8A24A]/20"
+                                            ? "xl:after:absolute xl:after:right-0 xl:after:top-1/2 xl:after:-translate-y-1/2 xl:after:h-20 xl:after:w-px xl:after:bg-[#C8A24A]/20"
                                             : ""
                                         }
   `}
                                 >
-                                    <div className="w-12 h-12 md:w-14 md:h-14 rounded-full border border-[#C8A24A]/30 flex items-center justify-center shrink-0">
+                                    <div className="w-14 h-14 md:w-16 md:h-16 rounded-full border border-[#C8A24A]/30 bg-white/70 flex items-center justify-center mb-4">
                                         <Icon
-                                            size={20}
-                                            className="text-[#C8A24A] md:w-6 md:h-6"
+                                            size={22}
+                                            className="text-[#C8A24A]"
                                         />
                                     </div>
 
-                                    <div>
-                                        <h3 className="font-semibold text-[#071B3A] text-sm md:text-base">
-                                            {feature.title}
-                                        </h3>
+                                    <h3 className="font-semibold text-[#071B3A] text-sm md:text-base leading-tight">
+                                        {feature.title}
+                                    </h3>
 
-                                        <p className="text-xs md:text-sm text-gray-600 mt-1">
-                                            {feature.description}
-                                        </p>
-                                    </div>
+                                    <p className="text-xs md:text-sm text-gray-600 mt-3 leading-relaxed max-w-[190px]">
+                                        {feature.description}
+                                    </p>
                                 </div>
                             );
                         })}

@@ -60,9 +60,27 @@ const Contact = () => {
                 href="https://wa.me/56931087761"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-3 bg-[#C8A24A] text-[#071B3A] px-6 md:px-7 py-3 rounded-full text-sm md:text-base font-bold hover:bg-[#d8b85c] transition"
+                className="
+      inline-flex
+      items-center
+      justify-center
+      gap-2
+      bg-[#071B3A]
+      text-white
+      w-[298px]
+      md:w-[250px]
+      h-[42px]
+      md:h-[50px]
+      rounded-full
+      font-semibold
+      text-sm
+      border
+      border-white/20
+      hover:bg-[#0b2c5c]
+      transition
+    "
               >
-                <FaWhatsapp />
+                <FaWhatsapp size={18} />
                 Escribir por WhatsApp
               </a>
 
@@ -70,9 +88,26 @@ const Contact = () => {
                 href="https://forms.gle/duVP5mGsAhy8xy9x8"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-3 border border-white/25 text-white px-6 md:px-7 py-3 rounded-full text-sm md:text-base font-semibold hover:bg-white/10 transition"
+                className="
+                w-[298px]
+                md:w-[250px]
+                h-[42px]
+                md:h-[50px]
+                border
+                border-[#C8A24A]
+                text-white
+                rounded-full
+                font-semibold
+                text-sm
+                flex
+                items-center
+                justify-center
+                gap-2
+                hover:bg-white/10
+                transition
+              "
               >
-                <FaWpforms />
+                <FaWpforms size={16} />
                 Completar formulario
               </a>
             </div>
