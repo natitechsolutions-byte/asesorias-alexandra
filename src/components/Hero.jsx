@@ -41,7 +41,7 @@ const Hero = () => {
                 className="relative pt-24 md:pt-36 pb-12 md:pb-20 overflow-hidden"
             >
                 <div className="max-w-7xl mx-auto px-5 md:px-6">
-                    <div className="relative mx-auto px-0 md:px-8 grid lg:grid-cols-[1.15fr_0.85fr] gap-10 md:gap-14 lg:gap-16 items-center">
+                    <div className="relative mx-auto px-0 md:px-8 grid lg:grid-cols-[1fr_1fr] gap-10 md:gap-14 lg:gap-12 items-center">
 
                         <div className="text-center lg:text-left max-w-[580px]">
                             <p className="text-sm md:text-base text-[#C8A24A] font-semibold mb-3 md:mb-4">
@@ -53,8 +53,8 @@ const Hero = () => {
                                 font-playfair
                                 text-[#071B3A]
                                 font-[600]
-                                text-[38px]
-                                sm:text-[44px]
+                                text-[31px]
+                                sm:text-[38px]
                                 md:text-[50px]
                                 lg:text-[54px]
                                 xl:text-[50px]
@@ -88,10 +88,13 @@ const Hero = () => {
                                     gap-2
                                     bg-[#071B3A]
                                     text-white
-                                    w-[250px]
-                                    h-[50px]
+                                    w-[298px]
+                                    md:w-[250px]
+                                    h-[42px]
+                                    md:h-[50px]
                                     rounded-full
                                     font-semibold
+                                    text-sm
                                     hover:bg-[#d8b85c]
                                     transition
                                     "
@@ -111,20 +114,23 @@ const Hero = () => {
                                         });
                                     }}
                                     className="
-      w-[250px]
-      h-[50px]
-      border
-      border-[#C8A24A]
-      text-[#071B3A]
-      rounded-full
-      font-semibold
-      flex
-      items-center
-      justify-center
-      gap-2
-      hover:bg-[#C8A24A]/10
-      transition
-    "
+                                            md:w-[250px]
+                                            w-[298px]
+                                            h-[42px]
+                                            md:h-[50px]
+                                            border
+                                            border-[#C8A24A]
+                                            text-[#071B3A]
+                                            rounded-full
+                                            font-semibold
+                                            text-sm
+                                            flex
+                                            items-center
+                                            justify-center
+                                            gap-2
+                                            hover:bg-[#C8A24A]/10
+                                            transition
+                                                                                        "
                                 >
                                     Ver servicios
                                     <FaArrowRight size={16} />
@@ -132,20 +138,40 @@ const Hero = () => {
                             </div>
                         </div>
 
-                        <div className="relative z-10 order-2 w-full flex justify-center lg:justify-end">
+                        <div className="relative z-10 order-2 w-full flex justify-center lg:justify-center">
                             <div className="relative">
+                                <div
+                                    className="
+    absolute
+    top-1/2
+    left-1/2
+    -translate-x-1/2
+    -translate-y-1/2
+    w-[90%]
+    h-[90%]
+    rounded-full
+    bg-gradient-radial
+    from-[#E8D6A8]/30
+    via-[#C8A24A]/15
+    to-transparent
+    blur-[80px]
+  "
+                                ></div>
 
-
-                                <div className="
-                                        absolute
-                                        inset-0
-                                        bg-[#C8A24A]/10
-                                        blur-3xl
-                                        scale-95
-
-                                        rounded-[40px]
-                                        "></div>
-
+                                <div
+                                    className="
+                                    absolute
+                                    -bottom-10
+                                    left-1/2
+                                    -translate-x-1/2
+                                    w-[70%]
+                                    h-[80px]
+                                    bg-[#C8A24A]/20
+                                    blur-3xl
+                                    rounded-full
+                                    shadow-[0_35px_80px_rgba(7,27,58,0.12)]
+                                    "
+                                ></div>
 
                                 <img
                                     src={logo}
@@ -154,14 +180,19 @@ const Hero = () => {
                                     relative
                                     mt-6 lg:mt-0
                                     w-full
+                                    scale-110
                                     max-w-[320px]
                                     sm:max-w-[420px]
                                     md:max-w-[520px]
-                                    lg:max-w-[880px]
+                                    lg:max-w-[520px]
+                                    xl:max-w-[560px]
                                     object-contain
                                     rounded-3xl
-                                    shadow-[0_30px_80px_rgba(7,27,58,0.18)]
-                                "
+                                    border border-white/80
+                                    shadow-[0_35px_80px_rgba(200,162,74,0.15)]
+                                    transition-all
+                                    duration-500
+    "
                                 />
                             </div>
                         </div>
