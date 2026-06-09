@@ -41,31 +41,34 @@ const Hero = () => {
                 className="relative pt-24 md:pt-36 pb-12 md:pb-20 overflow-hidden"
             >
                 <div className="max-w-7xl mx-auto px-5 md:px-6">
-                    <div className="relative  mx-auto px-0 md:px-8 grid lg:grid-cols-[0.9fr_1.1fr] gap-10 md:gap-16 lg:gap-20 items-center">
+                    <div className="relative mx-auto px-0 md:px-8 grid lg:grid-cols-[1.15fr_0.85fr] gap-10 md:gap-14 lg:gap-16 items-center">
 
-                        <div className="text-center lg:text-left">
+                        <div className="text-center lg:text-left max-w-[580px]">
                             <p className="text-sm md:text-base text-[#C8A24A] font-semibold mb-3 md:mb-4">
                                 Consultoría y Gestión A&A Ltda.
                             </p>
 
-                            <h2 className=" 
+                            <h2
+                                className="
                                 font-playfair
-                                font-[600]
                                 text-[#071B3A]
-                                text-[34px]
+                                font-[600]
+                                text-[38px]
                                 sm:text-[44px]
-                                md:text-[52px]
-                                lg:text-[58px]
+                                md:text-[50px]
+                                lg:text-[54px]
                                 xl:text-[50px]
-                                leading-[1.12]
-                                sm:leading-[1.08]
-                                md:leading-[1.04]
-                                tracking-[-0.04em]">
+                                leading-[1.08]
+                                tracking-[-0.03em]
+    
+                                "
+                            >
+
                                 Asesorías contables tributarias y laborales con un enfoque claro,
                                 cercano y profesional.
                             </h2>
 
-                            <p className="mt-5 md:mt-6 text-[15px] md:text-lg text-gray-600 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                            <p className="justify-text mt-5 md:mt-6 text-[15px] md:text-lg text-gray-600 mx-auto lg:mx-0 leading-relaxed max-w-[530px]">
                                 A través de Asesorías Alexandra, Acompañamos y asesoramos a empresas, pymes y emprendedores en sus procesos contables,
                                 tributarios, laborales y administrativos, entregando orientación clara y apoyo profesional para fortalecer la toma de decisiones
                                 y el crecimiento de sus negocios.
@@ -132,6 +135,7 @@ const Hero = () => {
                         <div className="relative z-10 order-2 w-full flex justify-center lg:justify-end">
                             <div className="relative">
 
+
                                 <div className="
                                         absolute
                                         inset-0
@@ -141,6 +145,7 @@ const Hero = () => {
 
                                         rounded-[40px]
                                         "></div>
+
 
                                 <img
                                     src={logo}
@@ -152,7 +157,7 @@ const Hero = () => {
                                     max-w-[320px]
                                     sm:max-w-[420px]
                                     md:max-w-[520px]
-                                    lg:max-w-[680px]
+                                    lg:max-w-[880px]
                                     object-contain
                                     rounded-3xl
                                     shadow-[0_30px_80px_rgba(7,27,58,0.18)]
@@ -175,7 +180,14 @@ const Hero = () => {
                             return (
                                 <div
                                     key={index}
-                                    className="flex items-start gap-3 md:gap-4"
+                                    className={`
+                                            flex items-start gap-4 relative
+                                            xl:px-6
+                                            ${index !== features.length - 1
+                                            ? "xl:after:absolute xl:after:right-0 xl:after:top-1/2 xl:after:-translate-y-1/2 xl:after:h-16 xl:after:w-px xl:after:bg-[#C8A24A]/20"
+                                            : ""
+                                        }
+  `}
                                 >
                                     <div className="w-12 h-12 md:w-14 md:h-14 rounded-full border border-[#C8A24A]/30 flex items-center justify-center shrink-0">
                                         <Icon

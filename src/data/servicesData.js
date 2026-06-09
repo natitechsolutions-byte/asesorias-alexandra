@@ -28,9 +28,8 @@ export const servicesData = [
         items: [
             "Evaluación para formalizar tu idea de negocio.",
             "Cuándo conviene formalizar un negocio.",
-            "Orientación sobre tipos.",
+            "Orientación sobre tipos de empresas y estructuras jurídicas",
             "Persona natural o empresa: ventajas y diferencias.",
-            "Tipos de empresas y estructuras jurídicas.",
             "Régimen tributario más adecuado según cada caso.",
             "Inicio de actividades ante el SII.",
             "Orientación sobre obligaciones tributarias.",

@@ -81,19 +81,29 @@ const History = () => {
                             Nuestra historia
                         </span>
 
-                        <h1 className="font-playfair text-[#071B3A]
-                                font-[600] text-[2rem] sm:text-4xl md:text-5xl font-bold  mt-3 md:mt-4 leading-tight">
+                        <h1
+                        className="
+                            font-playfair
+                            text-[#071B3A]
+                            lg:text-left
+                            font-[600]
+                            text-[1.7rem] sm:text-4xl md:text-5xl
+                            mt-3 md:mt-4
+                            leading-tight
+                            text-center
+                        "
+                        >
                             Una trayectoria construida con responsabilidad, cercanía y
                             vocación profesional.
                         </h1>
 
-                        <p className="mt-5 md:mt-6 text-[15px] md:text-base text-gray-600 leading-relaxed">
+                        <p className="justify-text mt-5 md:mt-6 text-[15px] md:text-base text-gray-600 leading-relaxed">
                             Asesorías Alexandra es el resultado de un proceso de formación
                             académica, experiencia práctica y trabajo constante junto a
                             empresas de distintos rubros y tamaños.
                         </p>
 
-                        <p className="mt-3 md:mt-4 text-[15px] md:text-base text-gray-600 leading-relaxed">
+                        <p className="justify-text mt-3 md:mt-4 text-[15px] md:text-base text-gray-600 leading-relaxed">
                             Su propósito es entregar apoyo contable, tributario, laboral y
                             administrativo de manera clara y cercana, ayudando a cada empresa
                             a mantener una gestión ordenada, cumplir sus obligaciones
@@ -101,7 +111,7 @@ const History = () => {
                             mejores decisiones.
                         </p>
 
-                        <p className="mt-3 md:mt-4 text-[15px] md:text-base text-gray-600 leading-relaxed">
+                        <p className="justify-text mt-3 md:mt-4 text-[15px] md:text-base text-gray-600 leading-relaxed">
                             Más allá del cumplimiento normativo, buscamos que nuestros
                             clientes comprendan su información financiera, organicen sus
                             recursos, gestionen adecuadamente sus costos y cuenten con
@@ -144,7 +154,7 @@ const History = () => {
                             </div>
 
                             <div className="mt-4 md:mt-6">
-                                <h2 className="text-xl sm:text-2xl md:text-2xl font-bold text-[#071B3A]">
+                                <h2 className="font-playfair text-xl sm:text-2xl md:text-2xl font-bold text-[#071B3A]">
                                     Alexandra Pedreros Palma
                                 </h2>
 
@@ -166,8 +176,15 @@ const History = () => {
                             Trayectoria
                         </span>
 
-                        <h2 className=" font-playfair
-                                font-[700] text-3xl md:text-4xl font-bold text-[#071B3A] mt-2 md:mt-3">
+                        <h2
+                            className="
+                                font-playfair text-center
+                                text-2xl sm:text-3xl md:text-5xl
+                                font-[700] text-[#071B3A]
+                                mt-2 md:mt-3
+                                leading-tight
+                            "
+                            >
                             Nuestra trayectoria profesional
                         </h2>
                     </div>
@@ -201,7 +218,6 @@ const History = () => {
                     </div>
 
                     {/* Mobile carrusel */}
-                   {/* Mobile carrusel */}
 <div className="lg:hidden relative max-w-[390px] mx-auto">
   <div className="bg-white/90 rounded-3xl p-6 shadow-lg border border-white/60 min-h-[300px]">
     {(() => {
@@ -298,18 +314,18 @@ const History = () => {
                         Propuesta de valor
                     </p>
 
-                    <h2 className="font-playfair
-                                font-[700] text-2xl md:text-3xl font-bold mt-2 md:mt-3">
+                    <h2 className="font-playfair justify-text
+                                   font-[700] text-2xl md:text-3xl font-bold mt-2 md:mt-3">
                         Más que una oficina contable, un apoyo profesional para la gestión
                         de tu negocio.
                     </h2>
 
-                    <p className="mt-4 md:mt-5 text-sm md:text-base text-white/80 leading-relaxed max-w-6xl">
+                    <p className="justify-text mt-4 md:mt-5 text-sm md:text-base text-white/80 leading-relaxed max-w-6xl">
                         Nuestro trabajo no se limita al cumplimiento de obligaciones legales y tributarias.
                         Buscamos que cada cliente conozca sus responsabilidades y utilice la información disponible para
                         tomar decisiones más informadas.
                     </p>
-                    <p className="mt-4 md:mt-5 text-sm md:text-base text-white/80 leading-relaxed max-w-6xl">
+                    <p className="justify-text mt-4 md:mt-5 text-sm md:text-base text-white/80 leading-relaxed max-w-6xl">
                         Entendiendo la contabilidad como una herramienta de gestión que permite ordenar las finanzas,
                         controlar costos, evaluar resultados y planificar el crecimiento del negocio.
                     </p>

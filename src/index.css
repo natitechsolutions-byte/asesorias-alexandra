@@ -5,5 +5,14 @@ body {
 }
 
 .font-playfair {
-  font-family: 'Playfair Display', serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.justify-text {
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .justify-text {
+    text-align: justify;
+  }
 }

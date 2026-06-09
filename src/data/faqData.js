@@ -1,7 +1,7 @@
 export const faqData = [
 
   {
-    question: "¿Qué necesitamos para ayudarte si deseas formalizar una empresa?",
+    question: "¿Qué antecedentes necesitas si deseas formalizar una empresa?",
     answer: `
 Para iniciar el proceso de constitución necesitaremos:
 

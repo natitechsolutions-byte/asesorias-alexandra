@@ -28,14 +28,14 @@ const Faq = () => {
                          md:text-5xl 
                          font-bold
                          text-[#071B3A]
+                         text-center
                          mt-3 md:mt-4
                          leading-tight">
-            ¿Qué necesitamos para ayudarte?
+            Información importante antes de comenzar
           </h2>
 
-          <p className="mt-3 md:mt-4 text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            Encuentra respuestas a las consultas más frecuentes sobre nuestros
-            servicios, planes y procesos de trabajo.
+          <p className="text-center mt-3 md:mt-4 text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
+           Encuentra respuestas claras sobre formalización, documentos necesarios, obligaciones tributarias y procesos iniciales de trabajo.
           </p>
         </div>
 

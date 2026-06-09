@@ -30,13 +30,13 @@ const About = () => {
               Acompañamiento profesional para ordenar y fortalecer tu negocio.
             </h2>
 
-            <p className="mt-5 md:mt-6 text-[15px] md:text-base text-gray-600 leading-relaxed max-w-2xl mx-auto md:mx-0">
+            <p className="justify-text mt-5 md:mt-6 text-[15px] md:text-base text-gray-600 leading-relaxed max-w-2xl mx-auto md:mx-0">
               Consultoría y Gestión A&A Ltda. nace como una iniciativa profesional de asesoría, consultoría y gestión empresarial,
               orientada a acompañar a emprendedores, trabajadores independientes y empresas en la organización de sus procesos contables,
               tributarios, laborales y administrativos.
             </p>
 
-            <p className="mt-3 md:mt-4 text-[15px] md:text-base text-gray-600 leading-relaxed max-w-2xl mx-auto md:mx-0">
+            <p className="justify-text mt-3 md:mt-4 text-[15px] md:text-base text-gray-600 leading-relaxed max-w-2xl mx-auto md:mx-0">
               A través de Asesorías Alexandra, entregamos un servicio cercano, claro y responsable, enfocado no solo en cumplir trámites,
               sino también en ayudar a cada cliente a comprender su situación, ordenar su información y tomar mejores decisiones para
               el desarrollo de su negocio.
