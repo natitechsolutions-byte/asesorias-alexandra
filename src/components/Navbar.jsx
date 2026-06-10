@@ -36,7 +36,7 @@ const Navbar = () => {
 
                 <button
                     onClick={() => goToSection("home", "/")}
-                    className="flex items-center gap-4"
+                    className="flex items-center"
                 >
                     <img
                         src={logoAA}

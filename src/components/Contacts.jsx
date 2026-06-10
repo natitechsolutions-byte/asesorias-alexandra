@@ -50,7 +50,7 @@ const Contact = () => {
               Agenda tu asesoría y conversemos sobre tu negocio
             </h2>
 
-            <p className="mt-4 md:mt-5 text-sm md:text-base text-white/75 leading-relaxed max-w-xl">
+            <p className="mt-4 md:mt-5 text-[13px] md:text-base text-white/75 leading-relaxed max-w-xl">
               Atención presencial en Santa Juana o Concepción previa coordinación.
               También contamos con atención remota para todo Chile.
             </p>

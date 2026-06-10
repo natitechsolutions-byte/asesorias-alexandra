@@ -34,7 +34,7 @@ const Faq = () => {
             Información importante antes de comenzar
           </h2>
 
-          <p className="text-center mt-3 md:mt-4 text-sm md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-center mt-3 md:mt-4 text-[13px] md:text-base text-gray-700 max-w-2xl mx-auto leading-relaxed">
            Encuentra respuestas claras sobre formalización, documentos necesarios, obligaciones tributarias y procesos iniciales de trabajo.
           </p>
         </div>
@@ -84,7 +84,7 @@ const Faq = () => {
 
               {activeIndex === index && (
                 <div className="px-4 md:px-6 pb-5 md:pb-6">
-                  <p className="max-w-4xl text-gray-600 text-sm md:text-base whitespace-pre-line leading-relaxed">
+                  <p className="max-w-4xl text-gray-700 text-sm md:text-base whitespace-pre-line leading-relaxed">
                     {faq.answer}
                   </p>
                 </div>

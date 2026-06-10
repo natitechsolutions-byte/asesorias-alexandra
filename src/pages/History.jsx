@@ -97,13 +97,13 @@ const History = () => {
                             vocación profesional.
                         </h1>
 
-                        <p className="justify-text mt-5 md:mt-6 text-[15px] md:text-base text-gray-600 leading-relaxed">
+                        <p className="justify-text mt-5 md:mt-6 text-[15px] md:text-base text-gray-700 leading-relaxed">
                             Asesorías Alexandra es el resultado de un proceso de formación
                             académica, experiencia práctica y trabajo constante junto a
                             empresas de distintos rubros y tamaños.
                         </p>
 
-                        <p className="justify-text mt-3 md:mt-4 text-[15px] md:text-base text-gray-600 leading-relaxed">
+                        <p className="justify-text mt-3 md:mt-4 text-[15px] md:text-base text-gray-700 leading-relaxed">
                             Su propósito es entregar apoyo contable, tributario, laboral y
                             administrativo de manera clara y cercana, ayudando a cada empresa
                             a mantener una gestión ordenada, cumplir sus obligaciones
@@ -111,7 +111,7 @@ const History = () => {
                             mejores decisiones.
                         </p>
 
-                        <p className="justify-text mt-3 md:mt-4 text-[15px] md:text-base text-gray-600 leading-relaxed">
+                        <p className="justify-text mt-3 md:mt-4 text-[15px] md:text-base text-gray-700 leading-relaxed">
                             Más allá del cumplimiento normativo, buscamos que nuestros
                             clientes comprendan su información financiera, organicen sus
                             recursos, gestionen adecuadamente sus costos y cuenten con
@@ -162,7 +162,7 @@ const History = () => {
                                     Contadora Pública y Auditora
                                 </p>
 
-                                <p className="mt-3 text-gray-600 text-xs md:text-sm leading-relaxed">
+                                <p className="mt-3 text-gray-700 text-xs md:text-sm leading-relaxed">
                                     Socia de Consultoría y Gestión A&A Ltda. e impulsora de Asesorías Alexandra.
                                 </p>
                             </div>
@@ -209,7 +209,7 @@ const History = () => {
                                         </h3>
                                     </div>
 
-                                    <p className="mt-3 text-sm text-gray-600 leading-relaxed">
+                                    <p className="mt-3 text-sm text-gray-700 leading-relaxed">
                                         {item.text}
                                     </p>
                                 </div>
@@ -236,7 +236,7 @@ const History = () => {
             </h3>
           </div>
 
-          <p className="mt-3 text-sm text-gray-600 leading-relaxed text-center">
+          <p className="mt-3 text-sm text-gray-700 leading-relaxed text-center">
             {item.text}
           </p>
         </>

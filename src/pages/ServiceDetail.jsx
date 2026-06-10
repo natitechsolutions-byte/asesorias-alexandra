@@ -7,7 +7,7 @@ import { FaWhatsapp, FaArrowLeft } from "react-icons/fa";
 const ServiceDetail = () => {
   const { slug } = useParams();
   const navigate = useNavigate();
-    useEffect(() => {
+  useEffect(() => {
     window.scrollTo({
       top: 0,
       left: 0,
@@ -69,17 +69,17 @@ const ServiceDetail = () => {
               <Icon size={22} className="md:text-[30px]" />
             </div>
 
-            <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold text-[#071B3A] leading-tight">
+            <h1 className="text-[22px] sm:text-3xl md:text-5xl font-bold text-[#071B3A] leading-[1.15]">
               {service.title}
             </h1>
           </div>
 
-          <p className="text-gray-600 text-base md:text-lg leading-relaxed max-w-6xl mx-0 md:mx-20">
+          <p className="text-gray-700 text-[13px] md:text-lg leading-relaxed max-w-6xl mx-0 md:mx-20">
             “{service.description}”
           </p>
 
           <div className="mt-8 md:mt-10">
-            <h2 className="text-xl md:text-2xl font-bold text-[#071B3A]">
+            <h2 className="text-[18px] md:text-2xl font-bold text-[#071B3A]">
               ¿Qué incluye?
             </h2>
 
@@ -87,7 +87,17 @@ const ServiceDetail = () => {
               {service.items.map((item) => (
                 <div
                   key={item}
-                  className="bg-[#071B3A]/5 rounded-xl md:rounded-2xl p-3 md:p-4 text-sm md:text-base text-gray-700 leading-relaxed"
+                  className="
+                  bg-[#071B3A]/5
+                  rounded-xl
+                  md:rounded-2xl
+                  p-3
+                  md:p-4
+                  text-[13px]
+                  md:text-base
+                  text-gray-700
+                  leading-[1.65]
+                "
                 >
                   {item}
                 </div>
@@ -100,15 +110,15 @@ const ServiceDetail = () => {
               href="https://wa.me/56931087761"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 bg-[#071B3A] text-white px-6 md:px-8 py-3 md:py-4 rounded-full text-sm md:text-base font-semibold hover:bg-[#0b2c5c] transition"
+              className="inline-flex items-center justify-center gap-2 bg-[#071B3A] text-white px-6 md:px-8 py-3 md:py-4 rounded-full  font-semibold hover:bg-[#0b2c5c] transition"
             >
-              <FaWhatsapp size={18} className="md:text-[20px]" />
+              <FaWhatsapp size={16} className="text-[13px] md:text-base" />
               Consultar por este servicio
             </a>
 
             <button
               onClick={goBackToServices}
-              className="inline-flex items-center justify-center border border-[#C8A24A] text-[#071B3A] px-6 md:px-8 py-3 md:py-4 rounded-full text-sm md:text-base font-semibold hover:bg-[#C8A24A]/10 transition"
+              className="inline-flex items-center justify-center border border-[#C8A24A] text-[#071B3A] px-6 md:px-8 py-3 md:py-4 rounded-full text-sm text-[13px] md:text-base font-semibold hover:bg-[#C8A24A]/10 transition"
             >
               Ver otros servicios
             </button>

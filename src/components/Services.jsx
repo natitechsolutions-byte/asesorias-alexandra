@@ -52,7 +52,7 @@ const Services = () => {
             Planes y Servicios
           </h2>
 
-          <p className="text-center mt-3 md:mt-4 text-sm  md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-center mt-3 md:mt-4 text-sm  md:text-base text-gray-700 max-w-2xl mx-auto leading-relaxed">
             Elige el servicio que más se adapta a tu etapa actual y conoce el
             detalle de lo que incluye.
           </p>
@@ -131,7 +131,7 @@ const Services = () => {
                     </h3>
                   </div>
 
-                  <p className="text-gray-600 leading-relaxed text-sm md:text-[17px]">
+                  <p className="text-gray-700 leading-relaxed text-sm md:text-[17px]">
                     {service.short}
                   </p>
 

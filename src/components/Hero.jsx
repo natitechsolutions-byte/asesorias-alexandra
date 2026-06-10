@@ -38,7 +38,7 @@ const Hero = () => {
         <>
             <section
                 id="home"
-                className="relative pt-24 md:pt-36 pb-12 md:pb-20 overflow-hidden"
+                className="relative pt-24 md:pt-36 pb-12 overflow-hidden"
             >
                 <div className="max-w-7xl mx-auto px-5 md:px-6">
                     <div className="relative mx-auto px-0 md:px-8 grid lg:grid-cols-[1fr_1fr] gap-10 md:gap-14 lg:gap-12 items-center">
@@ -58,7 +58,7 @@ const Hero = () => {
                                 md:text-[50px]
                                 lg:text-[54px]
                                 xl:text-[50px]
-                                leading-[1.08]
+                                leading-none
                                 tracking-[-0.03em]
     
                                 "
@@ -68,28 +68,26 @@ const Hero = () => {
                                 cercano y profesional.
                             </h2>
 
-                           <p
-
-  className="
-    mt-5 md:mt-6
-    text-left
-    text-[15px]
-    md:text-lg
-    text-gray-600
-    leading-relaxed
-    max-w-[320px]
-    sm:max-w-[360px]
-    md:max-w-[530px]
-    mx-auto
-    lg:mx-0
-  "
->
-                        
+                            <p
+                                className="
+                                mt-5 md:mt-6                          
+                                text-left
+                                lg:text-justify
+                                text-sm
+                                md:text-base
+                                text-gray-700
+                                leading-[1.6]
+                                md:leading-relaxed
+                                max-w-[320px]
+                                sm:max-w-[360px]
+                                md:max-w-[530px]
+                                mx-auto
+                                lg:mx-0
+                            "
+                            >
                                 A través de Asesorías Alexandra, acompañamos y asesoramos a empresas, pymes y emprendedores en sus procesos contables,
                                 tributarios, laborales y administrativos, entregando orientación clara y apoyo profesional para fortalecer la toma de decisiones
                                 y el crecimiento de sus negocios.
-
-
                             </p>
 
                             <div className="mt-7 md:mt-8 flex flex-col sm:flex-row items-center lg:items-start gap-3 md:gap-4">
@@ -104,7 +102,7 @@ const Hero = () => {
                                     md:w-[250px]
                                     h-[46px] md:h-[50px]
                                     rounded-full
-                                    font-semibold text-sm
+                                    font-semibold text-sm md:text-base
                                     hover:bg-[#d8b85c]
                                     transition shadow-lg hover:-translate-y-1
                                     "
@@ -130,7 +128,7 @@ const Hero = () => {
                                     border border-[#C8A24A]
                                     text-[#071B3A]
                                     rounded-full
-                                    font-semibold text-sm
+                                    font-semibold text-sm md:text-base
                                     flex items-center justify-center gap-2
                                     hover:bg-[#C8A24A]/10
                                     transition shadow-lg hover:-translate-y-1
@@ -207,8 +205,8 @@ const Hero = () => {
             <section>
                 <div className="max-w-6xl mx-auto border-t border-[#C8A24A]/15"></div>
 
-                <div className="max-w-6xl mx-auto px-6 py-6 md:py-8">
-                    <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-6 md:gap-8">
+                <div className="max-w-6xl mx-auto px-2 py-2 md:py-4">
+                    <div className="grid grid-cols-2 xl:grid-cols-4 gap-6 md:gap-8">
                         {features.map((feature, index) => {
                             const Icon = feature.icon;
 
@@ -216,27 +214,60 @@ const Hero = () => {
                                 <div
                                     key={index}
                                     className={`
-                                            flex flex-col items-center text-center
-                                            px-4 py-4
                                             relative
+                                            flex flex-col items-center text-center
+
+                                            bg-white/70
+                                            border border-[#C8A24A]/10
+                                            rounded-[1.5rem]
+                                            px-2 py-2
+                                            min-h-[200px]
+                                            shadow-[0_14px_35px_rgba(7,27,58,0.07)]
+
+                                            xl:bg-transparent
+                                            xl:border-0
+                                            xl:rounded-none
+                                            xl:shadow-none
+                                            xl:min-h-0
+                                            xl:px-2
+                                            xl:py-0
+
                                             ${index !== features.length - 1
                                             ? "xl:after:absolute xl:after:right-0 xl:after:top-1/2 xl:after:-translate-y-1/2 xl:after:h-20 xl:after:w-px xl:after:bg-[#C8A24A]/20"
                                             : ""
                                         }
-  `}
+      `}
                                 >
-                                    <div className="w-14 h-14 md:w-16 md:h-16 rounded-full border border-[#C8A24A]/30 bg-white/70 flex items-center justify-center mb-4">
+                                    <div
+                                        className="
+          w-10 h-10
+          md:w-16 md:h-16
+          rounded-2xl
+          xl:rounded-full
+          bg-white
+          border border-[#C8A24A]/15
+          flex items-center justify-center
+          mb-3
+          shadow-[0_10px_25px_rgba(7,27,58,0.08)]
+
+          xl:shadow-none
+          xl:bg-transparent
+          xl:border-[#C8A24A]/30
+        "
+                                    >
                                         <Icon
-                                            size={22}
-                                            className="text-[#C8A24A]"
+                                            size={18}
+                                            className="text-[#C8A24A] md:w-[22px] md:h-[22px]"
                                         />
                                     </div>
 
-                                    <h3 className="font-semibold text-[#071B3A] text-sm md:text-base leading-tight">
+                                    <h3 className="text-base
+                                md:text-lg font-semibold text-[#071B3A] text-[15px] leading-tight">
                                         {feature.title}
                                     </h3>
 
-                                    <p className="text-xs md:text-sm text-gray-600 mt-3 leading-relaxed max-w-[190px]">
+                                    <p className=" text-sm
+                                md:text-base text-gray-700 leading-relaxed">
                                         {feature.description}
                                     </p>
                                 </div>

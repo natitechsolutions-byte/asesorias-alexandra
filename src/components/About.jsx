@@ -11,32 +11,36 @@ const About = () => {
       <div className="relative max-w-7xl mx-auto px-5 md:px-6 xl:px-16">
         <div className="grid lg:grid-cols-[0.95fr_1.05fr] gap-10 md:gap-16 xl:gap-24 items-center">
 
-          <div className="max-w-[780px] text-center md:text-left">
+          <div className="max-w-[780px] mx-auto lg:mx-0 text-center md:text-left">
             <span className="text-sm md:text-base text-[#C8A24A] font-semibold block">
               Quiénes somos
             </span>
 
             <h2 className="
-                                font-playfair
-                                text-[#071B3A]
-                                font-[600]
-                                text-[31px]
-                                sm:text-[38px]
-                                md:text-[50px]
-                                lg:text-[54px]
-                                xl:text-[50px]
-                                leading-[1.08]
-                                tracking-[-0.03em]">
+  font-playfair
+  text-[#071B3A]
+  font-[600]
+  text-[32px]
+  sm:text-[38px]
+  md:text-[50px]
+  lg:text-[54px]
+  xl:text-[50px]
+  leading-[1.08]
+  tracking-[-0.03em]
+  max-w-[620px]
+  mx-auto
+  md:mx-0
+  
+">
               Acompañamiento profesional para ordenar y fortalecer tu negocio.
             </h2>
 
-            <p className="justify-text mt-5 md:mt-6 text-[15px] md:text-base text-gray-600 leading-relaxed max-w-2xl mx-auto md:mx-0">
+            <p className="justify-text mt-5 md:mt-6 text-sm md:text-base text-gray-700 leading-[1.7] max-w-[620px] mx-auto md:mx-0">
               Consultoría y Gestión A&A Ltda. nace como una iniciativa profesional de asesoría, consultoría y gestión empresarial,
               orientada a acompañar a emprendedores, trabajadores independientes y empresas en la organización de sus procesos contables,
               tributarios, laborales y administrativos.
             </p>
-
-            <p className="justify-text mt-3 md:mt-4 text-[15px] md:text-base text-gray-600 leading-relaxed max-w-2xl mx-auto md:mx-0">
+            <p className="justify-text mt-3 md:mt-4 text-sm md:text-base text-gray-700 leading-[1.7] max-w-[620px] mx-auto md:mx-0">
               A través de Asesorías Alexandra, entregamos un servicio cercano, claro y responsable, enfocado no solo en cumplir trámites,
               sino también en ayudar a cada cliente a comprender su situación, ordenar su información y tomar mejores decisiones para
               el desarrollo de su negocio.
@@ -82,19 +86,6 @@ const About = () => {
                   Contadora Pública y Auditora
                 </p>
 
-                {/* <p className="mt-3 md:mt-4 text-gray-600 text-xs md:text-sm leading-relaxed">
-              Fundadora de Asesorías Alexandra y socia de Consultoría y
-              Gestión A&A Ltda.
-            </p> */}
-
-                {/*  <div className="mt-4 md:mt-5 rounded-xl md:rounded-2xl bg-[#071B3A]/5 border-l-4 border-[#C8A24A] p-3 md:p-4">
-              <FaQuoteLeft size={16} className="text-[#C8A24A] mb-2 md:w-5 md:h-5" />
-
-              <p className="text-xs md:text-sm text-[#071B3A] font-medium leading-relaxed">
-                Orientamos cada proceso con claridad, cercanía y compromiso
-                profesional.
-              </p>
-            </div> */}
               </div>
             </div>
           </div>
