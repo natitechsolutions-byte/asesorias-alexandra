@@ -68,20 +68,19 @@ const Hero = () => {
                                 cercano y profesional.
                             </h2>
 
-                            <p
-                                className="
-                                mt-5 md:mt-6                          
+                           <p
+                            className="
+                                mt-5 md:mt-6
                                 text-left
                                 lg:text-justify
                                 text-sm
                                 md:text-base
                                 text-gray-700
-                                leading-[1.6]
+                                leading-[1.7]
                                 md:leading-relaxed
-                                max-w-[320px]
-                                sm:max-w-[360px]
-                                md:max-w-[530px]
+                                max-w-full
                                 mx-auto
+                                md:max-w-[530px]
                                 lg:mx-0
                             "
                             >
