@@ -40,13 +40,13 @@ const Contact = () => {
                 font-playfair
                 font-[600]
                 text-[35px]
-                sm:text-[44px]
-                md:text-[58px]
-                lg:text-[58px]
-                xl:text-[48px]
-                leading-[1]
+                sm:text-[38px]
+                md:text-[50px]
+                lg:text-[54px]
+                xl:text-[50px]
                 sm:leading-[0.98]
-                tracking-[-0.04em]">
+                leading-[1.08]
+                tracking-[-0.03em]">
               Agenda tu asesoría y conversemos sobre tu negocio
             </h2>
 

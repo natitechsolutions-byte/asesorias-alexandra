@@ -43,7 +43,7 @@ const Hero = () => {
                 <div className="max-w-7xl mx-auto px-5 md:px-6">
                     <div className="relative mx-auto px-0 md:px-8 grid lg:grid-cols-[1fr_1fr] gap-10 md:gap-14 lg:gap-12 items-center">
 
-                        <div className="text-center lg:text-left max-w-[580px]">
+                        <div className="text-center lg:text-left max-w-[340px] sm:max-w-[420px] md:max-w-[580px] mx-auto lg:mx-0">
                             <p className="text-sm md:text-base text-[#C8A24A] font-semibold mb-3 md:mb-4">
                                 Consultoría y Gestión A&A Ltda.
                             </p>
@@ -68,37 +68,45 @@ const Hero = () => {
                                 cercano y profesional.
                             </h2>
 
-                            <p className="justify-text mt-5 md:mt-6 text-[15px] md:text-lg text-gray-600 mx-auto lg:mx-0 leading-relaxed max-w-[530px]">
-                                A través de Asesorías Alexandra, Acompañamos y asesoramos a empresas, pymes y emprendedores en sus procesos contables,
+                           <p
+
+  className="
+    mt-5 md:mt-6
+    text-left
+    text-[15px]
+    md:text-lg
+    text-gray-600
+    leading-relaxed
+    max-w-[320px]
+    sm:max-w-[360px]
+    md:max-w-[530px]
+    mx-auto
+    lg:mx-0
+  "
+>
+                        
+                                A través de Asesorías Alexandra, acompañamos y asesoramos a empresas, pymes y emprendedores en sus procesos contables,
                                 tributarios, laborales y administrativos, entregando orientación clara y apoyo profesional para fortalecer la toma de decisiones
                                 y el crecimiento de sus negocios.
 
 
                             </p>
 
-                            <div className="mt-7 md:mt-8 flex flex-col sm:flex-row gap-3 md:gap-4">
+                            <div className="mt-7 md:mt-8 flex flex-col sm:flex-row items-center lg:items-start gap-3 md:gap-4">
                                 <a
                                     href="https://wa.me/56931087761"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="
-                                    inline-flex
-                                    items-center
-                                    justify-center
-                                    gap-2
-                                    bg-[#071B3A]
-                                    text-white
-                                    w-[298px]
+                                    inline-flex items-center justify-center gap-2
+                                    bg-[#071B3A] text-white
+                                    w-full max-w-[340px]
                                     md:w-[250px]
-                                    h-[42px]
-                                    md:h-[50px]
+                                    h-[46px] md:h-[50px]
                                     rounded-full
-                                    font-semibold
-                                    text-sm
+                                    font-semibold text-sm
                                     hover:bg-[#d8b85c]
-                                    transition
-                                    shadow-lg
-                                    hover:-translate-y-1
+                                    transition shadow-lg hover:-translate-y-1
                                     "
                                 >
                                     <FaWhatsapp size={20} />
@@ -116,25 +124,17 @@ const Hero = () => {
                                         });
                                     }}
                                     className="
-                                            md:w-[250px]
-                                            w-[298px]
-                                            h-[42px]
-                                            md:h-[50px]
-                                            border
-                                            border-[#C8A24A]
-                                            text-[#071B3A]
-                                            rounded-full
-                                            font-semibold
-                                            text-sm
-                                            flex
-                                            items-center
-                                            justify-center
-                                            gap-2
-                                            hover:bg-[#C8A24A]/10
-                                            transition
-                                            shadow-lg
-                                    hover:-translate-y-1
-                                                                                        "
+                                    w-full max-w-[340px]
+                                    md:w-[250px]
+                                    h-[46px] md:h-[50px]
+                                    border border-[#C8A24A]
+                                    text-[#071B3A]
+                                    rounded-full
+                                    font-semibold text-sm
+                                    flex items-center justify-center gap-2
+                                    hover:bg-[#C8A24A]/10
+                                    transition shadow-lg hover:-translate-y-1
+                                    "
                                 >
                                     Ver servicios
                                     <FaArrowRight size={16} />

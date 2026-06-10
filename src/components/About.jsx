@@ -16,17 +16,17 @@ const About = () => {
               Quiénes somos
             </span>
 
-            <h2 className="font-playfair
-                           font-[600]
-                           text-[#071B3A]
-                            text-[34px]
-                            sm:text-[44px]
-                            md:text-[58px]
-                            lg:text-[58px]
-                            xl:text-[52px]
-                            leading-[1]
-                            sm:leading-[0.98]
-                            tracking-[-0.04em]">
+            <h2 className="
+                                font-playfair
+                                text-[#071B3A]
+                                font-[600]
+                                text-[31px]
+                                sm:text-[38px]
+                                md:text-[50px]
+                                lg:text-[54px]
+                                xl:text-[50px]
+                                leading-[1.08]
+                                tracking-[-0.03em]">
               Acompañamiento profesional para ordenar y fortalecer tu negocio.
             </h2>
 

@@ -1,11 +1,19 @@
+import { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { servicesData } from "../data/servicesData";
 import { FaWhatsapp, FaArrowLeft } from "react-icons/fa";
 
+
 const ServiceDetail = () => {
   const { slug } = useParams();
   const navigate = useNavigate();
-
+    useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "instant",
+    });
+  }, [slug]);
   const service = servicesData.find((item) => item.slug === slug);
 
   const goBackToServices = () => {

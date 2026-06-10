@@ -44,11 +44,15 @@ const Services = () => {
           </span>
 
           <h2 className="font-playfair
-                                font-[600] text-3xl md:text-5xl font-bold text-[#071B3A] mt-2 md:mt-3">
+                         font-[600]
+                         text-3xl 
+                         md:text-5xl
+                        text-[#071B3A] 
+                        mt-2 md:mt-3">
             Planes y Servicios
           </h2>
 
-          <p className="mt-3 md:mt-4 text-[15px] md:text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-center mt-3 md:mt-4 text-sm  md:text-base text-gray-600 max-w-2xl mx-auto leading-relaxed">
             Elige el servicio que más se adapta a tu etapa actual y conoce el
             detalle de lo que incluye.
           </p>
