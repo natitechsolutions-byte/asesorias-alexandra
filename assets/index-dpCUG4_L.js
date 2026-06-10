@@ -108,12 +108,41 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                                     shadow-[0_35px_80px_rgba(200,162,74,0.15)]\r
                                     transition-all\r
                                     duration-500\r
-    `})]})})]})})}),(0,j.jsxs)(`section`,{children:[(0,j.jsx)(`div`,{className:`max-w-6xl mx-auto border-t border-[#C8A24A]/15`}),(0,j.jsx)(`div`,{className:`max-w-6xl mx-auto px-6 py-6 md:py-8`,children:(0,j.jsx)(`div`,{className:`grid md:grid-cols-2 xl:grid-cols-4 gap-6 md:gap-8`,children:Xr.map((e,t)=>{let n=e.icon;return(0,j.jsxs)(`div`,{className:`
-                                            flex flex-col items-center text-center
-                                            px-4 py-4
+    `})]})})]})})}),(0,j.jsxs)(`section`,{children:[(0,j.jsx)(`div`,{className:`max-w-6xl mx-auto border-t border-[#C8A24A]/15`}),(0,j.jsx)(`div`,{className:`max-w-6xl mx-auto px-2 py-2 md:py-4`,children:(0,j.jsx)(`div`,{className:`grid grid-cols-2 xl:grid-cols-4 gap-6 md:gap-8`,children:Xr.map((e,t)=>{let n=e.icon;return(0,j.jsxs)(`div`,{className:`
                                             relative
+                                            flex flex-col items-center text-center
+
+                                            bg-white/70
+                                            border border-[#C8A24A]/10
+                                            rounded-[1.5rem]
+                                            px-4 py-7
+                                            min-h-[250px]
+                                            shadow-[0_14px_35px_rgba(7,27,58,0.07)]
+
+                                            xl:bg-transparent
+                                            xl:border-0
+                                            xl:rounded-none
+                                            xl:shadow-none
+                                            xl:min-h-0
+                                            xl:px-6
+                                            xl:py-0
+
                                             ${t===Xr.length-1?``:`xl:after:absolute xl:after:right-0 xl:after:top-1/2 xl:after:-translate-y-1/2 xl:after:h-20 xl:after:w-px xl:after:bg-[#C8A24A]/20`}
-  `,children:[(0,j.jsx)(`div`,{className:`w-14 h-14 md:w-16 md:h-16 rounded-full border border-[#C8A24A]/30 bg-white/70 flex items-center justify-center mb-4`,children:(0,j.jsx)(n,{size:22,className:`text-[#C8A24A]`})}),(0,j.jsx)(`h3`,{className:`font-semibold text-[#071B3A] text-sm md:text-base leading-tight`,children:e.title}),(0,j.jsx)(`p`,{className:`text-xs md:text-sm text-gray-600 mt-3 leading-relaxed max-w-[190px]`,children:e.description})]},t)})})}),(0,j.jsx)(`div`,{className:`max-w-6xl mx-auto border-t border-[#C8A24A]/15`})]})]}),Qr=`/asesorias-alexandra/assets/ale-oficina-CxcUoiUW.JPEG`,$r=()=>(0,j.jsx)(`section`,{id:`quiensomos`,className:`relative py-12 md:py-20 overflow-hidden`,children:(0,j.jsx)(`div`,{className:`relative max-w-7xl mx-auto px-5 md:px-6 xl:px-16`,children:(0,j.jsxs)(`div`,{className:`grid lg:grid-cols-[0.95fr_1.05fr] gap-10 md:gap-16 xl:gap-24 items-center`,children:[(0,j.jsxs)(`div`,{className:`max-w-[780px] text-center md:text-left`,children:[(0,j.jsx)(`span`,{className:`text-sm md:text-base text-[#C8A24A] font-semibold block`,children:`Quiénes somos`}),(0,j.jsx)(`h2`,{className:`\r
+      `,children:[(0,j.jsx)(`div`,{className:`\r
+          w-10 h-10\r
+          md:w-16 md:h-16\r
+          rounded-2xl\r
+          xl:rounded-full\r
+          bg-white\r
+          border border-[#C8A24A]/15\r
+          flex items-center justify-center\r
+          mb-3\r
+          shadow-[0_10px_25px_rgba(7,27,58,0.08)]\r
+\r
+          xl:shadow-none\r
+          xl:bg-transparent\r
+          xl:border-[#C8A24A]/30\r
+        `,children:(0,j.jsx)(n,{size:18,className:`text-[#C8A24A] md:w-[22px] md:h-[22px]`})}),(0,j.jsx)(`h3`,{className:`font-semibold text-[#071B3A] text-[15px] leading-tight`,children:e.title}),(0,j.jsx)(`p`,{className:`mt-2 text-[13px] text-gray-600 leading-relaxed`,children:e.description})]},t)})})}),(0,j.jsx)(`div`,{className:`max-w-6xl mx-auto border-t border-[#C8A24A]/15`})]})]}),Qr=`/asesorias-alexandra/assets/ale-oficina-CxcUoiUW.JPEG`,$r=()=>(0,j.jsx)(`section`,{id:`quiensomos`,className:`relative py-12 md:py-20 overflow-hidden`,children:(0,j.jsx)(`div`,{className:`relative max-w-7xl mx-auto px-5 md:px-6 xl:px-16`,children:(0,j.jsxs)(`div`,{className:`grid lg:grid-cols-[0.95fr_1.05fr] gap-10 md:gap-16 xl:gap-24 items-center`,children:[(0,j.jsxs)(`div`,{className:`max-w-[780px] text-center md:text-left`,children:[(0,j.jsx)(`span`,{className:`text-sm md:text-base text-[#C8A24A] font-semibold block`,children:`Quiénes somos`}),(0,j.jsx)(`h2`,{className:`\r
                                 font-playfair\r
                                 text-[#071B3A]\r
                                 font-[600]\r
