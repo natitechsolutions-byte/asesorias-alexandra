@@ -115,8 +115,8 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                                             bg-white/70
                                             border border-[#C8A24A]/10
                                             rounded-[1.5rem]
-                                            px-4 py-7
-                                            min-h-[250px]
+                                            px-2 py-2
+                                            min-h-[200px]
                                             shadow-[0_14px_35px_rgba(7,27,58,0.07)]
 
                                             xl:bg-transparent
@@ -124,7 +124,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                                             xl:rounded-none
                                             xl:shadow-none
                                             xl:min-h-0
-                                            xl:px-6
+                                            xl:px-2
                                             xl:py-0
 
                                             ${t===Xr.length-1?``:`xl:after:absolute xl:after:right-0 xl:after:top-1/2 xl:after:-translate-y-1/2 xl:after:h-20 xl:after:w-px xl:after:bg-[#C8A24A]/20`}
