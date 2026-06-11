@@ -343,8 +343,8 @@ La autorización dependerá de la revisión del SII y de los plazos propios del 
                 gap-2\r
                 bg-[#071B3A]\r
                 text-white\r
-                w-[298px]\r
-                md:w-[250px]\r
+                w-full max-w-[340px]\r
+                                    md:w-[250px]\r
                 h-[42px]\r
                 md:h-[50px]\r
                 rounded-full\r
@@ -355,7 +355,7 @@ La autorización dependerá de la revisión del SII y de los plazos propios del 
                 hover:bg-[#0b2c5c]\r
                 transition\r
     `,children:[(0,A.jsx)(Or,{size:18}),`Escribir por WhatsApp`]}),(0,A.jsxs)(`a`,{href:`https://forms.gle/duVP5mGsAhy8xy9x8`,target:`_blank`,rel:`noopener noreferrer`,className:`\r
-                w-[298px]\r
+                w-full max-w-[340px]\r
                 md:w-[250px]\r
                 h-[42px]\r
                 md:h-[50px]\r
