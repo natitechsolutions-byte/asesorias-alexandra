@@ -50,7 +50,11 @@ const Contact = () => {
               Agenda tu asesoría y conversemos sobre tu negocio
             </h2>
 
-            <p className="mt-4 md:mt-5 text-[13px] md:text-base text-white/75 leading-relaxed max-w-xl">
+            <p className="mt-4
+             md:mt-5 text-sm
+             md:text-base 
+             text-white/75
+             leading-relaxed max-w-xl">
               Atención presencial en Santa Juana o Concepción previa coordinación.
               También contamos con atención remota para todo Chile.
             </p>
@@ -73,7 +77,7 @@ const Contact = () => {
                 md:h-[50px]
                 rounded-full
                 font-semibold
-                text-sm
+                text-sm md:text-base 
                 border
                 border-white/20
                 hover:bg-[#0b2c5c]
@@ -98,7 +102,7 @@ const Contact = () => {
                 text-white
                 rounded-full
                 font-semibold
-                text-sm
+                text-sm md:text-base 
                 flex
                 items-center
                 justify-center
@@ -152,7 +156,8 @@ const Contact = () => {
                       {item.title}
                     </h3>
 
-                    <p className="mt-2 text-white/70 text-xs md:text-sm leading-relaxed">
+                    <p className="mt-2 text-white/70 text-sm
+                                md:text-base leading-relaxed">
                       {item.text}
                     </p>
                   </div>

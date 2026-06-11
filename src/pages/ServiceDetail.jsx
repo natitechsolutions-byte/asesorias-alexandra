@@ -74,7 +74,8 @@ const ServiceDetail = () => {
             </h1>
           </div>
 
-          <p className="text-gray-700 text-[13px] md:text-lg leading-relaxed max-w-6xl mx-0 md:mx-20">
+          <p className="text-gray-700 text-sm
+                                md:text-base leading-relaxed max-w-6xl mx-0 md:mx-20">
             “{service.description}”
           </p>
 
@@ -93,7 +94,7 @@ const ServiceDetail = () => {
                   md:rounded-2xl
                   p-3
                   md:p-4
-                  text-[13px]
+                  text-sm
                   md:text-base
                   text-gray-700
                   leading-[1.65]
@@ -110,15 +111,15 @@ const ServiceDetail = () => {
               href="https://wa.me/56931087761"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 bg-[#071B3A] text-white px-6 md:px-8 py-3 md:py-4 rounded-full  font-semibold hover:bg-[#0b2c5c] transition"
+              className="text-sm  md:text-base inline-flex items-center justify-center gap-2 bg-[#071B3A] text-white px-6 md:px-8 py-3 md:py-4 rounded-full  font-semibold hover:bg-[#0b2c5c] transition"
             >
-              <FaWhatsapp size={16} className="text-[13px] md:text-base" />
+              <FaWhatsapp size={20} />
               Consultar por este servicio
             </a>
 
             <button
               onClick={goBackToServices}
-              className="inline-flex items-center justify-center border border-[#C8A24A] text-[#071B3A] px-6 md:px-8 py-3 md:py-4 rounded-full text-sm text-[13px] md:text-base font-semibold hover:bg-[#C8A24A]/10 transition"
+              className="inline-flex items-center justify-center border border-[#C8A24A] text-[#071B3A] px-6 md:px-8 py-3 md:py-4 rounded-full text-sm  md:text-base font-semibold hover:bg-[#C8A24A]/10 transition"
             >
               Ver otros servicios
             </button>

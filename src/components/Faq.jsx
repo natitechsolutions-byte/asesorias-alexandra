@@ -34,7 +34,8 @@ const Faq = () => {
             Información importante antes de comenzar
           </h2>
 
-          <p className="text-center mt-3 md:mt-4 text-[13px] md:text-base text-gray-700 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-center mt-3 md:mt-4 text-sm
+                                md:text-base text-gray-700 max-w-2xl mx-auto leading-relaxed">
            Encuentra respuestas claras sobre formalización, documentos necesarios, obligaciones tributarias y procesos iniciales de trabajo.
           </p>
         </div>

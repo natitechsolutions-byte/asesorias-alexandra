@@ -9,38 +9,61 @@ const About = () => {
   return (
     <section id="quiensomos" className="relative py-12 md:py-20 overflow-hidden">
       <div className="relative max-w-7xl mx-auto px-5 md:px-6 xl:px-16">
-        <div className="grid lg:grid-cols-[0.95fr_1.05fr] gap-10 md:gap-16 xl:gap-24 items-center">
+        <div className="relative mx-auto px-0 md:px-8 grid lg:grid-cols-[1fr_1fr] gap-10 md:gap-14 lg:gap-12 items-center">
 
-          <div className="max-w-[780px] mx-auto lg:mx-0 text-center md:text-left">
-            <span className="text-sm md:text-base text-[#C8A24A] font-semibold block">
+          <div className="text-center lg:text-left max-w-[340px] sm:max-w-[420px] md:max-w-[580px] mx-auto lg:mx-0">
+            <p className="text-sm md:text-base text-[#C8A24A] font-semibold mb-3 md:mb-4">
               Quiénes somos
-            </span>
+            </p>
 
             <h2 className="
-  font-playfair
-  text-[#071B3A]
-  font-[600]
-  text-[32px]
-  sm:text-[38px]
-  md:text-[50px]
-  lg:text-[54px]
-  xl:text-[50px]
-  leading-[1.08]
-  tracking-[-0.03em]
-  max-w-[620px]
-  mx-auto
-  md:mx-0
-  
-">
+                                font-playfair
+                                text-[#071B3A]
+                                font-[600]
+                                text-[31px]
+                                sm:text-[38px]
+                                md:text-[50px]
+                                lg:text-[54px]
+                                xl:text-[50px]
+                                leading-none
+                                tracking-[-0.03em]
+                
+              ">
               Acompañamiento profesional para ordenar y fortalecer tu negocio.
             </h2>
 
-            <p className="justify-text mt-5 md:mt-6 text-sm md:text-base text-gray-700 leading-[1.7] max-w-[620px] mx-auto md:mx-0">
+            <p 
+             className="
+                                mt-5 md:mt-6
+                                text-left
+                                lg:text-justify
+                                text-sm
+                                md:text-base
+                                text-gray-700
+                                leading-[1.7]
+                                md:leading-relaxed
+                                max-w-full
+                                mx-auto
+                                md:max-w-[530px]
+                                lg:mx-0">
               Consultoría y Gestión A&A Ltda. nace como una iniciativa profesional de asesoría, consultoría y gestión empresarial,
               orientada a acompañar a emprendedores, trabajadores independientes y empresas en la organización de sus procesos contables,
               tributarios, laborales y administrativos.
             </p>
-            <p className="justify-text mt-3 md:mt-4 text-sm md:text-base text-gray-700 leading-[1.7] max-w-[620px] mx-auto md:mx-0">
+            <p 
+            className="
+                                mt-5 md:mt-6
+                                text-left
+                                lg:text-justify
+                                text-sm
+                                md:text-base
+                                text-gray-700
+                                leading-[1.7]
+                                md:leading-relaxed
+                                max-w-full
+                                mx-auto
+                                md:max-w-[530px]
+                                lg:mx-0">
               A través de Asesorías Alexandra, entregamos un servicio cercano, claro y responsable, enfocado no solo en cumplir trámites,
               sino también en ayudar a cada cliente a comprender su situación, ordenar su información y tomar mejores decisiones para
               el desarrollo de su negocio.

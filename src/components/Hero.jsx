@@ -9,6 +9,7 @@ import {
     FaArrowRight,
     FaWhatsapp
 } from "react-icons/fa";
+import { useNavigate, useParams } from "react-router-dom";
 
 const features = [
     {
@@ -33,7 +34,24 @@ const features = [
     },
 ];
 
+
+
 const Hero = () => {
+    const navigate = useNavigate();
+    const goBackToServices = () => {
+    navigate("/services");
+
+    setTimeout(() => {
+        const section = document.getElementById("services");
+
+        if (section) {
+            section.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+            });
+        }
+    }, 200);
+};
     return (
         <>
             <section
@@ -68,8 +86,8 @@ const Hero = () => {
                                 cercano y profesional.
                             </h2>
 
-                           <p
-                            className="
+                            <p
+                                className="
                                 mt-5 md:mt-6
                                 text-left
                                 lg:text-justify
@@ -112,14 +130,7 @@ const Hero = () => {
 
                                 <button
                                     type="button"
-                                    onClick={() => {
-                                        window.history.pushState(null, "", "/services");
-
-                                        document.getElementById("services")?.scrollIntoView({
-                                            behavior: "smooth",
-                                            block: "start",
-                                        });
-                                    }}
+                                    onClick={goBackToServices}
                                     className="
                                     w-full max-w-[340px]
                                     md:w-[250px]
