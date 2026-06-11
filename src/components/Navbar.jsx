@@ -45,7 +45,7 @@ const Navbar = () => {
                     />
 
                     {/* Línea vertical */}
-                    <div className="hidden sm:block w-[2px] h-12 bg-[#C8A24A] rounded-full"></div>
+                    <div className="hidden sm:block w-[2px] h-12 bg-[#C8A24A] rounded-full mr-5"></div>
 
                     <div className="flex flex-col">
                         <h3 className="font-semibold text-[#071B3A] text-sm md:text-base leading-tight">
@@ -58,7 +58,7 @@ const Navbar = () => {
                     </div>
                 </button>
 
-                <div className="hidden lg:flex items-center gap-10 text-base font-semibold text-[#071B3A]">
+                <div className="hidden lg:flex items-center gap-10 text-sm md:text-base font-semibold text-[#071B3A]">
                     {navItems.map((item) => (
                         <button
                             key={item.section}
@@ -95,7 +95,7 @@ const Navbar = () => {
             <div className="h-[2px] bg-gradient-to-r from-transparent via-[#C8A24A] to-transparent"></div>
 
             {isOpen && (
-                <div className="lg:hidden bg-white/95 backdrop-blur-xl border-b border-[#C8A24A]/20 shadow-xl">
+                <div className="lg:hidden bg-white/95 backdrop-blur-xl border-b border-[#C8A24A]/20 shadow-xl text-sm md:text-base">
                     <div className="px-6 py-5 flex flex-col gap-4 text-[#071B3A] font-semibold">
                         {navItems.map((item) => (
                             <button

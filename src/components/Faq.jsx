@@ -70,7 +70,7 @@ const Faq = () => {
                   text-left
                 "
               >
-                <span className="font-semibold text-[#071B3A] text-sm md:text-lg leading-snug">
+                <span className="font-semibold text-[#071B3A] text-sm md:text-base leading-snug">
                   {faq.question}
                 </span>
 
