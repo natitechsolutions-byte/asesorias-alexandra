@@ -28,7 +28,7 @@ const Contact = () => {
     >
       <div className="absolute top-0 right-0 w-[320px] md:w-[420px] h-[320px] md:h-[420px] bg-[#C8A24A]/10 rounded-full blur-3xl" />
 
-      <div className="relative max-w-7xl mx-auto px-5 md:px-6 xl:px-16">
+      <div className="relative max-w-7xl mx-auto px-5 md:px-6">
         <div className="grid lg:grid-cols-[0.9fr_1.1fr] gap-8 md:gap-10 items-center">
 
           <div>
@@ -71,8 +71,8 @@ const Contact = () => {
                 gap-2
                 bg-[#071B3A]
                 text-white
-                w-[298px]
-                md:w-[250px]
+                w-full max-w-[340px]
+                                    md:w-[250px]
                 h-[42px]
                 md:h-[50px]
                 rounded-full
@@ -93,7 +93,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="
-                w-[298px]
+                w-full max-w-[340px]
                 md:w-[250px]
                 h-[42px]
                 md:h-[50px]
