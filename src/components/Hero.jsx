@@ -59,9 +59,9 @@ const Hero = () => {
                 className="relative pt-24 md:pt-36 pb-12 overflow-hidden"
             >
                 <div className="max-w-7xl mx-auto px-5 md:px-6">
-                    <div className="relative mx-auto px-0 md:px-8 grid lg:grid-cols-[1fr_1fr] gap-10 md:gap-14 lg:gap-12 items-center">
+                    <div className="relative mx-auto px-0 md:px-8 grid lg:grid-cols-[1fr_1fr] gap-10 md:gap-10 lg:gap-12 items-center">
 
-                        <div className="text-center lg:text-left max-w-[340px] sm:max-w-[420px] md:max-w-[580px] mx-auto lg:mx-0">
+                        <div className="text-center lg:text-left max-w-[380px] sm:max-w-[460px] md:max-w-[720px] lg:max-w-[580px] mx-auto lg:mx-0">
                             <p className="text-sm md:text-base text-[#C8A24A] font-semibold mb-3 md:mb-4">
                                 Consultoría y Gestión A&A Ltda.
                             </p>
@@ -73,7 +73,7 @@ const Hero = () => {
                                 font-[600]
                                 text-[31px]
                                 sm:text-[38px]
-                                md:text-[50px]
+                                md:text-[48px]
                                 lg:text-[54px]
                                 xl:text-[50px]
                                 leading-none
@@ -97,8 +97,9 @@ const Hero = () => {
                                 leading-[1.7]
                                 md:leading-relaxed
                                 max-w-full
+                                md:max-w-[640px]
+                                lg:max-w-[530px]
                                 mx-auto
-                                md:max-w-[530px]
                                 lg:mx-0
                             "
                             >
@@ -107,7 +108,16 @@ const Hero = () => {
                                 y el crecimiento de sus negocios.
                             </p>
 
-                            <div className="mt-7 md:mt-8 flex flex-col sm:flex-row items-center lg:items-start gap-3 md:gap-4">
+                            <div
+                                className="
+                                    mt-7 md:mt-8
+                                    flex flex-col sm:flex-row
+                                    items-center
+                                    justify-center
+                                    lg:justify-start
+                                    gap-3 md:gap-4
+                                "
+                                >
                                 <a
                                     href="https://wa.me/56931087761"
                                     target="_blank"
@@ -195,7 +205,7 @@ const Hero = () => {
                                     scale-110
                                     max-w-[320px]
                                     sm:max-w-[420px]
-                                    md:max-w-[520px]
+                                    md:max-w-[560px]
                                     lg:max-w-[520px]
                                     xl:max-w-[560px]
                                     object-contain

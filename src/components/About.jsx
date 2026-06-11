@@ -9,9 +9,9 @@ const About = () => {
   return (
     <section id="quiensomos" className="relative py-12 md:py-20 overflow-hidden">
       <div className="relative max-w-7xl mx-auto ">
-        <div className="relative mx-auto px-0 md:px-8 grid lg:grid-cols-[1fr_1fr] gap-10 md:gap-14 lg:gap-12 items-center">
+        <div className="relative mx-auto px-0 md:px-8 grid lg:grid-cols-[1fr_1fr] gap-10 md:gap-10 lg:gap-12 items-center">
 
-          <div className="text-center lg:text-left max-w-[340px] sm:max-w-[420px] md:max-w-[580px] mx-auto lg:mx-0">
+          <div className="text-center lg:text-left max-w-[380px] sm:max-w-[460px] md:max-w-[720px] lg:max-w-[580px] mx-auto lg:mx-0">
             <p className="text-sm md:text-base text-[#C8A24A] font-semibold mb-3 md:mb-4">
               Quiénes somos
             </p>
@@ -22,7 +22,7 @@ const About = () => {
                                 font-[600]
                                 text-[31px]
                                 sm:text-[38px]
-                                md:text-[50px]
+                                md:text-[48px]
                                 lg:text-[54px]
                                 xl:text-[50px]
                                 leading-none
@@ -43,8 +43,9 @@ const About = () => {
                                 leading-[1.7]
                                 md:leading-relaxed
                                 max-w-full
+                                md:max-w-[640px]
+                                lg:max-w-[530px]
                                 mx-auto
-                                md:max-w-[530px]
                                 lg:mx-0">
               Consultoría y Gestión A&A Ltda. nace como una iniciativa profesional de asesoría, consultoría y gestión empresarial,
               orientada a acompañar a emprendedores, trabajadores independientes y empresas en la organización de sus procesos contables,
@@ -61,8 +62,9 @@ const About = () => {
                                 leading-[1.7]
                                 md:leading-relaxed
                                 max-w-full
+                                md:max-w-[640px]
+                                lg:max-w-[530px]
                                 mx-auto
-                                md:max-w-[530px]
                                 lg:mx-0">
               A través de Asesorías Alexandra, entregamos un servicio cercano, claro y responsable, enfocado no solo en cumplir trámites,
               sino también en ayudar a cada cliente a comprender su situación, ordenar su información y tomar mejores decisiones para
