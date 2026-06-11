@@ -67,42 +67,59 @@ const Hero = () => {
                             </p>
 
                             <h2
-                                className="
-                                font-playfair
-                                text-[#071B3A]
-                                font-[600]
-                                text-[31px]
-                                sm:text-[38px]
-                                md:text-[48px]
-                                lg:text-[54px]
-                                xl:text-[50px]
-                                leading-none
-                                tracking-[-0.03em]
-    
-                                "
-                            >
-
-                                Asesorías contables tributarias y laborales con un enfoque claro,
-                                cercano y profesional.
-                            </h2>
+  className="
+    font-playfair
+    text-[#071B3A]
+    font-[700]
+    text-[31px]
+    sm:text-[38px]
+    md:text-[48px]
+    lg:text-[52px]
+    xl:text-[50px]
+    leading-[0.98]
+    tracking-[-0.03em]
+  "
+>
+  Asesorías contables, tributarias y laborales
+</h2>
+<h3
+  className="
+    font-playfair
+    mt-3 md:mt-4
+    max-w-[560px]
+    text-[#C8A24A]
+    font-[500]
+    text-[26px]
+    sm:text-[31px]
+    md:text-[36px]
+    lg:text-[38px]
+    xl:text-[38px]
+    leading-[1.08]
+    tracking-[-0.025em]
+    mx-auto lg:mx-0
+  "
+>
+  con un enfoque claro, cercano y profesional.
+</h3>
+                            
 
                             <p
-                                className="
-                                mt-5 md:mt-6
-                                text-left
-                                lg:text-justify
-                                text-sm
-                                md:text-base
-                                text-gray-700
-                                leading-[1.7]
-                                md:leading-relaxed
-                                max-w-full
-                                md:max-w-[640px]
-                                lg:max-w-[530px]
-                                mx-auto
-                                lg:mx-0
-                            "
-                            >
+  className="
+    mt-6 md:mt-7
+    text-left
+    lg:text-justify
+    text-sm
+    md:text-base
+    text-gray-700
+    leading-[1.7]
+    md:leading-relaxed
+    max-w-full
+    md:max-w-[640px]
+    lg:max-w-[530px]
+    mx-auto
+    lg:mx-0
+  "
+>
                                 A través de Asesorías Alexandra, acompañamos y asesoramos a empresas, pymes y emprendedores en sus procesos contables,
                                 tributarios, laborales y administrativos, entregando orientación clara y apoyo profesional para fortalecer la toma de decisiones
                                 y el crecimiento de sus negocios.
@@ -110,7 +127,7 @@ const Hero = () => {
 
                             <div
                                 className="
-                                    mt-7 md:mt-8
+                                    mt-6 md:mt-7
                                     flex flex-col sm:flex-row
                                     items-center
                                     justify-center
@@ -210,8 +227,6 @@ const Hero = () => {
                                     xl:max-w-[560px]
                                     object-contain
                                     rounded-3xl
-                                    border border-white/80
-                                    shadow-[0_35px_80px_rgba(200,162,74,0.15)]
                                     transition-all
                                     duration-500
     "
