@@ -31,10 +31,10 @@ const Contact = () => {
       <div className="relative max-w-7xl mx-auto px-5 md:px-6">
         <div className="grid lg:grid-cols-[0.9fr_1.1fr] gap-8 md:gap-10 items-center">
 
-          <div>
-            <span className="text-sm md:text-base text-[#C8A24A] font-semibold">
+          <div className="text-center lg:text-left max-w-[340px] sm:max-w-[420px] md:max-w-[580px] mx-auto lg:mx-0">
+            <p className="text-sm md:text-base text-[#C8A24A] font-semibold mb-3 md:mb-4">
               Contacto
-            </span>
+            </p>
 
             <h2 className="
                 font-playfair
