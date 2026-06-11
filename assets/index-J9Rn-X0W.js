@@ -22,138 +22,150 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                             after:transition-all\r
                             after:duration-300\r
                             hover:after:w-full\r
-                            `,children:e.name},e.section))}),(0,A.jsx)(`button`,{onClick:()=>t(!e),className:`lg:hidden w-11 h-11 rounded-full border border-[#C8A24A]/40 flex items-center justify-center text-[#071B3A]`,children:e?(0,A.jsx)(sr,{size:24}):(0,A.jsx)(or,{size:24})})]}),(0,A.jsx)(`div`,{className:`h-[2px] bg-gradient-to-r from-transparent via-[#C8A24A] to-transparent`}),e&&(0,A.jsx)(`div`,{className:`lg:hidden bg-white/95 backdrop-blur-xl border-b border-[#C8A24A]/20 shadow-xl text-sm md:text-base`,children:(0,A.jsx)(`div`,{className:`px-6 py-5 flex flex-col gap-4 text-[#071B3A] font-semibold`,children:dr.map(e=>(0,A.jsx)(`button`,{onClick:()=>{r(e.section),t(!1)},className:`py-2 border-b border-gray-100 hover:text-[#C8A24A] transition text-left`,children:e.name},e.section))})})]})},pr=`/asesorias-alexandra/assets/logo-CKtPclZv.png`,mr={color:void 0,size:void 0,className:void 0,style:void 0,attr:void 0},hr=x.createContext&&x.createContext(mr),gr=[`attr`,`size`,`title`];function _r(e,t){if(e==null)return{};var n,r,i=vr(e,t);if(Object.getOwnPropertySymbols){var a=Object.getOwnPropertySymbols(e);for(r=0;r<a.length;r++)n=a[r],t.indexOf(n)===-1&&{}.propertyIsEnumerable.call(e,n)&&(i[n]=e[n])}return i}function vr(e,t){if(e==null)return{};var n={};for(var r in e)if({}.hasOwnProperty.call(e,r)){if(t.indexOf(r)!==-1)continue;n[r]=e[r]}return n}function yr(){return yr=Object.assign?Object.assign.bind():function(e){for(var t=1;t<arguments.length;t++){var n=arguments[t];for(var r in n)({}).hasOwnProperty.call(n,r)&&(e[r]=n[r])}return e},yr.apply(null,arguments)}function br(e,t){var n=Object.keys(e);if(Object.getOwnPropertySymbols){var r=Object.getOwnPropertySymbols(e);t&&(r=r.filter(function(t){return Object.getOwnPropertyDescriptor(e,t).enumerable})),n.push.apply(n,r)}return n}function xr(e){for(var t=1;t<arguments.length;t++){var n=arguments[t]==null?{}:arguments[t];t%2?br(Object(n),!0).forEach(function(t){Sr(e,t,n[t])}):Object.getOwnPropertyDescriptors?Object.defineProperties(e,Object.getOwnPropertyDescriptors(n)):br(Object(n)).forEach(function(t){Object.defineProperty(e,t,Object.getOwnPropertyDescriptor(n,t))})}return e}function Sr(e,t,n){return(t=Cr(t))in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function Cr(e){var t=wr(e,`string`);return typeof t==`symbol`?t:t+``}function wr(e,t){if(typeof e!=`object`||!e)return e;var n=e[Symbol.toPrimitive];if(n!==void 0){var r=n.call(e,t||`default`);if(typeof r!=`object`)return r;throw TypeError(`@@toPrimitive must return a primitive value.`)}return(t===`string`?String:Number)(e)}function Tr(e){return e&&e.map((e,t)=>x.createElement(e.tag,xr({key:t},e.attr),Tr(e.child)))}function j(e){return t=>x.createElement(Er,yr({attr:xr({},e.attr)},t),Tr(e.child))}function Er(e){var t=t=>{var{attr:n,size:r,title:i}=e,a=_r(e,gr),o=r||t.size||`1em`,s;return t.className&&(s=t.className),e.className&&(s=(s?s+` `:``)+e.className),x.createElement(`svg`,yr({stroke:`currentColor`,fill:`currentColor`,strokeWidth:`0`},t.attr,n,a,{className:s,style:xr(xr({color:e.color||t.color},t.style),e.style),height:o,width:o,xmlns:`http://www.w3.org/2000/svg`}),i&&x.createElement(`title`,null,i),e.children)};return hr===void 0?t(mr):x.createElement(hr.Consumer,null,e=>t(e))}function Dr(e){return j({tag:`svg`,attr:{viewBox:`0 0 448 512`},child:[{tag:`path`,attr:{d:`M448 75.2v361.7c0 24.3-19 43.2-43.2 43.2H43.2C19.3 480 0 461.4 0 436.8V75.2C0 51.1 18.8 32 43.2 32h361.7c24 0 43.1 18.8 43.1 43.2zm-37.3 361.6V75.2c0-3-2.6-5.8-5.8-5.8h-9.3L285.3 144 224 94.1 162.8 144 52.5 69.3h-9.3c-3.2 0-5.8 2.8-5.8 5.8v361.7c0 3 2.6 5.8 5.8 5.8h361.7c3.2.1 5.8-2.7 5.8-5.8zM150.2 186v37H76.7v-37h73.5zm0 74.4v37.3H76.7v-37.3h73.5zm11.1-147.3l54-43.7H96.8l64.5 43.7zm210 72.9v37h-196v-37h196zm0 74.4v37.3h-196v-37.3h196zm-84.6-147.3l64.5-43.7H232.8l53.9 43.7zM371.3 335v37.3h-99.4V335h99.4z`},child:[]}]})(e)}function Or(e){return j({tag:`svg`,attr:{viewBox:`0 0 448 512`},child:[{tag:`path`,attr:{d:`M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z`},child:[]}]})(e)}function kr(e){return j({tag:`svg`,attr:{viewBox:`0 0 448 512`},child:[{tag:`path`,attr:{d:`M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z`},child:[]}]})(e)}function Ar(e){return j({tag:`svg`,attr:{viewBox:`0 0 448 512`},child:[{tag:`path`,attr:{d:`M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z`},child:[]}]})(e)}function jr(e){return j({tag:`svg`,attr:{viewBox:`0 0 640 512`},child:[{tag:`path`,attr:{d:`M96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm448 0c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm32 32h-64c-17.6 0-33.5 7.1-45.1 18.6 40.3 22.1 68.9 62 75.1 109.4h66c17.7 0 32-14.3 32-32v-32c0-35.3-28.7-64-64-64zm-256 0c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zm-223.7-13.4C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z`},child:[]}]})(e)}function Mr(e){return j({tag:`svg`,attr:{viewBox:`0 0 448 512`},child:[{tag:`path`,attr:{d:`M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z`},child:[]}]})(e)}function Nr(e){return j({tag:`svg`,attr:{viewBox:`0 0 512 512`},child:[{tag:`path`,attr:{d:`M496 128v16a8 8 0 0 1-8 8h-24v12c0 6.627-5.373 12-12 12H60c-6.627 0-12-5.373-12-12v-12H24a8 8 0 0 1-8-8v-16a8 8 0 0 1 4.941-7.392l232-88a7.996 7.996 0 0 1 6.118 0l232 88A8 8 0 0 1 496 128zm-24 304H40c-13.255 0-24 10.745-24 24v16a8 8 0 0 0 8 8h464a8 8 0 0 0 8-8v-16c0-13.255-10.745-24-24-24zM96 192v192H60c-6.627 0-12 5.373-12 12v20h416v-20c0-6.627-5.373-12-12-12h-36V192h-64v192h-64V192h-64v192h-64V192H96z`},child:[]}]})(e)}function Pr(e){return j({tag:`svg`,attr:{viewBox:`0 0 512 512`},child:[{tag:`path`,attr:{d:`M466.5 83.7l-192-80a48.15 48.15 0 0 0-36.9 0l-192 80C27.7 91.1 16 108.6 16 128c0 198.5 114.5 335.7 221.5 380.3 11.8 4.9 25.1 4.9 36.9 0C360.1 472.6 496 349.3 496 128c0-19.4-11.7-36.9-29.5-44.3zM256.1 446.3l-.1-381 175.9 73.3c-3.3 151.4-82.1 261.1-175.8 307.7z`},child:[]}]})(e)}function Fr(e){return j({tag:`svg`,attr:{viewBox:`0 0 448 512`},child:[{tag:`path`,attr:{d:`M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z`},child:[]}]})(e)}function Ir(e){return j({tag:`svg`,attr:{viewBox:`0 0 448 512`},child:[{tag:`path`,attr:{d:`M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z`},child:[]}]})(e)}function Lr(e){return j({tag:`svg`,attr:{viewBox:`0 0 384 512`},child:[{tag:`path`,attr:{d:`M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z`},child:[]}]})(e)}function Rr(e){return j({tag:`svg`,attr:{viewBox:`0 0 640 512`},child:[{tag:`path`,attr:{d:`M434.7 64h-85.9c-8 0-15.7 3-21.6 8.4l-98.3 90c-.1.1-.2.3-.3.4-16.6 15.6-16.3 40.5-2.1 56 12.7 13.9 39.4 17.6 56.1 2.7.1-.1.3-.1.4-.2l79.9-73.2c6.5-5.9 16.7-5.5 22.6 1 6 6.5 5.5 16.6-1 22.6l-26.1 23.9L504 313.8c2.9 2.4 5.5 5 7.9 7.7V128l-54.6-54.6c-5.9-6-14.1-9.4-22.6-9.4zM544 128.2v223.9c0 17.7 14.3 32 32 32h64V128.2h-96zm48 223.9c-8.8 0-16-7.2-16-16s7.2-16 16-16 16 7.2 16 16-7.2 16-16 16zM0 384h64c17.7 0 32-14.3 32-32V128.2H0V384zm48-63.9c8.8 0 16 7.2 16 16s-7.2 16-16 16-16-7.2-16-16c0-8.9 7.2-16 16-16zm435.9 18.6L334.6 217.5l-30 27.5c-29.7 27.1-75.2 24.5-101.7-4.4-26.9-29.4-24.8-74.9 4.4-101.7L289.1 64h-83.8c-8.5 0-16.6 3.4-22.6 9.4L128 128v223.9h18.3l90.5 81.9c27.4 22.3 67.7 18.1 90-9.3l.2-.2 17.9 15.5c15.9 13 39.4 10.5 52.3-5.4l31.4-38.6 5.4 4.4c13.7 11.1 33.9 9.1 45-4.7l9.5-11.7c11.2-13.8 9.1-33.9-4.6-45.1z`},child:[]}]})(e)}function zr(e){return j({tag:`svg`,attr:{viewBox:`0 0 640 512`},child:[{tag:`path`,attr:{d:`M622.34 153.2L343.4 67.5c-15.2-4.67-31.6-4.67-46.79 0L17.66 153.2c-23.54 7.23-23.54 38.36 0 45.59l48.63 14.94c-10.67 13.19-17.23 29.28-17.88 46.9C38.78 266.15 32 276.11 32 288c0 10.78 5.68 19.85 13.86 25.65L20.33 428.53C18.11 438.52 25.71 448 35.94 448h56.11c10.24 0 17.84-9.48 15.62-19.47L82.14 313.65C90.32 307.85 96 298.78 96 288c0-11.57-6.47-21.25-15.66-26.87.76-15.02 8.44-28.3 20.69-36.72L296.6 284.5c9.06 2.78 26.44 6.25 46.79 0l278.95-85.7c23.55-7.24 23.55-38.36 0-45.6zM352.79 315.09c-28.53 8.76-52.84 3.92-65.59 0l-145.02-44.55L128 384c0 35.35 85.96 64 192 64s192-28.65 192-64l-14.18-113.47-145.03 44.56z`},child:[]}]})(e)}function Br(e){return j({tag:`svg`,attr:{viewBox:`0 0 384 512`},child:[{tag:`path`,attr:{d:`M377 105L279.1 7c-4.5-4.5-10.6-7-17-7H256v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-153 31V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zM64 72c0-4.42 3.58-8 8-8h80c4.42 0 8 3.58 8 8v16c0 4.42-3.58 8-8 8H72c-4.42 0-8-3.58-8-8V72zm0 80v-16c0-4.42 3.58-8 8-8h80c4.42 0 8 3.58 8 8v16c0 4.42-3.58 8-8 8H72c-4.42 0-8-3.58-8-8zm144 263.88V440c0 4.42-3.58 8-8 8h-16c-4.42 0-8-3.58-8-8v-24.29c-11.29-.58-22.27-4.52-31.37-11.35-3.9-2.93-4.1-8.77-.57-12.14l11.75-11.21c2.77-2.64 6.89-2.76 10.13-.73 3.87 2.42 8.26 3.72 12.82 3.72h28.11c6.5 0 11.8-5.92 11.8-13.19 0-5.95-3.61-11.19-8.77-12.73l-45-13.5c-18.59-5.58-31.58-23.42-31.58-43.39 0-24.52 19.05-44.44 42.67-45.07V232c0-4.42 3.58-8 8-8h16c4.42 0 8 3.58 8 8v24.29c11.29.58 22.27 4.51 31.37 11.35 3.9 2.93 4.1 8.77.57 12.14l-11.75 11.21c-2.77 2.64-6.89 2.76-10.13.73-3.87-2.43-8.26-3.72-12.82-3.72h-28.11c-6.5 0-11.8 5.92-11.8 13.19 0 5.95 3.61 11.19 8.77 12.73l45 13.5c18.59 5.58 31.58 23.42 31.58 43.39 0 24.53-19.05 44.44-42.67 45.07z`},child:[]}]})(e)}function Vr(e){return j({tag:`svg`,attr:{viewBox:`0 0 512 512`},child:[{tag:`path`,attr:{d:`M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z`},child:[]}]})(e)}function Hr(e){return j({tag:`svg`,attr:{viewBox:`0 0 320 512`},child:[{tag:`path`,attr:{d:`M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z`},child:[]}]})(e)}function Ur(e){return j({tag:`svg`,attr:{viewBox:`0 0 320 512`},child:[{tag:`path`,attr:{d:`M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z`},child:[]}]})(e)}function Wr(e){return j({tag:`svg`,attr:{viewBox:`0 0 512 512`},child:[{tag:`path`,attr:{d:`M496 384H64V80c0-8.84-7.16-16-16-16H16C7.16 64 0 71.16 0 80v336c0 17.67 14.33 32 32 32h464c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16zM464 96H345.94c-21.38 0-32.09 25.85-16.97 40.97l32.4 32.4L288 242.75l-73.37-73.37c-12.5-12.5-32.76-12.5-45.25 0l-68.69 68.69c-6.25 6.25-6.25 16.38 0 22.63l22.62 22.62c6.25 6.25 16.38 6.25 22.63 0L192 237.25l73.37 73.37c12.5 12.5 32.76 12.5 45.25 0l96-96 32.4 32.4c15.12 15.12 40.97 4.41 40.97-16.97V112c.01-8.84-7.15-16-15.99-16z`},child:[]}]})(e)}function Gr(e){return j({tag:`svg`,attr:{viewBox:`0 0 448 512`},child:[{tag:`path`,attr:{d:`M400 0H48C22.4 0 0 22.4 0 48v416c0 25.6 22.4 48 48 48h352c25.6 0 48-22.4 48-48V48c0-25.6-22.4-48-48-48zM128 435.2c0 6.4-6.4 12.8-12.8 12.8H76.8c-6.4 0-12.8-6.4-12.8-12.8v-38.4c0-6.4 6.4-12.8 12.8-12.8h38.4c6.4 0 12.8 6.4 12.8 12.8v38.4zm0-128c0 6.4-6.4 12.8-12.8 12.8H76.8c-6.4 0-12.8-6.4-12.8-12.8v-38.4c0-6.4 6.4-12.8 12.8-12.8h38.4c6.4 0 12.8 6.4 12.8 12.8v38.4zm128 128c0 6.4-6.4 12.8-12.8 12.8h-38.4c-6.4 0-12.8-6.4-12.8-12.8v-38.4c0-6.4 6.4-12.8 12.8-12.8h38.4c6.4 0 12.8 6.4 12.8 12.8v38.4zm0-128c0 6.4-6.4 12.8-12.8 12.8h-38.4c-6.4 0-12.8-6.4-12.8-12.8v-38.4c0-6.4 6.4-12.8 12.8-12.8h38.4c6.4 0 12.8 6.4 12.8 12.8v38.4zm128 128c0 6.4-6.4 12.8-12.8 12.8h-38.4c-6.4 0-12.8-6.4-12.8-12.8V268.8c0-6.4 6.4-12.8 12.8-12.8h38.4c6.4 0 12.8 6.4 12.8 12.8v166.4zm0-256c0 6.4-6.4 12.8-12.8 12.8H76.8c-6.4 0-12.8-6.4-12.8-12.8V76.8C64 70.4 70.4 64 76.8 64h294.4c6.4 0 12.8 6.4 12.8 12.8v102.4z`},child:[]}]})(e)}function Kr(e){return j({tag:`svg`,attr:{viewBox:`0 0 448 512`},child:[{tag:`path`,attr:{d:`M436 480h-20V24c0-13.255-10.745-24-24-24H56C42.745 0 32 10.745 32 24v456H12c-6.627 0-12 5.373-12 12v20h448v-20c0-6.627-5.373-12-12-12zM128 76c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v40c0 6.627-5.373 12-12 12h-40c-6.627 0-12-5.373-12-12V76zm0 96c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v40c0 6.627-5.373 12-12 12h-40c-6.627 0-12-5.373-12-12v-40zm52 148h-40c-6.627 0-12-5.373-12-12v-40c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v40c0 6.627-5.373 12-12 12zm76 160h-64v-84c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v84zm64-172c0 6.627-5.373 12-12 12h-40c-6.627 0-12-5.373-12-12v-40c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v40zm0-96c0 6.627-5.373 12-12 12h-40c-6.627 0-12-5.373-12-12v-40c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v40zm0-96c0 6.627-5.373 12-12 12h-40c-6.627 0-12-5.373-12-12V76c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v40z`},child:[]}]})(e)}function qr(e){return j({tag:`svg`,attr:{viewBox:`0 0 512 512`},child:[{tag:`path`,attr:{d:`M320 336c0 8.84-7.16 16-16 16h-96c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h416c25.6 0 48-22.4 48-48V288H320v48zm144-208h-80V80c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h512v-80c0-25.6-22.4-48-48-48zm-144 0H192V96h128v32z`},child:[]}]})(e)}function Jr(e){return j({tag:`svg`,attr:{viewBox:`0 0 576 512`},child:[{tag:`path`,attr:{d:`M542.22 32.05c-54.8 3.11-163.72 14.43-230.96 55.59-4.64 2.84-7.27 7.89-7.27 13.17v363.87c0 11.55 12.63 18.85 23.28 13.49 69.18-34.82 169.23-44.32 218.7-46.92 16.89-.89 30.02-14.43 30.02-30.66V62.75c.01-17.71-15.35-31.74-33.77-30.7zM264.73 87.64C197.5 46.48 88.58 35.17 33.78 32.05 15.36 31.01 0 45.04 0 62.75V400.6c0 16.24 13.13 29.78 30.02 30.66 49.49 2.6 149.59 12.11 218.77 46.95 10.62 5.35 23.21-1.94 23.21-13.46V100.63c0-5.29-2.62-10.14-7.27-12.99z`},child:[]}]})(e)}function Yr(e){return j({tag:`svg`,attr:{viewBox:`0 0 448 512`},child:[{tag:`path`,attr:{d:`M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z`},child:[]}]})(e)}function Xr(e){return j({tag:`svg`,attr:{viewBox:`0 0 448 512`},child:[{tag:`path`,attr:{d:`M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z`},child:[]}]})(e)}var Zr=[{icon:Mr,title:`Atención personalizada`,description:`Escuchamos tu situación y te orientamos de forma clara.`},{icon:Pr,title:`Confidencialidad`,description:`Manejamos tu información con total seguridad.`},{icon:Wr,title:`Experiencia y respaldo`,description:`Profesionales actualizados y con amplia trayectoria.`},{icon:Hr,title:`Soluciones integrales`,description:`Te acompañamos en cada etapa de tu negocio.`}],Qr=()=>{let e=pt();return(0,A.jsxs)(A.Fragment,{children:[(0,A.jsx)(`section`,{id:`home`,className:`relative pt-24 md:pt-36 pb-12 overflow-hidden`,children:(0,A.jsx)(`div`,{className:`max-w-7xl mx-auto px-5 md:px-6`,children:(0,A.jsxs)(`div`,{className:`relative mx-auto px-0 md:px-8 grid lg:grid-cols-[1fr_1fr] gap-10 md:gap-10 lg:gap-12 items-center`,children:[(0,A.jsxs)(`div`,{className:`text-center lg:text-left max-w-[380px] sm:max-w-[460px] md:max-w-[720px] lg:max-w-[580px] mx-auto lg:mx-0`,children:[(0,A.jsx)(`p`,{className:`text-sm md:text-base text-[#C8A24A] font-semibold mb-3 md:mb-4`,children:`Consultoría y Gestión A&A Ltda.`}),(0,A.jsx)(`h2`,{className:`\r
-                                font-playfair\r
-                                text-[#071B3A]\r
-                                font-[600]\r
-                                text-[31px]\r
-                                sm:text-[38px]\r
-                                md:text-[48px]\r
-                                lg:text-[54px]\r
-                                xl:text-[50px]\r
-                                leading-none\r
-                                tracking-[-0.03em]\r
-    \r
-                                `,children:`Asesorías contables tributarias y laborales con un enfoque claro, cercano y profesional.`}),(0,A.jsx)(`p`,{className:`\r
-                                mt-5 md:mt-6\r
-                                text-left\r
-                                lg:text-justify\r
-                                text-sm\r
-                                md:text-base\r
-                                text-gray-700\r
-                                leading-[1.7]\r
-                                md:leading-relaxed\r
-                                max-w-full\r
-                                md:max-w-[640px]\r
-                                lg:max-w-[530px]\r
-                                mx-auto\r
-                                lg:mx-0\r
-                            `,children:`A través de Asesorías Alexandra, acompañamos y asesoramos a empresas, pymes y emprendedores en sus procesos contables, tributarios, laborales y administrativos, entregando orientación clara y apoyo profesional para fortalecer la toma de decisiones y el crecimiento de sus negocios.`}),(0,A.jsxs)(`div`,{className:`\r
-                                    mt-7 md:mt-8\r
-                                    flex flex-col sm:flex-row\r
-                                    items-center\r
-                                    justify-center\r
-                                    lg:justify-start\r
-                                    gap-3 md:gap-4\r
-                                `,children:[(0,A.jsxs)(`a`,{href:`https://wa.me/56931087761`,target:`_blank`,rel:`noopener noreferrer`,className:`\r
-                                    inline-flex items-center justify-center gap-2\r
-                                    bg-[#071B3A] text-white\r
-                                    w-full max-w-[340px]\r
-                                    md:w-[250px]\r
-                                    h-[46px] md:h-[50px]\r
-                                    rounded-full\r
-                                    font-semibold text-sm md:text-base\r
-                                    hover:bg-[#d8b85c]\r
-                                    transition shadow-lg hover:-translate-y-1\r
-                                    `,children:[(0,A.jsx)(Or,{size:20}),`Escribir por WhatsApp`]}),(0,A.jsxs)(`button`,{type:`button`,onClick:()=>{e(`/services`),setTimeout(()=>{let e=document.getElementById(`services`);e&&e.scrollIntoView({behavior:`smooth`,block:`start`})},200)},className:`\r
-                                    w-full max-w-[340px]\r
-                                    md:w-[250px]\r
-                                    h-[46px] md:h-[50px]\r
-                                    border border-[#C8A24A]\r
-                                    text-[#071B3A]\r
-                                    rounded-full\r
-                                    font-semibold text-sm md:text-base\r
-                                    flex items-center justify-center gap-2\r
-                                    hover:bg-[#C8A24A]/10\r
-                                    transition shadow-lg hover:-translate-y-1\r
-                                    `,children:[`Ver servicios`,(0,A.jsx)(Yr,{size:16})]})]})]}),(0,A.jsx)(`div`,{className:`relative z-10 order-2 w-full flex justify-center lg:justify-center`,children:(0,A.jsxs)(`div`,{className:`relative`,children:[(0,A.jsx)(`div`,{className:`\r
-                                    absolute\r
-                                    top-1/2\r
-                                    left-1/2\r
-                                    -translate-x-1/2\r
-                                    -translate-y-1/2\r
-                                    w-[90%]\r
-                                    h-[90%]\r
-                                    rounded-full\r
-                                    bg-gradient-radial\r
-                                    from-[#E8D6A8]/30\r
-                                    via-[#C8A24A]/15\r
-                                    to-transparent\r
-                                    blur-[80px]\r
-                                `}),(0,A.jsx)(`div`,{className:`\r
-                                    absolute\r
-                                    -bottom-10\r
-                                    left-1/2\r
-                                    -translate-x-1/2\r
-                                    w-[70%]\r
-                                    h-[80px]\r
-                                    bg-[#C8A24A]/20\r
-                                    blur-3xl\r
-                                    rounded-full\r
-                                    shadow-[0_35px_80px_rgba(7,27,58,0.12)]\r
-                                    `}),(0,A.jsx)(`img`,{src:pr,alt:`ale`,className:`\r
-                                    relative\r
-                                    mt-6 lg:mt-0\r
-                                    w-full\r
-                                    scale-110\r
-                                    max-w-[320px]\r
-                                    sm:max-w-[420px]\r
-                                    md:max-w-[560px]\r
-                                    lg:max-w-[520px]\r
-                                    xl:max-w-[560px]\r
-                                    object-contain\r
-                                    rounded-3xl\r
-                                    border border-white/80\r
-                                    shadow-[0_35px_80px_rgba(200,162,74,0.15)]\r
-                                    transition-all\r
-                                    duration-500\r
-    `})]})})]})})}),(0,A.jsxs)(`section`,{children:[(0,A.jsx)(`div`,{className:`max-w-6xl mx-auto border-t border-[#C8A24A]/15`}),(0,A.jsx)(`div`,{className:`max-w-6xl mx-auto px-2 py-2 md:py-4`,children:(0,A.jsx)(`div`,{className:`grid grid-cols-2 xl:grid-cols-4 gap-6 md:gap-8`,children:Zr.map((e,t)=>{let n=e.icon;return(0,A.jsxs)(`div`,{className:`
-                                            relative
-                                            flex flex-col items-center text-center
-
-                                            bg-white/70
-                                            border border-[#C8A24A]/10
-                                            rounded-[1.5rem]
-                                            px-2 py-2
-                                            min-h-[200px]
-                                            shadow-[0_14px_35px_rgba(7,27,58,0.07)]
-
-                                            xl:bg-transparent
-                                            xl:border-0
-                                            xl:rounded-none
-                                            xl:shadow-none
-                                            xl:min-h-0
-                                            xl:px-2
-                                            xl:py-0
-
-                                            ${t===Zr.length-1?``:`xl:after:absolute xl:after:right-0 xl:after:top-1/2 xl:after:-translate-y-1/2 xl:after:h-20 xl:after:w-px xl:after:bg-[#C8A24A]/20`}
-      `,children:[(0,A.jsx)(`div`,{className:`\r
-          w-10 h-10\r
-          md:w-16 md:h-16\r
-          rounded-2xl\r
-          xl:rounded-full\r
-          bg-white\r
-          border border-[#C8A24A]/15\r
-          flex items-center justify-center\r
-          mb-3\r
-          shadow-[0_10px_25px_rgba(7,27,58,0.08)]\r
-\r
-          xl:shadow-none\r
-          xl:bg-transparent\r
-          xl:border-[#C8A24A]/30\r
-        `,children:(0,A.jsx)(n,{size:18,className:`text-[#C8A24A] md:w-[22px] md:h-[22px]`})}),(0,A.jsx)(`h3`,{className:`text-base\r
-                                md:text-lg font-semibold text-[#071B3A] text-[15px] leading-tight`,children:e.title}),(0,A.jsx)(`p`,{className:` text-sm\r
-                                md:text-base text-gray-700 leading-relaxed`,children:e.description})]},t)})})}),(0,A.jsx)(`div`,{className:`max-w-6xl mx-auto border-t border-[#C8A24A]/15`})]})]})},$r=`/asesorias-alexandra/assets/ale-oficina-CxcUoiUW.JPEG`,ei=()=>(0,A.jsx)(`section`,{id:`quiensomos`,className:`relative py-12 md:py-20 overflow-hidden`,children:(0,A.jsx)(`div`,{className:`relative max-w-7xl mx-auto `,children:(0,A.jsxs)(`div`,{className:`relative mx-auto px-0 md:px-8 grid lg:grid-cols-[1fr_1fr] gap-10 md:gap-10 lg:gap-12 items-center`,children:[(0,A.jsxs)(`div`,{className:`text-center lg:text-left max-w-[380px] sm:max-w-[460px] md:max-w-[720px] lg:max-w-[580px] mx-auto lg:mx-0`,children:[(0,A.jsx)(`p`,{className:`text-sm md:text-base text-[#C8A24A] font-semibold mb-3 md:mb-4`,children:`Quiénes somos`}),(0,A.jsx)(`h2`,{className:`\r
+                            `,children:e.name},e.section))}),(0,A.jsx)(`button`,{onClick:()=>t(!e),className:`lg:hidden w-11 h-11 rounded-full border border-[#C8A24A]/40 flex items-center justify-center text-[#071B3A]`,children:e?(0,A.jsx)(sr,{size:24}):(0,A.jsx)(or,{size:24})})]}),(0,A.jsx)(`div`,{className:`h-[2px] bg-gradient-to-r from-transparent via-[#C8A24A] to-transparent`}),e&&(0,A.jsx)(`div`,{className:`lg:hidden bg-white/95 backdrop-blur-xl border-b border-[#C8A24A]/20 shadow-xl text-sm md:text-base`,children:(0,A.jsx)(`div`,{className:`px-6 py-5 flex flex-col gap-4 text-[#071B3A] font-semibold`,children:dr.map(e=>(0,A.jsx)(`button`,{onClick:()=>{r(e.section),t(!1)},className:`py-2 border-b border-gray-100 hover:text-[#C8A24A] transition text-left`,children:e.name},e.section))})})]})},pr=`/asesorias-alexandra/assets/logo-CKtPclZv.png`,mr={color:void 0,size:void 0,className:void 0,style:void 0,attr:void 0},hr=x.createContext&&x.createContext(mr),gr=[`attr`,`size`,`title`];function _r(e,t){if(e==null)return{};var n,r,i=vr(e,t);if(Object.getOwnPropertySymbols){var a=Object.getOwnPropertySymbols(e);for(r=0;r<a.length;r++)n=a[r],t.indexOf(n)===-1&&{}.propertyIsEnumerable.call(e,n)&&(i[n]=e[n])}return i}function vr(e,t){if(e==null)return{};var n={};for(var r in e)if({}.hasOwnProperty.call(e,r)){if(t.indexOf(r)!==-1)continue;n[r]=e[r]}return n}function yr(){return yr=Object.assign?Object.assign.bind():function(e){for(var t=1;t<arguments.length;t++){var n=arguments[t];for(var r in n)({}).hasOwnProperty.call(n,r)&&(e[r]=n[r])}return e},yr.apply(null,arguments)}function br(e,t){var n=Object.keys(e);if(Object.getOwnPropertySymbols){var r=Object.getOwnPropertySymbols(e);t&&(r=r.filter(function(t){return Object.getOwnPropertyDescriptor(e,t).enumerable})),n.push.apply(n,r)}return n}function xr(e){for(var t=1;t<arguments.length;t++){var n=arguments[t]==null?{}:arguments[t];t%2?br(Object(n),!0).forEach(function(t){Sr(e,t,n[t])}):Object.getOwnPropertyDescriptors?Object.defineProperties(e,Object.getOwnPropertyDescriptors(n)):br(Object(n)).forEach(function(t){Object.defineProperty(e,t,Object.getOwnPropertyDescriptor(n,t))})}return e}function Sr(e,t,n){return(t=Cr(t))in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function Cr(e){var t=wr(e,`string`);return typeof t==`symbol`?t:t+``}function wr(e,t){if(typeof e!=`object`||!e)return e;var n=e[Symbol.toPrimitive];if(n!==void 0){var r=n.call(e,t||`default`);if(typeof r!=`object`)return r;throw TypeError(`@@toPrimitive must return a primitive value.`)}return(t===`string`?String:Number)(e)}function Tr(e){return e&&e.map((e,t)=>x.createElement(e.tag,xr({key:t},e.attr),Tr(e.child)))}function j(e){return t=>x.createElement(Er,yr({attr:xr({},e.attr)},t),Tr(e.child))}function Er(e){var t=t=>{var{attr:n,size:r,title:i}=e,a=_r(e,gr),o=r||t.size||`1em`,s;return t.className&&(s=t.className),e.className&&(s=(s?s+` `:``)+e.className),x.createElement(`svg`,yr({stroke:`currentColor`,fill:`currentColor`,strokeWidth:`0`},t.attr,n,a,{className:s,style:xr(xr({color:e.color||t.color},t.style),e.style),height:o,width:o,xmlns:`http://www.w3.org/2000/svg`}),i&&x.createElement(`title`,null,i),e.children)};return hr===void 0?t(mr):x.createElement(hr.Consumer,null,e=>t(e))}function Dr(e){return j({tag:`svg`,attr:{viewBox:`0 0 448 512`},child:[{tag:`path`,attr:{d:`M448 75.2v361.7c0 24.3-19 43.2-43.2 43.2H43.2C19.3 480 0 461.4 0 436.8V75.2C0 51.1 18.8 32 43.2 32h361.7c24 0 43.1 18.8 43.1 43.2zm-37.3 361.6V75.2c0-3-2.6-5.8-5.8-5.8h-9.3L285.3 144 224 94.1 162.8 144 52.5 69.3h-9.3c-3.2 0-5.8 2.8-5.8 5.8v361.7c0 3 2.6 5.8 5.8 5.8h361.7c3.2.1 5.8-2.7 5.8-5.8zM150.2 186v37H76.7v-37h73.5zm0 74.4v37.3H76.7v-37.3h73.5zm11.1-147.3l54-43.7H96.8l64.5 43.7zm210 72.9v37h-196v-37h196zm0 74.4v37.3h-196v-37.3h196zm-84.6-147.3l64.5-43.7H232.8l53.9 43.7zM371.3 335v37.3h-99.4V335h99.4z`},child:[]}]})(e)}function Or(e){return j({tag:`svg`,attr:{viewBox:`0 0 448 512`},child:[{tag:`path`,attr:{d:`M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z`},child:[]}]})(e)}function kr(e){return j({tag:`svg`,attr:{viewBox:`0 0 448 512`},child:[{tag:`path`,attr:{d:`M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z`},child:[]}]})(e)}function Ar(e){return j({tag:`svg`,attr:{viewBox:`0 0 448 512`},child:[{tag:`path`,attr:{d:`M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z`},child:[]}]})(e)}function jr(e){return j({tag:`svg`,attr:{viewBox:`0 0 640 512`},child:[{tag:`path`,attr:{d:`M96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm448 0c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm32 32h-64c-17.6 0-33.5 7.1-45.1 18.6 40.3 22.1 68.9 62 75.1 109.4h66c17.7 0 32-14.3 32-32v-32c0-35.3-28.7-64-64-64zm-256 0c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zm-223.7-13.4C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z`},child:[]}]})(e)}function Mr(e){return j({tag:`svg`,attr:{viewBox:`0 0 448 512`},child:[{tag:`path`,attr:{d:`M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z`},child:[]}]})(e)}function Nr(e){return j({tag:`svg`,attr:{viewBox:`0 0 512 512`},child:[{tag:`path`,attr:{d:`M496 128v16a8 8 0 0 1-8 8h-24v12c0 6.627-5.373 12-12 12H60c-6.627 0-12-5.373-12-12v-12H24a8 8 0 0 1-8-8v-16a8 8 0 0 1 4.941-7.392l232-88a7.996 7.996 0 0 1 6.118 0l232 88A8 8 0 0 1 496 128zm-24 304H40c-13.255 0-24 10.745-24 24v16a8 8 0 0 0 8 8h464a8 8 0 0 0 8-8v-16c0-13.255-10.745-24-24-24zM96 192v192H60c-6.627 0-12 5.373-12 12v20h416v-20c0-6.627-5.373-12-12-12h-36V192h-64v192h-64V192h-64v192h-64V192H96z`},child:[]}]})(e)}function Pr(e){return j({tag:`svg`,attr:{viewBox:`0 0 512 512`},child:[{tag:`path`,attr:{d:`M466.5 83.7l-192-80a48.15 48.15 0 0 0-36.9 0l-192 80C27.7 91.1 16 108.6 16 128c0 198.5 114.5 335.7 221.5 380.3 11.8 4.9 25.1 4.9 36.9 0C360.1 472.6 496 349.3 496 128c0-19.4-11.7-36.9-29.5-44.3zM256.1 446.3l-.1-381 175.9 73.3c-3.3 151.4-82.1 261.1-175.8 307.7z`},child:[]}]})(e)}function Fr(e){return j({tag:`svg`,attr:{viewBox:`0 0 448 512`},child:[{tag:`path`,attr:{d:`M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z`},child:[]}]})(e)}function Ir(e){return j({tag:`svg`,attr:{viewBox:`0 0 448 512`},child:[{tag:`path`,attr:{d:`M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z`},child:[]}]})(e)}function Lr(e){return j({tag:`svg`,attr:{viewBox:`0 0 384 512`},child:[{tag:`path`,attr:{d:`M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z`},child:[]}]})(e)}function Rr(e){return j({tag:`svg`,attr:{viewBox:`0 0 640 512`},child:[{tag:`path`,attr:{d:`M434.7 64h-85.9c-8 0-15.7 3-21.6 8.4l-98.3 90c-.1.1-.2.3-.3.4-16.6 15.6-16.3 40.5-2.1 56 12.7 13.9 39.4 17.6 56.1 2.7.1-.1.3-.1.4-.2l79.9-73.2c6.5-5.9 16.7-5.5 22.6 1 6 6.5 5.5 16.6-1 22.6l-26.1 23.9L504 313.8c2.9 2.4 5.5 5 7.9 7.7V128l-54.6-54.6c-5.9-6-14.1-9.4-22.6-9.4zM544 128.2v223.9c0 17.7 14.3 32 32 32h64V128.2h-96zm48 223.9c-8.8 0-16-7.2-16-16s7.2-16 16-16 16 7.2 16 16-7.2 16-16 16zM0 384h64c17.7 0 32-14.3 32-32V128.2H0V384zm48-63.9c8.8 0 16 7.2 16 16s-7.2 16-16 16-16-7.2-16-16c0-8.9 7.2-16 16-16zm435.9 18.6L334.6 217.5l-30 27.5c-29.7 27.1-75.2 24.5-101.7-4.4-26.9-29.4-24.8-74.9 4.4-101.7L289.1 64h-83.8c-8.5 0-16.6 3.4-22.6 9.4L128 128v223.9h18.3l90.5 81.9c27.4 22.3 67.7 18.1 90-9.3l.2-.2 17.9 15.5c15.9 13 39.4 10.5 52.3-5.4l31.4-38.6 5.4 4.4c13.7 11.1 33.9 9.1 45-4.7l9.5-11.7c11.2-13.8 9.1-33.9-4.6-45.1z`},child:[]}]})(e)}function zr(e){return j({tag:`svg`,attr:{viewBox:`0 0 640 512`},child:[{tag:`path`,attr:{d:`M622.34 153.2L343.4 67.5c-15.2-4.67-31.6-4.67-46.79 0L17.66 153.2c-23.54 7.23-23.54 38.36 0 45.59l48.63 14.94c-10.67 13.19-17.23 29.28-17.88 46.9C38.78 266.15 32 276.11 32 288c0 10.78 5.68 19.85 13.86 25.65L20.33 428.53C18.11 438.52 25.71 448 35.94 448h56.11c10.24 0 17.84-9.48 15.62-19.47L82.14 313.65C90.32 307.85 96 298.78 96 288c0-11.57-6.47-21.25-15.66-26.87.76-15.02 8.44-28.3 20.69-36.72L296.6 284.5c9.06 2.78 26.44 6.25 46.79 0l278.95-85.7c23.55-7.24 23.55-38.36 0-45.6zM352.79 315.09c-28.53 8.76-52.84 3.92-65.59 0l-145.02-44.55L128 384c0 35.35 85.96 64 192 64s192-28.65 192-64l-14.18-113.47-145.03 44.56z`},child:[]}]})(e)}function Br(e){return j({tag:`svg`,attr:{viewBox:`0 0 384 512`},child:[{tag:`path`,attr:{d:`M377 105L279.1 7c-4.5-4.5-10.6-7-17-7H256v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-153 31V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zM64 72c0-4.42 3.58-8 8-8h80c4.42 0 8 3.58 8 8v16c0 4.42-3.58 8-8 8H72c-4.42 0-8-3.58-8-8V72zm0 80v-16c0-4.42 3.58-8 8-8h80c4.42 0 8 3.58 8 8v16c0 4.42-3.58 8-8 8H72c-4.42 0-8-3.58-8-8zm144 263.88V440c0 4.42-3.58 8-8 8h-16c-4.42 0-8-3.58-8-8v-24.29c-11.29-.58-22.27-4.52-31.37-11.35-3.9-2.93-4.1-8.77-.57-12.14l11.75-11.21c2.77-2.64 6.89-2.76 10.13-.73 3.87 2.42 8.26 3.72 12.82 3.72h28.11c6.5 0 11.8-5.92 11.8-13.19 0-5.95-3.61-11.19-8.77-12.73l-45-13.5c-18.59-5.58-31.58-23.42-31.58-43.39 0-24.52 19.05-44.44 42.67-45.07V232c0-4.42 3.58-8 8-8h16c4.42 0 8 3.58 8 8v24.29c11.29.58 22.27 4.51 31.37 11.35 3.9 2.93 4.1 8.77.57 12.14l-11.75 11.21c-2.77 2.64-6.89 2.76-10.13.73-3.87-2.43-8.26-3.72-12.82-3.72h-28.11c-6.5 0-11.8 5.92-11.8 13.19 0 5.95 3.61 11.19 8.77 12.73l45 13.5c18.59 5.58 31.58 23.42 31.58 43.39 0 24.53-19.05 44.44-42.67 45.07z`},child:[]}]})(e)}function Vr(e){return j({tag:`svg`,attr:{viewBox:`0 0 512 512`},child:[{tag:`path`,attr:{d:`M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z`},child:[]}]})(e)}function Hr(e){return j({tag:`svg`,attr:{viewBox:`0 0 320 512`},child:[{tag:`path`,attr:{d:`M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z`},child:[]}]})(e)}function Ur(e){return j({tag:`svg`,attr:{viewBox:`0 0 320 512`},child:[{tag:`path`,attr:{d:`M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z`},child:[]}]})(e)}function Wr(e){return j({tag:`svg`,attr:{viewBox:`0 0 512 512`},child:[{tag:`path`,attr:{d:`M496 384H64V80c0-8.84-7.16-16-16-16H16C7.16 64 0 71.16 0 80v336c0 17.67 14.33 32 32 32h464c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16zM464 96H345.94c-21.38 0-32.09 25.85-16.97 40.97l32.4 32.4L288 242.75l-73.37-73.37c-12.5-12.5-32.76-12.5-45.25 0l-68.69 68.69c-6.25 6.25-6.25 16.38 0 22.63l22.62 22.62c6.25 6.25 16.38 6.25 22.63 0L192 237.25l73.37 73.37c12.5 12.5 32.76 12.5 45.25 0l96-96 32.4 32.4c15.12 15.12 40.97 4.41 40.97-16.97V112c.01-8.84-7.15-16-15.99-16z`},child:[]}]})(e)}function Gr(e){return j({tag:`svg`,attr:{viewBox:`0 0 448 512`},child:[{tag:`path`,attr:{d:`M400 0H48C22.4 0 0 22.4 0 48v416c0 25.6 22.4 48 48 48h352c25.6 0 48-22.4 48-48V48c0-25.6-22.4-48-48-48zM128 435.2c0 6.4-6.4 12.8-12.8 12.8H76.8c-6.4 0-12.8-6.4-12.8-12.8v-38.4c0-6.4 6.4-12.8 12.8-12.8h38.4c6.4 0 12.8 6.4 12.8 12.8v38.4zm0-128c0 6.4-6.4 12.8-12.8 12.8H76.8c-6.4 0-12.8-6.4-12.8-12.8v-38.4c0-6.4 6.4-12.8 12.8-12.8h38.4c6.4 0 12.8 6.4 12.8 12.8v38.4zm128 128c0 6.4-6.4 12.8-12.8 12.8h-38.4c-6.4 0-12.8-6.4-12.8-12.8v-38.4c0-6.4 6.4-12.8 12.8-12.8h38.4c6.4 0 12.8 6.4 12.8 12.8v38.4zm0-128c0 6.4-6.4 12.8-12.8 12.8h-38.4c-6.4 0-12.8-6.4-12.8-12.8v-38.4c0-6.4 6.4-12.8 12.8-12.8h38.4c6.4 0 12.8 6.4 12.8 12.8v38.4zm128 128c0 6.4-6.4 12.8-12.8 12.8h-38.4c-6.4 0-12.8-6.4-12.8-12.8V268.8c0-6.4 6.4-12.8 12.8-12.8h38.4c6.4 0 12.8 6.4 12.8 12.8v166.4zm0-256c0 6.4-6.4 12.8-12.8 12.8H76.8c-6.4 0-12.8-6.4-12.8-12.8V76.8C64 70.4 70.4 64 76.8 64h294.4c6.4 0 12.8 6.4 12.8 12.8v102.4z`},child:[]}]})(e)}function Kr(e){return j({tag:`svg`,attr:{viewBox:`0 0 448 512`},child:[{tag:`path`,attr:{d:`M436 480h-20V24c0-13.255-10.745-24-24-24H56C42.745 0 32 10.745 32 24v456H12c-6.627 0-12 5.373-12 12v20h448v-20c0-6.627-5.373-12-12-12zM128 76c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v40c0 6.627-5.373 12-12 12h-40c-6.627 0-12-5.373-12-12V76zm0 96c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v40c0 6.627-5.373 12-12 12h-40c-6.627 0-12-5.373-12-12v-40zm52 148h-40c-6.627 0-12-5.373-12-12v-40c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v40c0 6.627-5.373 12-12 12zm76 160h-64v-84c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v84zm64-172c0 6.627-5.373 12-12 12h-40c-6.627 0-12-5.373-12-12v-40c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v40zm0-96c0 6.627-5.373 12-12 12h-40c-6.627 0-12-5.373-12-12v-40c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v40zm0-96c0 6.627-5.373 12-12 12h-40c-6.627 0-12-5.373-12-12V76c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v40z`},child:[]}]})(e)}function qr(e){return j({tag:`svg`,attr:{viewBox:`0 0 512 512`},child:[{tag:`path`,attr:{d:`M320 336c0 8.84-7.16 16-16 16h-96c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h416c25.6 0 48-22.4 48-48V288H320v48zm144-208h-80V80c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h512v-80c0-25.6-22.4-48-48-48zm-144 0H192V96h128v32z`},child:[]}]})(e)}function Jr(e){return j({tag:`svg`,attr:{viewBox:`0 0 576 512`},child:[{tag:`path`,attr:{d:`M542.22 32.05c-54.8 3.11-163.72 14.43-230.96 55.59-4.64 2.84-7.27 7.89-7.27 13.17v363.87c0 11.55 12.63 18.85 23.28 13.49 69.18-34.82 169.23-44.32 218.7-46.92 16.89-.89 30.02-14.43 30.02-30.66V62.75c.01-17.71-15.35-31.74-33.77-30.7zM264.73 87.64C197.5 46.48 88.58 35.17 33.78 32.05 15.36 31.01 0 45.04 0 62.75V400.6c0 16.24 13.13 29.78 30.02 30.66 49.49 2.6 149.59 12.11 218.77 46.95 10.62 5.35 23.21-1.94 23.21-13.46V100.63c0-5.29-2.62-10.14-7.27-12.99z`},child:[]}]})(e)}function Yr(e){return j({tag:`svg`,attr:{viewBox:`0 0 448 512`},child:[{tag:`path`,attr:{d:`M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z`},child:[]}]})(e)}function Xr(e){return j({tag:`svg`,attr:{viewBox:`0 0 448 512`},child:[{tag:`path`,attr:{d:`M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z`},child:[]}]})(e)}var Zr=[{icon:Mr,title:`Atención personalizada`,description:`Escuchamos tu situación y te orientamos de forma clara.`},{icon:Pr,title:`Confidencialidad`,description:`Manejamos tu información con total seguridad.`},{icon:Wr,title:`Experiencia y respaldo`,description:`Profesionales actualizados y con amplia trayectoria.`},{icon:Hr,title:`Soluciones integrales`,description:`Te acompañamos en cada etapa de tu negocio.`}],Qr=()=>{let e=pt();return(0,A.jsxs)(A.Fragment,{children:[(0,A.jsxs)(`section`,{id:`home`,className:`\r
+          relative overflow-hidden\r
+          pt-28 sm:pt-32 md:pt-36 lg:pt-36\r
+          pb-12 sm:pb-14 md:pb-16 lg:pb-20\r
+        `,children:[(0,A.jsx)(`div`,{className:`absolute inset-0 -z-10 bg-white`}),(0,A.jsx)(`div`,{className:`absolute -top-24 -right-24 w-[260px] h-[260px] md:w-[420px] md:h-[420px] bg-[#C8A24A]/10 rounded-full blur-3xl -z-10`}),(0,A.jsx)(`div`,{className:`absolute top-1/2 -left-32 w-[260px] h-[260px] md:w-[380px] md:h-[380px] bg-[#071B3A]/5 rounded-full blur-3xl -z-10`}),(0,A.jsx)(`div`,{className:`\r
+            max-w-7xl mx-auto\r
+            px-5 sm:px-6 md:px-8 lg:px-10\r
+          `,children:(0,A.jsxs)(`div`,{className:`\r
+              grid grid-cols-1 lg:grid-cols-[1.05fr_0.95fr]\r
+              gap-10 md:gap-12 lg:gap-14\r
+              items-center\r
+            `,children:[(0,A.jsxs)(`div`,{className:`\r
+                text-center lg:text-left\r
+                max-w-[640px]\r
+                mx-auto lg:mx-0\r
+              `,children:[(0,A.jsx)(`p`,{className:`\r
+                  text-[#C8A24A]\r
+                  font-semibold\r
+                  tracking-[0.18em]\r
+                  uppercase\r
+                  text-[11px] sm:text-xs md:text-sm\r
+                  mb-4\r
+                `,children:`Consultoría y Gestión A&A Ltda.`}),(0,A.jsx)(`h1`,{className:`\r
+                  font-playfair\r
+                  text-[#071B3A]\r
+                  font-semibold\r
+                  tracking-[-0.035em]\r
+                  leading-[1.08]\r
+                  text-[34px]\r
+                  sm:text-[42px]\r
+                  md:text-[50px]\r
+                  lg:text-[56px]\r
+                  xl:text-[60px]\r
+                `,children:`Asesorías contables, tributarias y laborales con un enfoque claro, cercano y profesional.`}),(0,A.jsx)(`p`,{className:`\r
+                  mt-5 md:mt-6\r
+                  text-gray-700\r
+                  text-[14px] sm:text-[15px] md:text-[16px]\r
+                  leading-[1.75]\r
+                  max-w-[590px]\r
+                  mx-auto lg:mx-0\r
+                `,children:`A través de Asesorías Alexandra, acompañamos y asesoramos a empresas, pymes y emprendedores en sus procesos contables, tributarios, laborales y administrativos, entregando orientación clara y apoyo profesional para fortalecer la toma de decisiones y el crecimiento de sus negocios.`}),(0,A.jsxs)(`div`,{className:`\r
+                  mt-7 md:mt-8\r
+                  flex flex-col sm:flex-row\r
+                  items-center\r
+                  justify-center lg:justify-start\r
+                  gap-3 md:gap-4\r
+                `,children:[(0,A.jsxs)(`a`,{href:`https://wa.me/56931087761`,target:`_blank`,rel:`noopener noreferrer`,className:`\r
+                    inline-flex items-center justify-center gap-2\r
+                    w-full sm:w-auto\r
+                    min-w-[230px]\r
+                    h-[46px] md:h-[50px]\r
+                    px-6\r
+                    rounded-full\r
+                    bg-[#071B3A] text-white\r
+                    font-semibold\r
+                    text-sm md:text-[15px]\r
+                    shadow-[0_14px_30px_rgba(7,27,58,0.22)]\r
+                    hover:bg-[#0b2a5a]\r
+                    hover:-translate-y-1\r
+                    transition-all duration-300\r
+                  `,children:[(0,A.jsx)(Or,{size:19}),`Escribir por WhatsApp`]}),(0,A.jsxs)(`button`,{type:`button`,onClick:()=>{e(`/services`),setTimeout(()=>{let e=document.getElementById(`services`);e&&e.scrollIntoView({behavior:`smooth`,block:`start`})},250)},className:`\r
+                    inline-flex items-center justify-center gap-2\r
+                    w-full sm:w-auto\r
+                    min-w-[210px]\r
+                    h-[46px] md:h-[50px]\r
+                    px-6\r
+                    rounded-full\r
+                    border border-[#C8A24A]\r
+                    text-[#071B3A]\r
+                    bg-white/80\r
+                    font-semibold\r
+                    text-sm md:text-[15px]\r
+                    shadow-[0_14px_30px_rgba(200,162,74,0.16)]\r
+                    hover:bg-[#C8A24A]/10\r
+                    hover:-translate-y-1\r
+                    transition-all duration-300\r
+                  `,children:[`Ver servicios`,(0,A.jsx)(Yr,{size:14})]})]})]}),(0,A.jsx)(`div`,{className:`\r
+                relative z-10\r
+                flex justify-center lg:justify-end\r
+              `,children:(0,A.jsxs)(`div`,{className:`\r
+                  relative\r
+                  w-full\r
+                  max-w-[290px]\r
+                  sm:max-w-[390px]\r
+                  md:max-w-[500px]\r
+                  lg:max-w-[540px]\r
+                `,children:[(0,A.jsx)(`div`,{className:`\r
+                    absolute inset-0\r
+                    rounded-full\r
+                    bg-[#C8A24A]/20\r
+                    blur-[70px]\r
+                    scale-90\r
+                  `}),(0,A.jsx)(`div`,{className:`\r
+                    absolute -bottom-5 left-1/2\r
+                    -translate-x-1/2\r
+                    w-[70%] h-[70px]\r
+                    bg-[#071B3A]/10\r
+                    blur-3xl\r
+                    rounded-full\r
+                  `}),(0,A.jsx)(`img`,{src:pr,alt:`Logo Asesorías Alexandra`,className:`\r
+                    relative\r
+                    w-full\r
+                    object-contain\r
+                    rounded-[28px]\r
+                    border border-white/80\r
+                    shadow-[0_28px_70px_rgba(7,27,58,0.13)]\r
+                  `})]})})]})})]}),(0,A.jsx)(`section`,{className:`relative pb-10 md:pb-14`,children:(0,A.jsxs)(`div`,{className:`max-w-6xl mx-auto px-5 sm:px-6 md:px-8`,children:[(0,A.jsx)(`div`,{className:`border-t border-[#C8A24A]/20 mb-6 md:mb-8`}),(0,A.jsx)(`div`,{className:`\r
+              grid\r
+              grid-cols-1\r
+              sm:grid-cols-2\r
+              lg:grid-cols-4\r
+              gap-4 sm:gap-5 md:gap-6\r
+            `,children:Zr.map((e,t)=>{let n=e.icon;return(0,A.jsxs)(`div`,{className:`\r
+                    group\r
+                    relative\r
+                    flex flex-col items-center text-center\r
+                    bg-white\r
+                    border border-[#C8A24A]/15\r
+                    rounded-[24px]\r
+                    px-5 py-6\r
+                    min-h-[185px]\r
+                    shadow-[0_16px_40px_rgba(7,27,58,0.07)]\r
+                    hover:-translate-y-1\r
+                    hover:shadow-[0_20px_45px_rgba(7,27,58,0.10)]\r
+                    transition-all duration-300\r
+                  `,children:[(0,A.jsx)(`div`,{className:`\r
+                      w-12 h-12\r
+                      md:w-14 md:h-14\r
+                      rounded-2xl\r
+                      bg-[#071B3A]\r
+                      flex items-center justify-center\r
+                      mb-4\r
+                      shadow-[0_12px_24px_rgba(7,27,58,0.18)]\r
+                    `,children:(0,A.jsx)(n,{size:20,className:`text-[#C8A24A]`})}),(0,A.jsx)(`h3`,{className:`\r
+                      text-[#071B3A]\r
+                      font-semibold\r
+                      text-[15px] md:text-[17px]\r
+                      leading-tight\r
+                      mb-2\r
+                    `,children:e.title}),(0,A.jsx)(`p`,{className:`\r
+                      text-gray-600\r
+                      text-[13px] md:text-[14px]\r
+                      leading-[1.65]\r
+                    `,children:e.description})]},t)})}),(0,A.jsx)(`div`,{className:`border-t border-[#C8A24A]/20 mt-8 md:mt-10`})]})})]})},$r=`/asesorias-alexandra/assets/ale-oficina-CxcUoiUW.JPEG`,ei=()=>(0,A.jsx)(`section`,{id:`quiensomos`,className:`relative py-12 md:py-20 overflow-hidden`,children:(0,A.jsx)(`div`,{className:`relative max-w-7xl mx-auto `,children:(0,A.jsxs)(`div`,{className:`relative mx-auto px-0 md:px-8 grid lg:grid-cols-[1fr_1fr] gap-10 md:gap-10 lg:gap-12 items-center`,children:[(0,A.jsxs)(`div`,{className:`text-center lg:text-left max-w-[380px] sm:max-w-[460px] md:max-w-[720px] lg:max-w-[580px] mx-auto lg:mx-0`,children:[(0,A.jsx)(`p`,{className:`text-sm md:text-base text-[#C8A24A] font-semibold mb-3 md:mb-4`,children:`Quiénes somos`}),(0,A.jsx)(`h2`,{className:`\r
                                 font-playfair\r
                                 text-[#071B3A]\r
                                 font-[600]\r
