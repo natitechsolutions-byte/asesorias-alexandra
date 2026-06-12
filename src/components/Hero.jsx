@@ -68,7 +68,7 @@ const Hero = () => {
 
                             <h2
   className="
-    font-bodoni
+   
     text-[#071B3A]
     font-[700]
     text-[31px]
@@ -106,7 +106,8 @@ const Hero = () => {
                             <p
   className="
     mt-6 md:mt-7
-    text-left
+    text-justify
+    sm:text-justify
     lg:text-justify
     text-sm
     md:text-base
@@ -228,8 +229,7 @@ const Hero = () => {
 
             <section>
                 <div className="max-w-6xl mx-auto border-t border-[#C8A24A]/15"></div>
-
-                <div className="max-w-6xl mx-auto px-2 py-2 md:py-4">
+                <div className="max-w-6xl mx-auto px-5 md:px-6 py-2 md:py-4">
                     <div className="grid grid-cols-2 xl:grid-cols-4 gap-6 md:gap-8">
                         {features.map((feature, index) => {
                             const Icon = feature.icon;

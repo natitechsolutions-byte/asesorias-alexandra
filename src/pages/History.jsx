@@ -83,10 +83,9 @@ const History = () => {
 
                         <h1
                         className="
-                            font-bodoni
-                            font-[700]
                             text-[#071B3A]
                             lg:text-left
+                            font-[600]
                             text-[1.7rem] sm:text-4xl md:text-5xl
                             mt-3 md:mt-4
                             leading-[0.98]
@@ -132,7 +131,7 @@ const History = () => {
                                 href="https://wa.me/56931087761"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="inline-flex items-center justify-center gap-2 border border-green-600 text-[#071B3A] px-6 md:px-8 py-3 rounded-full text-sm md:text-base font-semibold hover:bg-[#C8A24A]/10 transition"
+                                className="inline-flex items-center justify-center gap-2 border border-[#C8A24A] text-[#071B3A] px-6 md:px-8 py-3 rounded-full text-sm md:text-base font-semibold hover:bg-[#C8A24A]/10 transition"
                             >
                                 <FaWhatsapp size={16} />
                                 Solicitar asesoría
@@ -154,7 +153,7 @@ const History = () => {
                             </div>
 
                             <div className="text-center mt-4 md:mt-6">
-                                <h2 className="font-playfair text-xl sm:text-2xl md:text-2xl font-bold text-[#071B3A]">
+                                <h2 className="text-xl sm:text-2xl md:text-2xl font-bold text-[#071B3A]">
                                     Alexandra Pedreros Palma
                                 </h2>
 
@@ -178,7 +177,7 @@ const History = () => {
 
                         <h2
                             className="
-                                font-bodoni text-center
+                                text-center
                                 text-[26px] sm:text-3xl md:text-5xl
                                 font-[600] text-[#071B3A]
                                 mt-2 md:mt-3

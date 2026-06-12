@@ -37,13 +37,13 @@ const Services = () => {
 
   return (
     <section id="services" className="relative overflow-hidden">
-      <div className="max-w-7xl mx-auto px-8 sm:px-10 lg:px-6 xl:px-16">
+      <div className="max-w-7xl mx-auto px-5 md:px-6 lg:px-6 xl:px-16">
         <div className="text-center max-w-3xl mx-auto mb-10 md:mb-14">
           <span className="text-sm md:text-base text-[#C8A24A] font-semibold">
             Servicios
           </span>
 
-          <h2 className="font-bodoni
+          <h2 className="
                          font-[700]
                          text-3xl 
                          md:text-5xl

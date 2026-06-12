@@ -37,7 +37,6 @@ const Contact = () => {
             </p>
 
             <h2 className="
-                font-bodoni
                 font-[700]
                 text-[31px]
                 sm:text-[38px]
