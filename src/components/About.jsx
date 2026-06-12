@@ -9,9 +9,30 @@ const About = () => {
   return (
     <section id="quiensomos" className="relative py-12 md:py-20 overflow-hidden">
       <div className="relative max-w-7xl mx-auto px-5 md:px-6">
-        <div className="relative mx-auto grid lg:grid-cols-[1fr_1fr] gap-10 md:gap-10 lg:gap-12 items-center">
-
-          <div className="text-center lg:text-left max-w-[380px] sm:max-w-[460px] md:max-w-[720px] lg:max-w-[580px] mx-auto lg:mx-0">
+        <div
+          className="
+          relative mx-auto
+          grid
+          lg:grid-cols-[0.90fr_1fr]
+          gap-8
+          md:gap-10
+          lg:gap-6
+          xl:gap-8
+          items-center
+        "
+        >
+          <div
+            className="
+    text-center lg:text-left
+    max-w-[380px]
+    sm:max-w-[460px]
+    md:max-w-[720px]
+    lg:max-w-[540px]
+    mx-auto
+    lg:ml-auto
+    lg:mr-0
+  "
+          >
             <p className="text-sm md:text-base text-[#C8A24A] font-semibold mb-3 md:mb-4">
               Quiénes somos
             </p>
