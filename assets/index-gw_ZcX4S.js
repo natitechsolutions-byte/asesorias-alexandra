@@ -158,7 +158,25 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
           xl:border-[#C8A24A]/30\r
         `,children:(0,A.jsx)(n,{size:18,className:`text-[#C8A24A] md:w-[22px] md:h-[22px]`})}),(0,A.jsx)(`h3`,{className:`text-base\r
                                 md:text-lg font-semibold text-[#071B3A] text-[15px] leading-tight`,children:e.title}),(0,A.jsx)(`p`,{className:` text-sm\r
-                                md:text-base text-gray-700 leading-relaxed`,children:e.description})]},t)})})}),(0,A.jsx)(`div`,{className:`max-w-6xl mx-auto border-t border-[#C8A24A]/15`})]})]})},$r=`/asesorias-alexandra/assets/ale-oficina-CxcUoiUW.JPEG`,ei=()=>(0,A.jsx)(`section`,{id:`quiensomos`,className:`relative py-12 md:py-20 overflow-hidden`,children:(0,A.jsx)(`div`,{className:`relative max-w-7xl mx-auto px-5 md:px-6`,children:(0,A.jsxs)(`div`,{className:`relative mx-auto grid lg:grid-cols-[1fr_1fr] gap-10 md:gap-10 lg:gap-12 items-center`,children:[(0,A.jsxs)(`div`,{className:`text-center lg:text-left max-w-[380px] sm:max-w-[460px] md:max-w-[720px] lg:max-w-[580px] mx-auto lg:mx-0`,children:[(0,A.jsx)(`p`,{className:`text-sm md:text-base text-[#C8A24A] font-semibold mb-3 md:mb-4`,children:`Quiénes somos`}),(0,A.jsx)(`h2`,{className:`\r
+                                md:text-base text-gray-700 leading-relaxed`,children:e.description})]},t)})})}),(0,A.jsx)(`div`,{className:`max-w-6xl mx-auto border-t border-[#C8A24A]/15`})]})]})},$r=`/asesorias-alexandra/assets/ale-oficina-CxcUoiUW.JPEG`,ei=()=>(0,A.jsx)(`section`,{id:`quiensomos`,className:`relative py-12 md:py-20 overflow-hidden`,children:(0,A.jsx)(`div`,{className:`relative max-w-7xl mx-auto px-5 md:px-6`,children:(0,A.jsxs)(`div`,{className:`\r
+          relative mx-auto\r
+          grid\r
+          lg:grid-cols-[0.90fr_1fr]\r
+          gap-8\r
+          md:gap-10\r
+          lg:gap-6\r
+          xl:gap-8\r
+          items-center\r
+        `,children:[(0,A.jsxs)(`div`,{className:`\r
+    text-center lg:text-left\r
+    max-w-[380px]\r
+    sm:max-w-[460px]\r
+    md:max-w-[720px]\r
+    lg:max-w-[540px]\r
+    mx-auto\r
+    lg:ml-auto\r
+    lg:mr-0\r
+  `,children:[(0,A.jsx)(`p`,{className:`text-sm md:text-base text-[#C8A24A] font-semibold mb-3 md:mb-4`,children:`Quiénes somos`}),(0,A.jsx)(`h2`,{className:`\r
               text-[#071B3A]\r
               font-[700]\r
               text-[28px]\r
