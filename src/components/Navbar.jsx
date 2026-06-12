@@ -13,6 +13,7 @@ const navItems = [
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [activeMobileItem, setActiveMobileItem] = useState(null);
   const navigate = useNavigate();
 
   const goToSection = (section, path = "/") => {
@@ -28,6 +29,16 @@ const Navbar = () => {
         });
       }
     }, 300);
+  };
+
+  const handleMobileClick = (item) => {
+    setActiveMobileItem(item.section);
+
+    setTimeout(() => {
+      goToSection(item.section, item.path);
+      setIsOpen(false);
+      setActiveMobileItem(null);
+    }, 180);
   };
 
   return (
@@ -103,19 +114,38 @@ const Navbar = () => {
       {/* MENÚ MOBILE */}
       {isOpen && (
         <div className="lg:hidden bg-white/95 backdrop-blur-xl border-b border-[#C8A24A]/20 shadow-xl">
-          <div className="px-6 py-5 flex flex-col gap-3 text-[#071B3A] font-semibold">
-            {navItems.map((item) => (
-              <button
-                key={item.section}
-                onClick={() => {
-                  goToSection(item.section, item.path);
-                  setIsOpen(false);
-                }}
-                className="py-3 border-b border-gray-100 hover:text-[#C8A24A] transition text-left text-[15px]"
-              >
-                {item.name}
-              </button>
-            ))}
+          <div className="px-5 py-5 flex flex-col gap-2 text-[#071B3A] font-semibold">
+            {navItems.map((item) => {
+              const isActive = activeMobileItem === item.section;
+
+              return (
+                <button
+                  key={item.section}
+                  onMouseEnter={() => setActiveMobileItem(item.section)}
+                  onMouseLeave={() => setActiveMobileItem(null)}
+                  onClick={() => handleMobileClick(item)}
+                  className={`
+                    w-full
+                    px-4
+                    py-3.5
+                    rounded-2xl
+                    text-left
+                    text-[15px]
+                    font-semibold
+                    border
+                    transition-all
+                    duration-300
+                    ${
+                      isActive
+                        ? "bg-white text-[#C8A24A] border-[#C8A24A]/30 shadow-[0_12px_30px_rgba(7,27,58,0.18)] translate-x-1"
+                        : "bg-transparent text-[#071B3A] border-transparent shadow-none"
+                    }
+                  `}
+                >
+                  {item.name}
+                </button>
+              );
+            })}
           </div>
         </div>
       )}

@@ -117,7 +117,9 @@ const History = () => {
                             mejores decisiones.
                         </p>
 
-                        <p className="justify-text mt-3 md:mt-4 text-[15px] md:text-base text-gray-700 leading-relaxed">
+                        <p className="text-justify
+                                sm:text-justify
+                                lg:text-justify  mt-3 md:mt-4 text-[15px] md:text-base text-gray-700 leading-relaxed">
                             Más allá del cumplimiento normativo, buscamos que nuestros
                             clientes comprendan su información financiera, organicen sus
                             recursos, gestionen adecuadamente sus costos y cuenten con
@@ -154,7 +156,7 @@ const History = () => {
                                     alt="Alexandra Pedreros Palma"
                                     className="w-full h-full object-cover scale-110"
                                     style={{
-                                        objectPosition: "center 75%",
+                                        objectPosition: "center 60%",
                                     }}
                                 />
                             </div>
@@ -319,23 +321,27 @@ const History = () => {
                     </div>
                 </div>
 
-                <div className="mt-14 md:mt-20 bg-[#071B3A] text-white rounded-2xl md:rounded-3xl p-6 md:p-12 shadow-2xl">
+                <div className="text-center lg:text-left mt-14 md:mt-20 bg-[#071B3A] text-white rounded-2xl md:rounded-3xl p-6 md:p-12 shadow-2xl">
                     <p className="text-sm md:text-base text-[#C8A24A] font-semibold">
                         Propuesta de valor
                     </p>
 
-                    <h2 className="font-playfair justify-text
+                    <h2 className=" 
                                    font-[700] text-2xl md:text-3xl font-bold mt-2 md:mt-3">
                         Más que una oficina contable, un apoyo profesional para la gestión
                         de tu negocio.
                     </h2>
 
-                    <p className="justify-text mt-4 md:mt-5 text-sm md:text-base text-white/80 leading-relaxed max-w-6xl">
+                    <p className="text-justify
+                                sm:text-justify
+                                lg:text-justify  mt-4 md:mt-5 text-sm md:text-base text-white/80 leading-relaxed max-w-6xl">
                         Nuestro trabajo no se limita al cumplimiento de obligaciones legales y tributarias.
                         Buscamos que cada cliente conozca sus responsabilidades y utilice la información disponible para
                         tomar decisiones más informadas.
                     </p>
-                    <p className="justify-text mt-4 md:mt-5 text-sm md:text-base text-white/80 leading-relaxed max-w-6xl">
+                    <p className="text-justify
+                                sm:text-justify
+                                lg:text-justify  mt-4 md:mt-5 text-sm md:text-base text-white/80 leading-relaxed max-w-6xl">
                         Entendiendo la contabilidad como una herramienta de gestión que permite ordenar las finanzas,
                         controlar costos, evaluar resultados y planificar el crecimiento del negocio.
                     </p>
