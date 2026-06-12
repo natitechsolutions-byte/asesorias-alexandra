@@ -9,7 +9,7 @@ const About = () => {
   return (
     <section id="quiensomos" className="relative py-12 md:py-20 overflow-hidden">
       <div className="relative max-w-7xl mx-auto ">
-        <div className="relative mx-auto px-5 md:px-6 grid lg:grid-cols-[1fr_1fr] gap-10 md:gap-10 lg:gap-12 items-center">
+         <div className="relative mx-auto px-0 md:px-8 grid lg:grid-cols-[1fr_1fr] gap-10 md:gap-10 lg:gap-12 items-center">
 
           <div className="text-center lg:text-left max-w-[380px] sm:max-w-[460px] md:max-w-[720px] lg:max-w-[580px] mx-auto lg:mx-0">
             <p className="text-sm md:text-base text-[#C8A24A] font-semibold mb-3 md:mb-4">
@@ -17,23 +17,22 @@ const About = () => {
             </p>
 
             <h2 className=" 
-                                font-[600]
-                                text-[31px]text-[#071B3A]
-                                font-[600]
-                                text-[31px]
-                                sm:text-[38px]
-                                md:text-[48px]
-                                lg:text-[54px]
-                                xl:text-[50px]
-                                leading-[0.98]
-                                tracking-[-0.03em]
+                  text-[#071B3A]
+                  font-[700]
+                  text-[31px]
+                  sm:text-[38px]
+                  md:text-[48px]
+                  lg:text-[52px]
+                  xl:text-[50px]
+                  leading-[0.98]
+                  tracking-[-0.03em]
                 
               ">
               Acompañamiento profesional para ordenar y fortalecer tu negocio.
             </h2>
 
-            <p 
-             className="
+            <p
+              className="
                                 mt-5 md:mt-6
                                  text-justify
                                 sm:text-justify
@@ -52,8 +51,8 @@ const About = () => {
               orientada a acompañar a emprendedores, trabajadores independientes y empresas en la organización de sus procesos contables,
               tributarios, laborales y administrativos.
             </p>
-            <p 
-            className="
+            <p
+              className="
                                 mt-5 md:mt-6
                                  text-justify
                                 sm:text-justify

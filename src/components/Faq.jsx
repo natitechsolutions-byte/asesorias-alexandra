@@ -16,21 +16,21 @@ const Faq = () => {
     >
       <div className="max-w-7xl mx-auto px-5 md:px-6">
 
-        <div className="text-center mb-10 md:mb-14">
+        <div className="text-center mb-6 md:mb-6">
           <span className="text-sm md:text-base text-[#C8A24A] font-semibold">
             Preguntas frecuentes
           </span>
 
           <h2 className="
-                         font-[700]
-                         text-[31px]
-                         sm:text-4xl 
-                         md:text-5xl 
-                         font-bold
                          text-[#071B3A]
-                         text-center
-                         mt-3 md:mt-4
-                         leading-tight">
+                  font-[700]
+                  text-[31px]
+                  sm:text-[38px]
+                  md:text-[48px]
+                  lg:text-[52px]
+                  xl:text-[50px]
+                  leading-[0.98]
+                  tracking-[-0.03em]">
             Información importante antes de comenzar
           </h2>
 

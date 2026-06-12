@@ -38,17 +38,21 @@ const Services = () => {
   return (
     <section id="services" className="relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-5 md:px-6 lg:px-6 xl:px-16">
-        <div className="text-center max-w-3xl mx-auto mb-10 md:mb-14">
+        <div className="text-center max-w-3xl mx-auto mb-6 md:mb-6">
           <span className="text-sm md:text-base text-[#C8A24A] font-semibold">
             Servicios
           </span>
 
           <h2 className="
-                         font-[700]
-                         text-3xl 
-                         md:text-5xl
-                        text-[#071B3A] 
-                        mt-2 md:mt-3">
+                  text-[#071B3A]
+                  font-[700]
+                  text-[31px]
+                  sm:text-[38px]
+                  md:text-[48px]
+                  lg:text-[52px]
+                  xl:text-[50px]
+                  leading-[0.98]
+                  tracking-[-0.03em]">
             Planes y Servicios
           </h2>
 
