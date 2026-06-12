@@ -21,7 +21,7 @@ const Faq = () => {
             Preguntas frecuentes
           </span>
 
-          <h2 className="font-playfair
+          <h2 className="font-bodoni
                          font-[600]
                          text-[2rem] 
                          sm:text-4xl 

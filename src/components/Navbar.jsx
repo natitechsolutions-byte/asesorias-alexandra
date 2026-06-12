@@ -41,7 +41,7 @@ const Navbar = () => {
                     <img
                         src={logoAA}
                         alt="A&A"
-                        className="h-12 md:h-14 w-auto object-contain"
+                        className="h-12 md:h-20 w-auto object-contain"
                     />
 
                     {/* Línea vertical */}

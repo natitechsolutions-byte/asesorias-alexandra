@@ -43,7 +43,7 @@ const Services = () => {
             Servicios
           </span>
 
-          <h2 className="font-playfair
+          <h2 className="font-bodoni
                          font-[600]
                          text-3xl 
                          md:text-5xl

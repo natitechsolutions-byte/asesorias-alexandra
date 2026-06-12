@@ -68,7 +68,7 @@ const Hero = () => {
 
                             <h2
   className="
-    font-playfair
+     font-bodoni
     text-[#071B3A]
     font-[700]
     text-[31px]
@@ -84,7 +84,7 @@ const Hero = () => {
 </h2>
 <h3
   className="
-    font-playfair
+    font-gilda
     mt-3 md:mt-4
     max-w-[560px]
     text-[#C8A24A]
@@ -114,7 +114,7 @@ const Hero = () => {
     leading-[1.7]
     md:leading-relaxed
     max-w-full
-    md:max-w-[640px]
+    md:max-w-[520px]
     lg:max-w-[530px]
     mx-auto
     lg:mx-0
