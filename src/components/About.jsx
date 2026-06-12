@@ -17,7 +17,7 @@ const About = () => {
             </p>
 
             <h2 className=" 
-                                font-[700]
+                                font-[600]
                                 text-[31px]text-[#071B3A]
                                 font-[600]
                                 text-[31px]

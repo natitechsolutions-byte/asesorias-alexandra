@@ -76,33 +76,40 @@ const History = () => {
 
             <div className="relative max-w-7xl mx-auto px-5 md:px-6 xl:px-16">
                 <div className="grid lg:grid-cols-2 gap-10 md:gap-14 items-center">
-                    <div>
-                        <span className="text-sm md:text-base text-[#C8A24A] font-semibold">
-                            Nuestra historia
-                        </span>
+                    <div className="text-center lg:text-left max-w-[380px] sm:max-w-[460px] md:max-w-[720px] lg:max-w-[580px] mx-auto lg:mx-0">
+                        <p className="text-sm md:text-base text-[#C8A24A] font-semibold mb-3 md:mb-4">
+              Nuestra historia
+            </p>
 
                         <h1
-                        className="
-                            text-[#071B3A]
-                            lg:text-left
+                            className="
                             font-[600]
-                            text-[1.7rem] sm:text-4xl md:text-5xl
-                            mt-3 md:mt-4
-                            leading-[0.98]
-                            text-center
+                                text-[31px]text-[#071B3A]
+                                font-[700]
+                                text-[31px]
+                                sm:text-[38px]
+                                md:text-[48px]
+                                lg:text-[54px]
+                                xl:text-[50px]
+                                leading-[0.98]
+                                tracking-[-0.03em]
                         "
                         >
                             Una trayectoria construida con responsabilidad, cercanía y
                             vocación profesional.
                         </h1>
 
-                        <p className="justify-text mt-5 md:mt-6 text-[15px] md:text-base text-gray-700 leading-relaxed">
+                        <p className="  text-justify
+                                sm:text-justify
+                                lg:text-justify mt-5 md:mt-6 sm-text md:text-base text-gray-700 leading-relaxed">
                             Asesorías Alexandra es el resultado de un proceso de formación
                             académica, experiencia práctica y trabajo constante junto a
                             empresas de distintos rubros y tamaños.
                         </p>
 
-                        <p className="justify-text mt-3 md:mt-4 text-[15px] md:text-base text-gray-700 leading-relaxed">
+                        <p className="  text-justify
+                                sm:text-justify
+                                lg:text-justify mt-5 md:mt-6 sm-text md:text-base text-gray-700 leading-relaxed">
                             Su propósito es entregar apoyo contable, tributario, laboral y
                             administrativo de manera clara y cercana, ayudando a cada empresa
                             a mantener una gestión ordenada, cumplir sus obligaciones
@@ -177,13 +184,18 @@ const History = () => {
 
                         <h2
                             className="
-                                text-center
-                                text-[26px] sm:text-3xl md:text-5xl
-                                font-[600] text-[#071B3A]
-                                mt-2 md:mt-3
-                                leading-tight
+                                font-[600]
+                                text-[31px]text-[#071B3A]
+                                font-[600]
+                                text-[31px]
+                                sm:text-[38px]
+                                md:text-[48px]
+                                lg:text-[54px]
+                                xl:text-[50px]
+                                leading-[0.98]
+                                tracking-[-0.03em]
                             "
-                            >
+                        >
                             Nuestra trayectoria profesional
                         </h2>
                     </div>
@@ -217,36 +229,36 @@ const History = () => {
                     </div>
 
                     {/* Mobile carrusel */}
-<div className="lg:hidden relative max-w-[390px] mx-auto">
-  <div className="bg-white/90 rounded-3xl p-6 shadow-lg border border-white/60 min-h-[300px]">
-    {(() => {
-      const item = timeline[currentStep];
-      const Icon = item.icon;
+                    <div className="lg:hidden relative max-w-[390px] mx-auto">
+                        <div className="bg-white/90 rounded-3xl p-6 shadow-lg border border-white/60 min-h-[300px]">
+                            {(() => {
+                                const item = timeline[currentStep];
+                                const Icon = item.icon;
 
-      return (
-        <>
-          <div className="flex flex-col items-center text-center gap-3 mb-5">
-            <div className="w-14 h-14 rounded-xl bg-[#C8A24A]/10 flex items-center justify-center">
-              <Icon className="text-[#C8A24A] text-xl" />
-            </div>
+                                return (
+                                    <>
+                                        <div className="flex flex-col items-center text-center gap-3 mb-5">
+                                            <div className="w-14 h-14 rounded-xl bg-[#C8A24A]/10 flex items-center justify-center">
+                                                <Icon className="text-[#C8A24A] text-xl" />
+                                            </div>
 
-            <h3 className="text-xl font-bold text-[#071B3A] leading-tight">
-              {item.title}
-            </h3>
-          </div>
+                                            <h3 className="text-xl font-bold text-[#071B3A] leading-tight">
+                                                {item.title}
+                                            </h3>
+                                        </div>
 
-          <p className="mt-3 text-sm text-gray-700 leading-relaxed text-center">
-            {item.text}
-          </p>
-        </>
-      );
-    })()}
-  </div>
+                                        <p className="mt-3 text-sm text-gray-700 leading-relaxed text-center">
+                                            {item.text}
+                                        </p>
+                                    </>
+                                );
+                            })()}
+                        </div>
 
-  <div className="flex justify-center gap-4 mt-5">
-   <button
-  onClick={prevStep}
-  className="
+                        <div className="flex justify-center gap-4 mt-5">
+                            <button
+                                onClick={prevStep}
+                                className="
     absolute
     left-[-10px]
     top-1/2
@@ -263,14 +275,14 @@ const History = () => {
     border border-[#C8A24A]/20
     z-10
   "
->
-  <FaChevronLeft size={12} />
-</button>
+                            >
+                                <FaChevronLeft size={12} />
+                            </button>
 
 
-    <button
-  onClick={nextStep}
-  className="
+                            <button
+                                onClick={nextStep}
+                                className="
     absolute
     right-[-10px]
     top-1/2
@@ -287,25 +299,24 @@ const History = () => {
     border border-[#C8A24A]/20
     z-10
   "
->
-  <FaChevronRight size={12} />
-</button>
-  </div>
+                            >
+                                <FaChevronRight size={12} />
+                            </button>
+                        </div>
 
-  <div className="flex justify-center gap-2 mt-5">
-    {timeline.map((_, index) => (
-      <button
-        key={index}
-        onClick={() => setCurrentStep(index)}
-        className={`h-2 rounded-full transition-all ${
-          currentStep === index
-            ? "w-8 bg-[#C8A24A]"
-            : "w-2 bg-[#C8A24A]/30"
-        }`}
-      />
-    ))}
-  </div>
-</div>
+                        <div className="flex justify-center gap-2 mt-5">
+                            {timeline.map((_, index) => (
+                                <button
+                                    key={index}
+                                    onClick={() => setCurrentStep(index)}
+                                    className={`h-2 rounded-full transition-all ${currentStep === index
+                                            ? "w-8 bg-[#C8A24A]"
+                                            : "w-2 bg-[#C8A24A]/30"
+                                        }`}
+                                />
+                            ))}
+                        </div>
+                    </div>
                 </div>
 
                 <div className="mt-14 md:mt-20 bg-[#071B3A] text-white rounded-2xl md:rounded-3xl p-6 md:p-12 shadow-2xl">
