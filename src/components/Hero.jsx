@@ -68,7 +68,7 @@ const Hero = () => {
 
                             <h2
   className="
-     font-bodoni
+    font-bodoni
     text-[#071B3A]
     font-[700]
     text-[31px]
@@ -198,18 +198,7 @@ const Hero = () => {
                                 ></div>
 
                                 <div
-                                    className="
-                                    absolute
-                                    -bottom-10
-                                    left-1/2
-                                    -translate-x-1/2
-                                    w-[70%]
-                                    h-[80px]
-                                    bg-[#C8A24A]/20
-                                    blur-3xl
-                                    rounded-full
-                                    shadow-[0_35px_80px_rgba(7,27,58,0.12)]
-                                    "
+                                   className="relative z-10 order-2 w-full flex justify-center lg:justify-center lg:mt-8 xl:mt-10"
                                 ></div>
 
                                 <img

@@ -44,7 +44,7 @@ const Services = () => {
           </span>
 
           <h2 className="font-bodoni
-                         font-[600]
+                         font-[700]
                          text-3xl 
                          md:text-5xl
                         text-[#071B3A] 

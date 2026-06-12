@@ -38,8 +38,8 @@ const Contact = () => {
 
             <h2 className="
                 font-bodoni
-                font-[600]
-                text-[35px]
+                font-[700]
+                text-[31px]
                 sm:text-[38px]
                 md:text-[50px]
                 lg:text-[54px]
@@ -79,7 +79,7 @@ const Contact = () => {
                 font-semibold
                 text-sm md:text-base 
                 border
-                border-white/20
+                border-green-600
                 hover:bg-[#0b2c5c]
                 transition
     "

@@ -83,13 +83,13 @@ const History = () => {
 
                         <h1
                         className="
-                            font-playfair
+                            font-bodoni
+                            font-[700]
                             text-[#071B3A]
                             lg:text-left
-                            font-[600]
                             text-[1.7rem] sm:text-4xl md:text-5xl
                             mt-3 md:mt-4
-                            leading-tight
+                            leading-[0.98]
                             text-center
                         "
                         >
@@ -132,7 +132,7 @@ const History = () => {
                                 href="https://wa.me/56931087761"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="inline-flex items-center justify-center gap-2 border border-[#C8A24A] text-[#071B3A] px-6 md:px-8 py-3 rounded-full text-sm md:text-base font-semibold hover:bg-[#C8A24A]/10 transition"
+                                className="inline-flex items-center justify-center gap-2 border border-green-600 text-[#071B3A] px-6 md:px-8 py-3 rounded-full text-sm md:text-base font-semibold hover:bg-[#C8A24A]/10 transition"
                             >
                                 <FaWhatsapp size={16} />
                                 Solicitar asesoría
@@ -178,9 +178,9 @@ const History = () => {
 
                         <h2
                             className="
-                                font-playfair text-center
-                                text-2xl sm:text-3xl md:text-5xl
-                                font-[700] text-[#071B3A]
+                                font-bodoni text-center
+                                text-[26px] sm:text-3xl md:text-5xl
+                                font-[600] text-[#071B3A]
                                 mt-2 md:mt-3
                                 leading-tight
                             "

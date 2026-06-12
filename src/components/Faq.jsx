@@ -22,8 +22,8 @@ const Faq = () => {
           </span>
 
           <h2 className="font-bodoni
-                         font-[600]
-                         text-[2rem] 
+                         font-[700]
+                         text-[31px]
                          sm:text-4xl 
                          md:text-5xl 
                          font-bold

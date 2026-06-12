@@ -18,14 +18,15 @@ const About = () => {
 
             <h2 className="
                                 font-bodoni
-                                text-[#071B3A]
+                                font-[700]
+                                text-[31px]text-[#071B3A]
                                 font-[600]
                                 text-[31px]
                                 sm:text-[38px]
                                 md:text-[48px]
                                 lg:text-[54px]
                                 xl:text-[50px]
-                                leading-none
+                                leading-[0.98]
                                 tracking-[-0.03em]
                 
               ">
