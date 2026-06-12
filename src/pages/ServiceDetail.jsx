@@ -106,20 +106,46 @@ const ServiceDetail = () => {
             </div>
           </div>
 
-          <div className="mt-8 md:mt-10 flex flex-col sm:flex-row gap-3 md:gap-4">
+          <div className=" mt-6 md:mt-7
+                                    flex flex-col sm:flex-row
+                                    items-center
+                                    justify-center
+                                    lg:justify-start
+                                    gap-2 md:gap-4">
             <a
               href="https://wa.me/56931087761"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm  md:text-base inline-flex items-center justify-center gap-2 bg-[#071B3A] text-white px-6 md:px-8 py-3 md:py-4 rounded-full  font-semibold hover:bg-[#0b2c5c] transition"
+              className="
+                                    inline-flex items-center justify-center gap-1
+                                    bg-[#071B3A] text-white
+                                    w-full max-w-[340px]
+                                    md:w-[250px]
+                                    h-[46px] md:h-[50px]
+                                    rounded-full
+                                    font-semibold text-sm md:text-base
+                                    hover:bg-[#d8b85c]
+                                    transition shadow-lg hover:-translate-y-1"
             >
               <FaWhatsapp size={20} />
               Consultar por este servicio
             </a>
 
             <button
+              type="button"
               onClick={goBackToServices}
-              className="inline-flex items-center justify-center border border-[#C8A24A] text-[#071B3A] px-6 md:px-8 py-3 md:py-4 rounded-full text-sm  md:text-base font-semibold hover:bg-[#C8A24A]/10 transition"
+              className="
+                                    w-full max-w-[340px]
+                                    md:w-[250px]
+                                    h-[46px] md:h-[50px]
+                                    border border-[#C8A24A]
+                                    text-[#071B3A]
+                                    rounded-full
+                                    font-semibold text-sm md:text-base
+                                    flex items-center justify-center gap-2
+                                    hover:bg-[#C8A24A]/10
+                                    transition shadow-lg hover:-translate-y-1
+                                    "
             >
               Ver otros servicios
             </button>
