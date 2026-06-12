@@ -4,117 +4,123 @@ import logoAA from "../assets/logoNavbar.png";
 import { useNavigate } from "react-router-dom";
 
 const navItems = [
-    { name: "Inicio", section: "home", path: "/home" },
-    { name: "Quiénes somos", section: "quiensomos", path: "/quiensomos" },
-    { name: "Planes y servicios", section: "services", path: "/services" },
-    { name: "Preguntas", section: "preguntas", path: "/preguntas" },
-    { name: "Contacto", section: "contacto", path: "/contacto" },
+  { name: "Inicio", section: "home", path: "/" },
+  { name: "Quiénes somos", section: "quiensomos", path: "/quiensomos" },
+  { name: "Planes y servicios", section: "services", path: "/services" },
+  { name: "Preguntas", section: "preguntas", path: "/preguntas" },
+  { name: "Contacto", section: "contacto", path: "/contacto" },
 ];
 
 const Navbar = () => {
-    const [isOpen, setIsOpen] = useState(false);
-    const navigate = useNavigate();
+  const [isOpen, setIsOpen] = useState(false);
+  const navigate = useNavigate();
 
-    const goToSection = (section, path = "/") => {
-        navigate(path);
+  const goToSection = (section, path = "/") => {
+    navigate(path);
 
-        setTimeout(() => {
-            const element = document.getElementById(section);
+    setTimeout(() => {
+      const element = document.getElementById(section);
 
-            if (element) {
-                element.scrollIntoView({
-                    behavior: "smooth",
-                    block: "start",
-                });
-            }
-        }, 300);
-    };
+      if (element) {
+        element.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+      }
+    }, 300);
+  };
 
-    return (
-        <header className="fixed top-0 left-0 w-full z-50 bg-white/90 backdrop-blur-xl border-b border-[#C8A24A]/20 shadow-[0_8px_30px_rgba(7,27,58,0.06)]">
-            <nav className="max-w-7xl  mx-auto px-5 md:px-6 py-2 flex justify-between items-center">
+  return (
+    <header className="fixed top-0 left-0 w-full z-50 bg-white/95 backdrop-blur-xl border-b border-[#C8A24A]/20 shadow-[0_8px_30px_rgba(7,27,58,0.06)]">
+      <nav className="max-w-7xl mx-auto px-5 md:px-6 h-[78px] md:h-[86px] flex justify-between items-center">
+        
+        {/* LOGO + TEXTO */}
+        <button
+          onClick={() => goToSection("home", "/")}
+          className="flex items-center min-w-0"
+        >
+          <img
+            src={logoAA}
+            alt="A&A"
+            className="h-12 md:h-14 lg:h-16 w-auto object-contain shrink-0"
+          />
 
-                <button
-                    onClick={() => goToSection("home", "/")}
-                    className="flex items-center"
-                >
-                    <img
-                        src={logoAA}
-                        alt="A&A"
-                        className="h-12 md:h-20 w-auto object-contain"
-                    />
+          <div className="hidden sm:block w-[2px] h-11 md:h-12 bg-[#C8A24A] rounded-full mx-5"></div>
 
-                    {/* Línea vertical */}
-                    <div className="hidden sm:block w-[2px] h-12 bg-[#C8A24A] rounded-full mr-5"></div>
+          <div className="hidden sm:flex flex-col items-start leading-tight">
+            <h3 className="font-semibold text-[#071B3A] text-[14px] md:text-[15px] lg:text-[16px] whitespace-nowrap">
+              Consultoría y Gestión A&A Ltda.
+            </h3>
 
-                    <div className="flex flex-col">
-                        <h3 className="font-semibold text-[#071B3A] text-sm md:text-base leading-tight">
-                            Consultoría y Gestión A&A Ltda.
-                        </h3>
+            <p className="text-[12px] md:text-[13px] lg:text-[14px] text-[#C8A24A] font-medium mt-1 whitespace-nowrap">
+              Asesoría, consultoría y gestión empresarial
+            </p>
+          </div>
+        </button>
 
-                        <p className="hidden sm:block text-xs md:text-sm text-[#C8A24A] font-medium mt-1">
-                            Asesoría, consultoría y gestión empresarial
-                        </p>
-                    </div>
-                </button>
+        {/* MENÚ DESKTOP */}
+        <div className="hidden lg:flex items-center gap-8 xl:gap-10 text-[#071B3A]">
+          {navItems.map((item) => (
+            <button
+              key={item.section}
+              onClick={() => goToSection(item.section, item.path)}
+              className="
+                relative
+                text-[15px]
+                font-semibold
+                tracking-normal
+                whitespace-nowrap
+                hover:text-[#C8A24A]
+                transition-all
+                duration-300
+                after:absolute
+                after:left-0
+                after:-bottom-1
+                after:h-[2px]
+                after:w-0
+                after:bg-[#C8A24A]
+                after:transition-all
+                after:duration-300
+                hover:after:w-full
+              "
+            >
+              {item.name}
+            </button>
+          ))}
+        </div>
 
-                <div className="hidden lg:flex items-center gap-10 text-sm md:text-base font-semibold text-[#071B3A]">
-                    {navItems.map((item) => (
-                        <button
-                            key={item.section}
-                            onClick={() => goToSection(item.section, item.path)}
-                            className="
-                            relative
-                            hover:text-[#C8A24A]
-                            transition-all
-                            duration-300
-                            after:absolute
-                            after:left-0
-                            after:-bottom-1
-                            after:h-[2px]
-                            after:w-0
-                            after:bg-[#C8A24A]
-                            after:transition-all
-                            after:duration-300
-                            hover:after:w-full
-                            "
-                        >
-                            {item.name}
-                        </button>
-                    ))}
-                </div>
+        {/* BOTÓN MOBILE */}
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="lg:hidden w-11 h-11 rounded-full border border-[#C8A24A]/40 flex items-center justify-center text-[#071B3A]"
+        >
+          {isOpen ? <X size={24} /> : <Menu size={24} />}
+        </button>
+      </nav>
 
-                <button
-                    onClick={() => setIsOpen(!isOpen)}
-                    className="lg:hidden w-11 h-11 rounded-full border border-[#C8A24A]/40 flex items-center justify-center text-[#071B3A]"
-                >
-                    {isOpen ? <X size={24} /> : <Menu size={24} />}
-                </button>
-            </nav>
+      <div className="h-[2px] bg-gradient-to-r from-transparent via-[#C8A24A] to-transparent"></div>
 
-            <div className="h-[2px] bg-gradient-to-r from-transparent via-[#C8A24A] to-transparent"></div>
-
-            {isOpen && (
-                <div className="lg:hidden bg-white/95 backdrop-blur-xl border-b border-[#C8A24A]/20 shadow-xl text-sm md:text-base">
-                    <div className="px-6 py-5 flex flex-col gap-4 text-[#071B3A] font-semibold">
-                        {navItems.map((item) => (
-                            <button
-                                key={item.section}
-                                onClick={() => {
-                                    goToSection(item.section);
-                                    setIsOpen(false);
-                                }}
-                                className="py-2 border-b border-gray-100 hover:text-[#C8A24A] transition text-left"
-                            >
-                                {item.name}
-                            </button>
-                        ))}
-
-                    </div>
-                </div>
-            )}
-        </header>
-    );
+      {/* MENÚ MOBILE */}
+      {isOpen && (
+        <div className="lg:hidden bg-white/95 backdrop-blur-xl border-b border-[#C8A24A]/20 shadow-xl">
+          <div className="px-6 py-5 flex flex-col gap-3 text-[#071B3A] font-semibold">
+            {navItems.map((item) => (
+              <button
+                key={item.section}
+                onClick={() => {
+                  goToSection(item.section, item.path);
+                  setIsOpen(false);
+                }}
+                className="py-3 border-b border-gray-100 hover:text-[#C8A24A] transition text-left text-[15px]"
+              >
+                {item.name}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+    </header>
+  );
 };
 
 export default Navbar;

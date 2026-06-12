@@ -86,7 +86,7 @@ const History = () => {
                             font-[600]
                                 text-[31px]text-[#071B3A]
                                 font-[700]
-                                text-[31px]
+                                text-[28px]
                                 sm:text-[38px]
                                 md:text-[48px]
                                 lg:text-[54px]
@@ -185,9 +185,9 @@ const History = () => {
                         <h2
                             className="
                                 font-[600]
-                                text-[31px]text-[#071B3A]
+                                text-[28px]text-[#071B3A]
                                 font-[600]
-                                text-[31px]
+                                text-[28px]
                                 sm:text-[38px]
                                 md:text-[48px]
                                 lg:text-[54px]

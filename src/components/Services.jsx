@@ -46,7 +46,7 @@ const Services = () => {
           <h2 className="
                   text-[#071B3A]
                   font-[700]
-                  text-[31px]
+                  text-[28px]
                   sm:text-[38px]
                   md:text-[48px]
                   lg:text-[52px]
