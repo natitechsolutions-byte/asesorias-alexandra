@@ -62,7 +62,7 @@ const Faq = () => {
                   px-4
                   md:px-6
                   py-4
-                  md:py-5
+                  md:py-3
                   flex
                   items-center
                   justify-between
@@ -85,7 +85,7 @@ const Faq = () => {
 
               {activeIndex === index && (
                 <div className="px-4 md:px-6 pb-5 md:pb-6">
-                  <p className="max-w-4xl text-gray-700 text-sm md:text-base whitespace-pre-line leading-relaxed">
+                  <p className="max-w-5xl text-gray-700 text-sm md:text-base whitespace-pre-line leading-relaxed">
                     {faq.answer}
                   </p>
                 </div>
