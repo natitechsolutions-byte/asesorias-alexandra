@@ -84,7 +84,7 @@ const Hero = () => {
                             </h2>
                             <h3
                                 className="
-    font-gilda
+    font-cambria
     mt-3 md:mt-4
     max-w-[560px]
     text-[#C8A24A]
@@ -99,7 +99,7 @@ const Hero = () => {
     mx-auto lg:mx-0
   "
                             >
-                                con un enfoque claro, cercano y profesional.
+                                Con un enfoque claro, cercano y profesional.
                             </h3>
 
 
