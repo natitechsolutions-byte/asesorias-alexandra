@@ -120,7 +120,7 @@ const ServiceDetail = () => {
                                     inline-flex items-center justify-center gap-1
                                     bg-[#071B3A] text-white
                                     w-full max-w-[340px]
-                                    md:w-[250px]
+                                    md:w-[270px]
                                     h-[46px] md:h-[50px]
                                     rounded-full
                                     font-semibold text-sm md:text-base
@@ -136,7 +136,7 @@ const ServiceDetail = () => {
               onClick={goBackToServices}
               className="
                                     w-full max-w-[340px]
-                                    md:w-[250px]
+                                    md:w-[270px]
                                     h-[46px] md:h-[50px]
                                     border border-[#C8A24A]
                                     text-[#071B3A]
