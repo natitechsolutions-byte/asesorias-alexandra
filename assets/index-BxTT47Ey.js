@@ -50,7 +50,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
     leading-[0.98]\r
     tracking-[-0.03em]\r
   `,children:`Asesorías contables, tributarias y laborales`}),(0,A.jsx)(`h3`,{className:`\r
-    font-gilda\r
+    font-cambria\r
     mt-3 md:mt-4\r
     max-w-[560px]\r
     text-[#C8A24A]\r
@@ -63,7 +63,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
     leading-[1.08]\r
     tracking-[-0.025em]\r
     mx-auto lg:mx-0\r
-  `,children:`con un enfoque claro, cercano y profesional.`}),(0,A.jsx)(`p`,{className:`\r
+  `,children:`Con un enfoque claro, cercano y profesional.`}),(0,A.jsx)(`p`,{className:`\r
     mt-6 md:mt-7\r
     text-justify\r
     sm:text-justify\r
