@@ -12,7 +12,7 @@ if (redirect) {
 }
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter basename="/asesorias-alexandra">
+  <BrowserRouter>
     <App />
   </BrowserRouter>
 );
