@@ -109,7 +109,7 @@ export const servicesData = [
             "⁠⁠Registro Electrónico Laboral.",
             "Tramitación de licencias médicas.",
             "⁠Revisión de obligaciones laborales y previsionales mensuales.",
-            "⁠⁠Atención de consultas vía WhatsApp, correo electrónico."
+            "Atención de consultas vía WhatsApp y correo electrónico.",
 
 
         ],
